@@ -1,0 +1,5 @@
+Model,Risk Aversion (α),Choice Sensitivity (β),Risk Classification,Risky Choices,Log-Likelihood
+GPT-5,0.0002,1.25,Risk Neutral,59.6%,24.87
+GPT-4 Turbo,0.7145,6.54,Risk Averse,2.8%,79.60
+GPT-4o-mini,0.0746,18.22,Mildly Risk Averse,0.0%,0.00
+GPT-4o,0.6485,4.62,Risk Averse,3.4%,105.30

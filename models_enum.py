@@ -1,0 +1,27 @@
+from enum import Enum
+
+
+class AzureModels(Enum):
+    GPT_35_TURBO_16K = "gpt-35-turbo-16k"
+    GPT_35_TURBO_8K = "gpt-35-turbo-8k"
+    GPT_4_TURBO_PREVIEW_AZURE = "gpt-4-turbo-preview-azure"
+    GPT_4_1 = "gpt-4.1"
+    GPT_4_5_PREVIEW = "gpt-4.5-preview"
+    GPT_4O = "gpt-4o"
+    GPT_4O_MINI = "gpt-4o-mini"
+    GPT_4O_MINI_TTS = "gpt-4o-mini-tts"
+    GPT_4O_REALTIME_PREVIEW = "gpt-4o-realtime-preview"
+    GPT_4O_STANDARD = "gpt-4o-standard"
+    GPT_4O_TRANSCRIBE = "gpt-4o-transcribe"
+    GPT_5 = "gpt-5"
+    GPT_5_MINI = "gpt-5-mini"
+    O1_MINI = "o1-mini"
+    O1_PREVIEW = "o1-preview"
+    O3 = "o3"
+    O3_MINI = "o3-mini"
+    O3_PRO = "o3-pro"
+    O4_MINI = "o4-mini"
+    TEXT_EMBEDDING_3_LARGE = "text-embedding-3-large"
+    TEXT_EMBEDDING_ADA_002 = "text-embedding-ada-002"
+    TURBO_2024_04_09 = "turbo-2024-04-09"
+    WHISPER = "whisper"

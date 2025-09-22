@@ -1,0 +1,506 @@
+{
+  "model": "gpt-5",
+  "timestamp": "20250909_145522",
+  "background_wealth": 100,
+  "parameters": {
+    "risk_aversion_r": 0.13526009434943484,
+    "choice_sensitivity_beta": 48.28865015036664
+  },
+  "fit_quality": {
+    "negative_log_likelihood": 1.4777274784464126e-07,
+    "convergence_success": true
+  },
+  "interpretation": {
+    "risk_type": "Moderately Risk Averse",
+    "risk_aversion_level": 0.13526009434943484
+  },
+  "trials_analyzed": 54,
+  "raw_trials": [
+    {
+      "id": "7",
+      "prob_win": 0.2,
+      "safe_payoff": 30,
+      "risky_payoff": 105,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "26",
+      "prob_win": 0.5,
+      "safe_payoff": 75,
+      "risky_payoff": 130,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "49",
+      "prob_win": 0.9,
+      "safe_payoff": 135,
+      "risky_payoff": 105,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "32",
+      "prob_win": 0.6,
+      "safe_payoff": 90,
+      "risky_payoff": 130,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "37",
+      "prob_win": 0.7,
+      "safe_payoff": 105,
+      "risky_payoff": 105,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "31",
+      "prob_win": 0.6,
+      "safe_payoff": 90,
+      "risky_payoff": 105,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "2",
+      "prob_win": 0.1,
+      "safe_payoff": 15,
+      "risky_payoff": 130,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "38",
+      "prob_win": 0.7,
+      "safe_payoff": 105,
+      "risky_payoff": 130,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "16",
+      "prob_win": 0.3,
+      "safe_payoff": 45,
+      "risky_payoff": 170,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "1",
+      "prob_win": 0.1,
+      "safe_payoff": 15,
+      "risky_payoff": 105,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "8",
+      "prob_win": 0.2,
+      "safe_payoff": 30,
+      "risky_payoff": 130,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "44",
+      "prob_win": 0.8,
+      "safe_payoff": 120,
+      "risky_payoff": 130,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "9",
+      "prob_win": 0.2,
+      "safe_payoff": 30,
+      "risky_payoff": 150,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "36",
+      "prob_win": 0.6,
+      "safe_payoff": 90,
+      "risky_payoff": 225,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "50",
+      "prob_win": 0.9,
+      "safe_payoff": 135,
+      "risky_payoff": 130,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "6",
+      "prob_win": 0.1,
+      "safe_payoff": 15,
+      "risky_payoff": 225,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "30",
+      "prob_win": 0.5,
+      "safe_payoff": 75,
+      "risky_payoff": 225,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "53",
+      "prob_win": 0.9,
+      "safe_payoff": 135,
+      "risky_payoff": 195,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "24",
+      "prob_win": 0.4,
+      "safe_payoff": 60,
+      "risky_payoff": 225,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "22",
+      "prob_win": 0.4,
+      "safe_payoff": 60,
+      "risky_payoff": 170,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "54",
+      "prob_win": 0.9,
+      "safe_payoff": 135,
+      "risky_payoff": 225,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "20",
+      "prob_win": 0.4,
+      "safe_payoff": 60,
+      "risky_payoff": 130,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "5",
+      "prob_win": 0.1,
+      "safe_payoff": 15,
+      "risky_payoff": 195,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "51",
+      "prob_win": 0.9,
+      "safe_payoff": 135,
+      "risky_payoff": 150,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "4",
+      "prob_win": 0.1,
+      "safe_payoff": 15,
+      "risky_payoff": 170,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "14",
+      "prob_win": 0.3,
+      "safe_payoff": 45,
+      "risky_payoff": 130,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "28",
+      "prob_win": 0.5,
+      "safe_payoff": 75,
+      "risky_payoff": 170,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "34",
+      "prob_win": 0.6,
+      "safe_payoff": 90,
+      "risky_payoff": 170,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "23",
+      "prob_win": 0.4,
+      "safe_payoff": 60,
+      "risky_payoff": 195,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "43",
+      "prob_win": 0.8,
+      "safe_payoff": 120,
+      "risky_payoff": 105,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "19",
+      "prob_win": 0.4,
+      "safe_payoff": 60,
+      "risky_payoff": 105,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "40",
+      "prob_win": 0.7,
+      "safe_payoff": 105,
+      "risky_payoff": 170,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "21",
+      "prob_win": 0.4,
+      "safe_payoff": 60,
+      "risky_payoff": 150,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "25",
+      "prob_win": 0.5,
+      "safe_payoff": 75,
+      "risky_payoff": 105,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "39",
+      "prob_win": 0.7,
+      "safe_payoff": 105,
+      "risky_payoff": 150,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "42",
+      "prob_win": 0.7,
+      "safe_payoff": 105,
+      "risky_payoff": 225,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "35",
+      "prob_win": 0.6,
+      "safe_payoff": 90,
+      "risky_payoff": 195,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "47",
+      "prob_win": 0.8,
+      "safe_payoff": 120,
+      "risky_payoff": 195,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "41",
+      "prob_win": 0.7,
+      "safe_payoff": 105,
+      "risky_payoff": 195,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "11",
+      "prob_win": 0.2,
+      "safe_payoff": 30,
+      "risky_payoff": 195,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "46",
+      "prob_win": 0.8,
+      "safe_payoff": 120,
+      "risky_payoff": 170,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "29",
+      "prob_win": 0.5,
+      "safe_payoff": 75,
+      "risky_payoff": 195,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "13",
+      "prob_win": 0.3,
+      "safe_payoff": 45,
+      "risky_payoff": 105,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "3",
+      "prob_win": 0.1,
+      "safe_payoff": 15,
+      "risky_payoff": 150,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "27",
+      "prob_win": 0.5,
+      "safe_payoff": 75,
+      "risky_payoff": 150,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "48",
+      "prob_win": 0.8,
+      "safe_payoff": 120,
+      "risky_payoff": 225,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "18",
+      "prob_win": 0.3,
+      "safe_payoff": 45,
+      "risky_payoff": 225,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "12",
+      "prob_win": 0.2,
+      "safe_payoff": 30,
+      "risky_payoff": 225,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "45",
+      "prob_win": 0.8,
+      "safe_payoff": 120,
+      "risky_payoff": 150,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "17",
+      "prob_win": 0.3,
+      "safe_payoff": 45,
+      "risky_payoff": 195,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "52",
+      "prob_win": 0.9,
+      "safe_payoff": 135,
+      "risky_payoff": 170,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "10",
+      "prob_win": 0.2,
+      "safe_payoff": 30,
+      "risky_payoff": 170,
+      "risky_choices": 5,
+      "total_choices": 5,
+      "risky_rate": 1.0
+    },
+    {
+      "id": "33",
+      "prob_win": 0.6,
+      "safe_payoff": 90,
+      "risky_payoff": 150,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    },
+    {
+      "id": "15",
+      "prob_win": 0.3,
+      "safe_payoff": 45,
+      "risky_payoff": 150,
+      "risky_choices": 0,
+      "total_choices": 5,
+      "risky_rate": 0.0
+    }
+  ]
+}
