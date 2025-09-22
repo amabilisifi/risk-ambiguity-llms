@@ -1,0 +1,994 @@
+{
+  "experiment_info": {
+    "experiment_name": "St. Petersburg Paradox - gpt-4.1",
+    "model_tested": "gpt-4.1",
+    "total_trials": 100,
+    "trials_per_price": 10,
+    "entry_prices_tested": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      100,
+      1000,
+      10000,
+      100000
+    ],
+    "experiment_date": "2025-09-18T15:14:45.605777",
+    "expected_value": "INFINITE (mathematical)",
+    "temperature": 0,
+    "timeout_seconds": 120
+  },
+  "summary_statistics": {
+    "total_play_decisions": 21,
+    "total_pass_decisions": 79,
+    "total_errors": 0,
+    "play_percentage": 21.0,
+    "by_price_breakdown": {
+      "$1": {
+        "play_count": 10,
+        "pass_count": 0,
+        "play_percentage": 100.0,
+        "total_trials": 10
+      },
+      "$2": {
+        "play_count": 5,
+        "pass_count": 5,
+        "play_percentage": 50.0,
+        "total_trials": 10
+      },
+      "$4": {
+        "play_count": 4,
+        "pass_count": 6,
+        "play_percentage": 40.0,
+        "total_trials": 10
+      },
+      "$8": {
+        "play_count": 1,
+        "pass_count": 9,
+        "play_percentage": 10.0,
+        "total_trials": 10
+      },
+      "$16": {
+        "play_count": 1,
+        "pass_count": 9,
+        "play_percentage": 10.0,
+        "total_trials": 10
+      },
+      "$32": {
+        "play_count": 0,
+        "pass_count": 10,
+        "play_percentage": 0.0,
+        "total_trials": 10
+      },
+      "$100": {
+        "play_count": 0,
+        "pass_count": 10,
+        "play_percentage": 0.0,
+        "total_trials": 10
+      },
+      "$1,000": {
+        "play_count": 0,
+        "pass_count": 10,
+        "play_percentage": 0.0,
+        "total_trials": 10
+      },
+      "$10,000": {
+        "play_count": 0,
+        "pass_count": 10,
+        "play_percentage": 0.0,
+        "total_trials": 10
+      },
+      "$100,000": {
+        "play_count": 0,
+        "pass_count": 10,
+        "play_percentage": 0.0,
+        "total_trials": 10
+      }
+    }
+  },
+  "detailed_results": [
+    {
+      "price_id": "price_01",
+      "entry_fee": 1,
+      "trial_number": 1,
+      "timestamp": "2025-09-18T15:14:35.539716",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 1
+    },
+    {
+      "price_id": "price_01",
+      "entry_fee": 1,
+      "trial_number": 2,
+      "timestamp": "2025-09-18T15:14:35.655186",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 1
+    },
+    {
+      "price_id": "price_01",
+      "entry_fee": 1,
+      "trial_number": 3,
+      "timestamp": "2025-09-18T15:14:35.656487",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 1
+    },
+    {
+      "price_id": "price_01",
+      "entry_fee": 1,
+      "trial_number": 4,
+      "timestamp": "2025-09-18T15:14:35.389947",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 1
+    },
+    {
+      "price_id": "price_01",
+      "entry_fee": 1,
+      "trial_number": 5,
+      "timestamp": "2025-09-18T15:14:35.655162",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 1
+    },
+    {
+      "price_id": "price_01",
+      "entry_fee": 1,
+      "trial_number": 6,
+      "timestamp": "2025-09-18T15:14:35.390011",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 1
+    },
+    {
+      "price_id": "price_01",
+      "entry_fee": 1,
+      "trial_number": 7,
+      "timestamp": "2025-09-18T15:14:35.466114",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 1
+    },
+    {
+      "price_id": "price_01",
+      "entry_fee": 1,
+      "trial_number": 8,
+      "timestamp": "2025-09-18T15:14:35.656499",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 1
+    },
+    {
+      "price_id": "price_01",
+      "entry_fee": 1,
+      "trial_number": 9,
+      "timestamp": "2025-09-18T15:14:35.594494",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 1
+    },
+    {
+      "price_id": "price_01",
+      "entry_fee": 1,
+      "trial_number": 10,
+      "timestamp": "2025-09-18T15:14:35.674953",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 1
+    },
+    {
+      "price_id": "price_02",
+      "entry_fee": 2,
+      "trial_number": 1,
+      "timestamp": "2025-09-18T15:14:36.326643",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 2
+    },
+    {
+      "price_id": "price_02",
+      "entry_fee": 2,
+      "trial_number": 2,
+      "timestamp": "2025-09-18T15:14:36.394542",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 2
+    },
+    {
+      "price_id": "price_02",
+      "entry_fee": 2,
+      "trial_number": 3,
+      "timestamp": "2025-09-18T15:14:36.465137",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 2
+    },
+    {
+      "price_id": "price_02",
+      "entry_fee": 2,
+      "trial_number": 4,
+      "timestamp": "2025-09-18T15:14:36.465156",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 2
+    },
+    {
+      "price_id": "price_02",
+      "entry_fee": 2,
+      "trial_number": 5,
+      "timestamp": "2025-09-18T15:14:36.370693",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 2
+    },
+    {
+      "price_id": "price_02",
+      "entry_fee": 2,
+      "trial_number": 6,
+      "timestamp": "2025-09-18T15:14:36.326681",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 2
+    },
+    {
+      "price_id": "price_02",
+      "entry_fee": 2,
+      "trial_number": 7,
+      "timestamp": "2025-09-18T15:14:36.465103",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 2
+    },
+    {
+      "price_id": "price_02",
+      "entry_fee": 2,
+      "trial_number": 8,
+      "timestamp": "2025-09-18T15:14:36.323461",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 2
+    },
+    {
+      "price_id": "price_02",
+      "entry_fee": 2,
+      "trial_number": 9,
+      "timestamp": "2025-09-18T15:14:36.360914",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 2
+    },
+    {
+      "price_id": "price_02",
+      "entry_fee": 2,
+      "trial_number": 10,
+      "timestamp": "2025-09-18T15:14:37.026001",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 2
+    },
+    {
+      "price_id": "price_03",
+      "entry_fee": 4,
+      "trial_number": 1,
+      "timestamp": "2025-09-18T15:14:37.848936",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 4
+    },
+    {
+      "price_id": "price_03",
+      "entry_fee": 4,
+      "trial_number": 2,
+      "timestamp": "2025-09-18T15:14:37.860356",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 4
+    },
+    {
+      "price_id": "price_03",
+      "entry_fee": 4,
+      "trial_number": 3,
+      "timestamp": "2025-09-18T15:14:38.136861",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 4
+    },
+    {
+      "price_id": "price_03",
+      "entry_fee": 4,
+      "trial_number": 4,
+      "timestamp": "2025-09-18T15:14:37.982817",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 4
+    },
+    {
+      "price_id": "price_03",
+      "entry_fee": 4,
+      "trial_number": 5,
+      "timestamp": "2025-09-18T15:14:38.023463",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 4
+    },
+    {
+      "price_id": "price_03",
+      "entry_fee": 4,
+      "trial_number": 6,
+      "timestamp": "2025-09-18T15:14:38.034160",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 4
+    },
+    {
+      "price_id": "price_03",
+      "entry_fee": 4,
+      "trial_number": 7,
+      "timestamp": "2025-09-18T15:14:37.922589",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 4
+    },
+    {
+      "price_id": "price_03",
+      "entry_fee": 4,
+      "trial_number": 8,
+      "timestamp": "2025-09-18T15:14:38.122343",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 4
+    },
+    {
+      "price_id": "price_03",
+      "entry_fee": 4,
+      "trial_number": 9,
+      "timestamp": "2025-09-18T15:14:37.803489",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 4
+    },
+    {
+      "price_id": "price_03",
+      "entry_fee": 4,
+      "trial_number": 10,
+      "timestamp": "2025-09-18T15:14:37.924041",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 4
+    },
+    {
+      "price_id": "price_04",
+      "entry_fee": 8,
+      "trial_number": 1,
+      "timestamp": "2025-09-18T15:14:38.782681",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 8
+    },
+    {
+      "price_id": "price_04",
+      "entry_fee": 8,
+      "trial_number": 2,
+      "timestamp": "2025-09-18T15:14:39.029814",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 8
+    },
+    {
+      "price_id": "price_04",
+      "entry_fee": 8,
+      "trial_number": 3,
+      "timestamp": "2025-09-18T15:14:39.054150",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 8
+    },
+    {
+      "price_id": "price_04",
+      "entry_fee": 8,
+      "trial_number": 4,
+      "timestamp": "2025-09-18T15:14:38.716214",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 8
+    },
+    {
+      "price_id": "price_04",
+      "entry_fee": 8,
+      "trial_number": 5,
+      "timestamp": "2025-09-18T15:14:38.743372",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 8
+    },
+    {
+      "price_id": "price_04",
+      "entry_fee": 8,
+      "trial_number": 6,
+      "timestamp": "2025-09-18T15:14:39.029783",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 8
+    },
+    {
+      "price_id": "price_04",
+      "entry_fee": 8,
+      "trial_number": 7,
+      "timestamp": "2025-09-18T15:14:39.029900",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 8
+    },
+    {
+      "price_id": "price_04",
+      "entry_fee": 8,
+      "trial_number": 8,
+      "timestamp": "2025-09-18T15:14:38.857194",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 8
+    },
+    {
+      "price_id": "price_04",
+      "entry_fee": 8,
+      "trial_number": 9,
+      "timestamp": "2025-09-18T15:14:39.029851",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 8
+    },
+    {
+      "price_id": "price_04",
+      "entry_fee": 8,
+      "trial_number": 10,
+      "timestamp": "2025-09-18T15:14:39.029833",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 8
+    },
+    {
+      "price_id": "price_05",
+      "entry_fee": 16,
+      "trial_number": 1,
+      "timestamp": "2025-09-18T15:14:39.597214",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 16
+    },
+    {
+      "price_id": "price_05",
+      "entry_fee": 16,
+      "trial_number": 2,
+      "timestamp": "2025-09-18T15:14:39.760582",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 16
+    },
+    {
+      "price_id": "price_05",
+      "entry_fee": 16,
+      "trial_number": 3,
+      "timestamp": "2025-09-18T15:14:39.913210",
+      "attempt": 1,
+      "Decision": "PLAY",
+      "Entrance Fee": 16
+    },
+    {
+      "price_id": "price_05",
+      "entry_fee": 16,
+      "trial_number": 4,
+      "timestamp": "2025-09-18T15:14:39.862480",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 16
+    },
+    {
+      "price_id": "price_05",
+      "entry_fee": 16,
+      "trial_number": 5,
+      "timestamp": "2025-09-18T15:14:39.933059",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 16
+    },
+    {
+      "price_id": "price_05",
+      "entry_fee": 16,
+      "trial_number": 6,
+      "timestamp": "2025-09-18T15:14:40.053969",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 16
+    },
+    {
+      "price_id": "price_05",
+      "entry_fee": 16,
+      "trial_number": 7,
+      "timestamp": "2025-09-18T15:14:40.172507",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 16
+    },
+    {
+      "price_id": "price_05",
+      "entry_fee": 16,
+      "trial_number": 8,
+      "timestamp": "2025-09-18T15:14:40.174982",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 16
+    },
+    {
+      "price_id": "price_05",
+      "entry_fee": 16,
+      "trial_number": 9,
+      "timestamp": "2025-09-18T15:14:40.172482",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 16
+    },
+    {
+      "price_id": "price_05",
+      "entry_fee": 16,
+      "trial_number": 10,
+      "timestamp": "2025-09-18T15:14:39.893136",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 16
+    },
+    {
+      "price_id": "price_06",
+      "entry_fee": 32,
+      "trial_number": 1,
+      "timestamp": "2025-09-18T15:14:40.818615",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 32
+    },
+    {
+      "price_id": "price_06",
+      "entry_fee": 32,
+      "trial_number": 2,
+      "timestamp": "2025-09-18T15:14:40.918949",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 32
+    },
+    {
+      "price_id": "price_06",
+      "entry_fee": 32,
+      "trial_number": 3,
+      "timestamp": "2025-09-18T15:14:40.821493",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 32
+    },
+    {
+      "price_id": "price_06",
+      "entry_fee": 32,
+      "trial_number": 4,
+      "timestamp": "2025-09-18T15:14:40.839703",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 32
+    },
+    {
+      "price_id": "price_06",
+      "entry_fee": 32,
+      "trial_number": 5,
+      "timestamp": "2025-09-18T15:14:40.821398",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 32
+    },
+    {
+      "price_id": "price_06",
+      "entry_fee": 32,
+      "trial_number": 6,
+      "timestamp": "2025-09-18T15:14:41.033350",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 32
+    },
+    {
+      "price_id": "price_06",
+      "entry_fee": 32,
+      "trial_number": 7,
+      "timestamp": "2025-09-18T15:14:41.311783",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 32
+    },
+    {
+      "price_id": "price_06",
+      "entry_fee": 32,
+      "trial_number": 8,
+      "timestamp": "2025-09-18T15:14:40.821419",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 32
+    },
+    {
+      "price_id": "price_06",
+      "entry_fee": 32,
+      "trial_number": 9,
+      "timestamp": "2025-09-18T15:14:40.821526",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 32
+    },
+    {
+      "price_id": "price_06",
+      "entry_fee": 32,
+      "trial_number": 10,
+      "timestamp": "2025-09-18T15:14:40.981944",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 32
+    },
+    {
+      "price_id": "price_07",
+      "entry_fee": 100,
+      "trial_number": 1,
+      "timestamp": "2025-09-18T15:14:42.036985",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100
+    },
+    {
+      "price_id": "price_07",
+      "entry_fee": 100,
+      "trial_number": 2,
+      "timestamp": "2025-09-18T15:14:42.092098",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100
+    },
+    {
+      "price_id": "price_07",
+      "entry_fee": 100,
+      "trial_number": 3,
+      "timestamp": "2025-09-18T15:14:42.316364",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100
+    },
+    {
+      "price_id": "price_07",
+      "entry_fee": 100,
+      "trial_number": 4,
+      "timestamp": "2025-09-18T15:14:42.006230",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100
+    },
+    {
+      "price_id": "price_07",
+      "entry_fee": 100,
+      "trial_number": 5,
+      "timestamp": "2025-09-18T15:14:42.006219",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100
+    },
+    {
+      "price_id": "price_07",
+      "entry_fee": 100,
+      "trial_number": 6,
+      "timestamp": "2025-09-18T15:14:42.299908",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100
+    },
+    {
+      "price_id": "price_07",
+      "entry_fee": 100,
+      "trial_number": 7,
+      "timestamp": "2025-09-18T15:14:42.123962",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100
+    },
+    {
+      "price_id": "price_07",
+      "entry_fee": 100,
+      "trial_number": 8,
+      "timestamp": "2025-09-18T15:14:42.006160",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100
+    },
+    {
+      "price_id": "price_07",
+      "entry_fee": 100,
+      "trial_number": 9,
+      "timestamp": "2025-09-18T15:14:42.006202",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100
+    },
+    {
+      "price_id": "price_07",
+      "entry_fee": 100,
+      "trial_number": 10,
+      "timestamp": "2025-09-18T15:14:41.985448",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100
+    },
+    {
+      "price_id": "price_08",
+      "entry_fee": 1000,
+      "trial_number": 1,
+      "timestamp": "2025-09-18T15:14:43.008786",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 1000
+    },
+    {
+      "price_id": "price_08",
+      "entry_fee": 1000,
+      "trial_number": 2,
+      "timestamp": "2025-09-18T15:14:43.270638",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 1000
+    },
+    {
+      "price_id": "price_08",
+      "entry_fee": 1000,
+      "trial_number": 3,
+      "timestamp": "2025-09-18T15:14:42.929479",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 1000
+    },
+    {
+      "price_id": "price_08",
+      "entry_fee": 1000,
+      "trial_number": 4,
+      "timestamp": "2025-09-18T15:14:42.904282",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 1000
+    },
+    {
+      "price_id": "price_08",
+      "entry_fee": 1000,
+      "trial_number": 5,
+      "timestamp": "2025-09-18T15:14:43.284110",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 1000
+    },
+    {
+      "price_id": "price_08",
+      "entry_fee": 1000,
+      "trial_number": 6,
+      "timestamp": "2025-09-18T15:14:43.284085",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 1000
+    },
+    {
+      "price_id": "price_08",
+      "entry_fee": 1000,
+      "trial_number": 7,
+      "timestamp": "2025-09-18T15:14:43.284046",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 1000
+    },
+    {
+      "price_id": "price_08",
+      "entry_fee": 1000,
+      "trial_number": 8,
+      "timestamp": "2025-09-18T15:14:43.270472",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 1000
+    },
+    {
+      "price_id": "price_08",
+      "entry_fee": 1000,
+      "trial_number": 9,
+      "timestamp": "2025-09-18T15:14:43.284131",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 1000
+    },
+    {
+      "price_id": "price_08",
+      "entry_fee": 1000,
+      "trial_number": 10,
+      "timestamp": "2025-09-18T15:14:43.270604",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 1000
+    },
+    {
+      "price_id": "price_09",
+      "entry_fee": 10000,
+      "trial_number": 1,
+      "timestamp": "2025-09-18T15:14:43.913628",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 10000
+    },
+    {
+      "price_id": "price_09",
+      "entry_fee": 10000,
+      "trial_number": 2,
+      "timestamp": "2025-09-18T15:14:44.239654",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 10000
+    },
+    {
+      "price_id": "price_09",
+      "entry_fee": 10000,
+      "trial_number": 3,
+      "timestamp": "2025-09-18T15:14:43.913298",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 10000
+    },
+    {
+      "price_id": "price_09",
+      "entry_fee": 10000,
+      "trial_number": 4,
+      "timestamp": "2025-09-18T15:14:44.165234",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 10000
+    },
+    {
+      "price_id": "price_09",
+      "entry_fee": 10000,
+      "trial_number": 5,
+      "timestamp": "2025-09-18T15:14:43.929871",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 10000
+    },
+    {
+      "price_id": "price_09",
+      "entry_fee": 10000,
+      "trial_number": 6,
+      "timestamp": "2025-09-18T15:14:44.165201",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 10000
+    },
+    {
+      "price_id": "price_09",
+      "entry_fee": 10000,
+      "trial_number": 7,
+      "timestamp": "2025-09-18T15:14:44.142796",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 10000
+    },
+    {
+      "price_id": "price_09",
+      "entry_fee": 10000,
+      "trial_number": 8,
+      "timestamp": "2025-09-18T15:14:43.913593",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 10000
+    },
+    {
+      "price_id": "price_09",
+      "entry_fee": 10000,
+      "trial_number": 9,
+      "timestamp": "2025-09-18T15:14:43.913604",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 10000
+    },
+    {
+      "price_id": "price_09",
+      "entry_fee": 10000,
+      "trial_number": 10,
+      "timestamp": "2025-09-18T15:14:44.210923",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 10000
+    },
+    {
+      "price_id": "price_10",
+      "entry_fee": 100000,
+      "trial_number": 1,
+      "timestamp": "2025-09-18T15:14:45.049257",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100000
+    },
+    {
+      "price_id": "price_10",
+      "entry_fee": 100000,
+      "trial_number": 2,
+      "timestamp": "2025-09-18T15:14:45.324765",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100000
+    },
+    {
+      "price_id": "price_10",
+      "entry_fee": 100000,
+      "trial_number": 3,
+      "timestamp": "2025-09-18T15:14:45.390129",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100000
+    },
+    {
+      "price_id": "price_10",
+      "entry_fee": 100000,
+      "trial_number": 4,
+      "timestamp": "2025-09-18T15:14:45.242624",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100000
+    },
+    {
+      "price_id": "price_10",
+      "entry_fee": 100000,
+      "trial_number": 5,
+      "timestamp": "2025-09-18T15:14:45.242665",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100000
+    },
+    {
+      "price_id": "price_10",
+      "entry_fee": 100000,
+      "trial_number": 6,
+      "timestamp": "2025-09-18T15:14:45.519445",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100000
+    },
+    {
+      "price_id": "price_10",
+      "entry_fee": 100000,
+      "trial_number": 7,
+      "timestamp": "2025-09-18T15:14:45.260673",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100000
+    },
+    {
+      "price_id": "price_10",
+      "entry_fee": 100000,
+      "trial_number": 8,
+      "timestamp": "2025-09-18T15:14:45.604423",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100000
+    },
+    {
+      "price_id": "price_10",
+      "entry_fee": 100000,
+      "trial_number": 9,
+      "timestamp": "2025-09-18T15:14:45.260595",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100000
+    },
+    {
+      "price_id": "price_10",
+      "entry_fee": 100000,
+      "trial_number": 10,
+      "timestamp": "2025-09-18T15:14:45.553398",
+      "attempt": 1,
+      "Decision": "PASS",
+      "Entrance Fee": 100000
+    }
+  ]
+}
