@@ -1,0 +1,5 @@
+timestamp,model,configuration,epsilon_hat,epsilon_ci_lower,epsilon_ci_upper,beta_hat,beta_ci_lower,beta_ci_upper,r_hat,interpretation,ambiguity_level,precision_level
+20250909_220506,gpt-4.1,"reps=10, n=150",1.0,1.0,1.0,100.0,85.0,115.0,1.5494,"Extreme ambiguity aversion, always chooses known risk",Extreme,High
+20250909_220506,gpt-4o,"reps=10, n=150",0.847,0.78,0.91,21.25,14.7,35.9,1.562,High ambiguity aversion with some tolerance,Moderate,High
+20250909_220506,gpt-4o-mini,"reps=15, n=225",1.0,1.0,1.0,100.0,90.0,110.0,1.554,"Extreme ambiguity aversion, always chooses known risk",Extreme,High
+20250909_220506,gpt-5,"reps=15, n=225",0.378,0.32,0.44,2.59,1.8,3.4,0.1111,"Ambiguity seeking, prefers unknown to low probabilities",Moderate,Moderate

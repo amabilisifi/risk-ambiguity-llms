@@ -1,0 +1,4944 @@
+{
+  "model": "gpt-5",
+  "timestamp": "20250920_135355",
+  "experiment_type": "neutral",
+  "persona_used": false,
+  "configuration": {
+    "total_balls": 100,
+    "max_red": 50,
+    "reps_each": 15,
+    "threshold": 0.5
+  },
+  "summary": {
+    "ambiguous_range": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      12,
+      14,
+      15,
+      18,
+      19,
+      21,
+      22,
+      23,
+      29,
+      31,
+      36,
+      39,
+      43,
+      44,
+      46
+    ],
+    "total_records": 750
+  },
+  "percentage_breakdown": {
+    "1": {
+      "red_balls": 1,
+      "survival_chance": "1.0%",
+      "ambiguous_count": 9,
+      "risk_count": 6,
+      "ambiguous_percentage": 0.6,
+      "preferred": "ambiguous"
+    },
+    "2": {
+      "red_balls": 2,
+      "survival_chance": "2.0%",
+      "ambiguous_count": 11,
+      "risk_count": 4,
+      "ambiguous_percentage": 0.7333333333333333,
+      "preferred": "ambiguous"
+    },
+    "3": {
+      "red_balls": 3,
+      "survival_chance": "3.0%",
+      "ambiguous_count": 8,
+      "risk_count": 7,
+      "ambiguous_percentage": 0.5333333333333333,
+      "preferred": "ambiguous"
+    },
+    "4": {
+      "red_balls": 4,
+      "survival_chance": "4.0%",
+      "ambiguous_count": 11,
+      "risk_count": 4,
+      "ambiguous_percentage": 0.7333333333333333,
+      "preferred": "ambiguous"
+    },
+    "5": {
+      "red_balls": 5,
+      "survival_chance": "5.0%",
+      "ambiguous_count": 9,
+      "risk_count": 6,
+      "ambiguous_percentage": 0.6,
+      "preferred": "ambiguous"
+    },
+    "6": {
+      "red_balls": 6,
+      "survival_chance": "6.0%",
+      "ambiguous_count": 9,
+      "risk_count": 6,
+      "ambiguous_percentage": 0.6,
+      "preferred": "ambiguous"
+    },
+    "7": {
+      "red_balls": 7,
+      "survival_chance": "7.0%",
+      "ambiguous_count": 8,
+      "risk_count": 7,
+      "ambiguous_percentage": 0.5333333333333333,
+      "preferred": "ambiguous"
+    },
+    "8": {
+      "red_balls": 8,
+      "survival_chance": "8.0%",
+      "ambiguous_count": 9,
+      "risk_count": 6,
+      "ambiguous_percentage": 0.6,
+      "preferred": "ambiguous"
+    },
+    "9": {
+      "red_balls": 9,
+      "survival_chance": "9.0%",
+      "ambiguous_count": 5,
+      "risk_count": 10,
+      "ambiguous_percentage": 0.3333333333333333,
+      "preferred": "risk"
+    },
+    "10": {
+      "red_balls": 10,
+      "survival_chance": "10.0%",
+      "ambiguous_count": 5,
+      "risk_count": 10,
+      "ambiguous_percentage": 0.3333333333333333,
+      "preferred": "risk"
+    },
+    "11": {
+      "red_balls": 11,
+      "survival_chance": "11.0%",
+      "ambiguous_count": 7,
+      "risk_count": 8,
+      "ambiguous_percentage": 0.4666666666666667,
+      "preferred": "risk"
+    },
+    "12": {
+      "red_balls": 12,
+      "survival_chance": "12.0%",
+      "ambiguous_count": 9,
+      "risk_count": 6,
+      "ambiguous_percentage": 0.6,
+      "preferred": "ambiguous"
+    },
+    "13": {
+      "red_balls": 13,
+      "survival_chance": "13.0%",
+      "ambiguous_count": 5,
+      "risk_count": 10,
+      "ambiguous_percentage": 0.3333333333333333,
+      "preferred": "risk"
+    },
+    "14": {
+      "red_balls": 14,
+      "survival_chance": "14.0%",
+      "ambiguous_count": 11,
+      "risk_count": 4,
+      "ambiguous_percentage": 0.7333333333333333,
+      "preferred": "ambiguous"
+    },
+    "15": {
+      "red_balls": 15,
+      "survival_chance": "15.0%",
+      "ambiguous_count": 8,
+      "risk_count": 7,
+      "ambiguous_percentage": 0.5333333333333333,
+      "preferred": "ambiguous"
+    },
+    "16": {
+      "red_balls": 16,
+      "survival_chance": "16.0%",
+      "ambiguous_count": 6,
+      "risk_count": 9,
+      "ambiguous_percentage": 0.4,
+      "preferred": "risk"
+    },
+    "17": {
+      "red_balls": 17,
+      "survival_chance": "17.0%",
+      "ambiguous_count": 7,
+      "risk_count": 8,
+      "ambiguous_percentage": 0.4666666666666667,
+      "preferred": "risk"
+    },
+    "18": {
+      "red_balls": 18,
+      "survival_chance": "18.0%",
+      "ambiguous_count": 8,
+      "risk_count": 7,
+      "ambiguous_percentage": 0.5333333333333333,
+      "preferred": "ambiguous"
+    },
+    "19": {
+      "red_balls": 19,
+      "survival_chance": "19.0%",
+      "ambiguous_count": 8,
+      "risk_count": 7,
+      "ambiguous_percentage": 0.5333333333333333,
+      "preferred": "ambiguous"
+    },
+    "20": {
+      "red_balls": 20,
+      "survival_chance": "20.0%",
+      "ambiguous_count": 1,
+      "risk_count": 14,
+      "ambiguous_percentage": 0.06666666666666667,
+      "preferred": "risk"
+    },
+    "21": {
+      "red_balls": 21,
+      "survival_chance": "21.0%",
+      "ambiguous_count": 8,
+      "risk_count": 7,
+      "ambiguous_percentage": 0.5333333333333333,
+      "preferred": "ambiguous"
+    },
+    "22": {
+      "red_balls": 22,
+      "survival_chance": "22.0%",
+      "ambiguous_count": 9,
+      "risk_count": 6,
+      "ambiguous_percentage": 0.6,
+      "preferred": "ambiguous"
+    },
+    "23": {
+      "red_balls": 23,
+      "survival_chance": "23.0%",
+      "ambiguous_count": 9,
+      "risk_count": 6,
+      "ambiguous_percentage": 0.6,
+      "preferred": "ambiguous"
+    },
+    "24": {
+      "red_balls": 24,
+      "survival_chance": "24.0%",
+      "ambiguous_count": 7,
+      "risk_count": 8,
+      "ambiguous_percentage": 0.4666666666666667,
+      "preferred": "risk"
+    },
+    "25": {
+      "red_balls": 25,
+      "survival_chance": "25.0%",
+      "ambiguous_count": 3,
+      "risk_count": 12,
+      "ambiguous_percentage": 0.2,
+      "preferred": "risk"
+    },
+    "26": {
+      "red_balls": 26,
+      "survival_chance": "26.0%",
+      "ambiguous_count": 3,
+      "risk_count": 12,
+      "ambiguous_percentage": 0.2,
+      "preferred": "risk"
+    },
+    "27": {
+      "red_balls": 27,
+      "survival_chance": "27.0%",
+      "ambiguous_count": 7,
+      "risk_count": 8,
+      "ambiguous_percentage": 0.4666666666666667,
+      "preferred": "risk"
+    },
+    "28": {
+      "red_balls": 28,
+      "survival_chance": "28.0%",
+      "ambiguous_count": 5,
+      "risk_count": 10,
+      "ambiguous_percentage": 0.3333333333333333,
+      "preferred": "risk"
+    },
+    "29": {
+      "red_balls": 29,
+      "survival_chance": "29.0%",
+      "ambiguous_count": 8,
+      "risk_count": 7,
+      "ambiguous_percentage": 0.5333333333333333,
+      "preferred": "ambiguous"
+    },
+    "30": {
+      "red_balls": 30,
+      "survival_chance": "30.0%",
+      "ambiguous_count": 3,
+      "risk_count": 12,
+      "ambiguous_percentage": 0.2,
+      "preferred": "risk"
+    },
+    "31": {
+      "red_balls": 31,
+      "survival_chance": "31.0%",
+      "ambiguous_count": 8,
+      "risk_count": 7,
+      "ambiguous_percentage": 0.5333333333333333,
+      "preferred": "ambiguous"
+    },
+    "32": {
+      "red_balls": 32,
+      "survival_chance": "32.0%",
+      "ambiguous_count": 5,
+      "risk_count": 10,
+      "ambiguous_percentage": 0.3333333333333333,
+      "preferred": "risk"
+    },
+    "33": {
+      "red_balls": 33,
+      "survival_chance": "33.0%",
+      "ambiguous_count": 2,
+      "risk_count": 13,
+      "ambiguous_percentage": 0.13333333333333333,
+      "preferred": "risk"
+    },
+    "34": {
+      "red_balls": 34,
+      "survival_chance": "34.0%",
+      "ambiguous_count": 6,
+      "risk_count": 9,
+      "ambiguous_percentage": 0.4,
+      "preferred": "risk"
+    },
+    "35": {
+      "red_balls": 35,
+      "survival_chance": "35.0%",
+      "ambiguous_count": 4,
+      "risk_count": 11,
+      "ambiguous_percentage": 0.26666666666666666,
+      "preferred": "risk"
+    },
+    "36": {
+      "red_balls": 36,
+      "survival_chance": "36.0%",
+      "ambiguous_count": 11,
+      "risk_count": 4,
+      "ambiguous_percentage": 0.7333333333333333,
+      "preferred": "ambiguous"
+    },
+    "37": {
+      "red_balls": 37,
+      "survival_chance": "37.0%",
+      "ambiguous_count": 6,
+      "risk_count": 9,
+      "ambiguous_percentage": 0.4,
+      "preferred": "risk"
+    },
+    "38": {
+      "red_balls": 38,
+      "survival_chance": "38.0%",
+      "ambiguous_count": 5,
+      "risk_count": 10,
+      "ambiguous_percentage": 0.3333333333333333,
+      "preferred": "risk"
+    },
+    "39": {
+      "red_balls": 39,
+      "survival_chance": "39.0%",
+      "ambiguous_count": 9,
+      "risk_count": 6,
+      "ambiguous_percentage": 0.6,
+      "preferred": "ambiguous"
+    },
+    "40": {
+      "red_balls": 40,
+      "survival_chance": "40.0%",
+      "ambiguous_count": 2,
+      "risk_count": 13,
+      "ambiguous_percentage": 0.13333333333333333,
+      "preferred": "risk"
+    },
+    "41": {
+      "red_balls": 41,
+      "survival_chance": "41.0%",
+      "ambiguous_count": 7,
+      "risk_count": 8,
+      "ambiguous_percentage": 0.4666666666666667,
+      "preferred": "risk"
+    },
+    "42": {
+      "red_balls": 42,
+      "survival_chance": "42.0%",
+      "ambiguous_count": 6,
+      "risk_count": 9,
+      "ambiguous_percentage": 0.4,
+      "preferred": "risk"
+    },
+    "43": {
+      "red_balls": 43,
+      "survival_chance": "43.0%",
+      "ambiguous_count": 8,
+      "risk_count": 7,
+      "ambiguous_percentage": 0.5333333333333333,
+      "preferred": "ambiguous"
+    },
+    "44": {
+      "red_balls": 44,
+      "survival_chance": "44.0%",
+      "ambiguous_count": 11,
+      "risk_count": 4,
+      "ambiguous_percentage": 0.7333333333333333,
+      "preferred": "ambiguous"
+    },
+    "45": {
+      "red_balls": 45,
+      "survival_chance": "45.0%",
+      "ambiguous_count": 7,
+      "risk_count": 8,
+      "ambiguous_percentage": 0.4666666666666667,
+      "preferred": "risk"
+    },
+    "46": {
+      "red_balls": 46,
+      "survival_chance": "46.0%",
+      "ambiguous_count": 8,
+      "risk_count": 7,
+      "ambiguous_percentage": 0.5333333333333333,
+      "preferred": "ambiguous"
+    },
+    "47": {
+      "red_balls": 47,
+      "survival_chance": "47.0%",
+      "ambiguous_count": 6,
+      "risk_count": 9,
+      "ambiguous_percentage": 0.4,
+      "preferred": "risk"
+    },
+    "48": {
+      "red_balls": 48,
+      "survival_chance": "48.0%",
+      "ambiguous_count": 6,
+      "risk_count": 9,
+      "ambiguous_percentage": 0.4,
+      "preferred": "risk"
+    },
+    "49": {
+      "red_balls": 49,
+      "survival_chance": "49.0%",
+      "ambiguous_count": 6,
+      "risk_count": 9,
+      "ambiguous_percentage": 0.4,
+      "preferred": "risk"
+    },
+    "50": {
+      "red_balls": 50,
+      "survival_chance": "50.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    }
+  },
+  "all_records": [
+    {
+      "choice": "risk",
+      "reason": "Known 1% chance beats the ambiguous urn\u2019s worst-case 0%; with no info, prefer the guaranteed probability.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior (indifference) implies ~50% red on average, far better than the 1% chance in the risk urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a neutral prior over the red fraction, expected survival \u224850%, far higher than the known 1% in the risk urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under ignorance, a uniform prior over the red fraction implies ~50% chance of red\u2014far higher than the known 1% in the risk urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no composition info, a neutral prior implies ~50% chance of red\u2014much higher than 1% in the risk urn\u2014maximizing survival odds.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, treating all splits as equally likely implies about a 50% chance of red\u2014far higher than the known 1% in the risk urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference, the expected red share is ~50%, far exceeding the 1% chance in the risk urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 1% survival beats an unknown split that could be 0%.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 1% chance to live; ambiguous could be 0% in the worst case.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, treat splits as equally likely; expected red is about 50%, far higher than the known 1% in the risk urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under an uninformative prior, expected red \u224850%, vastly exceeding the known 1% in the risk urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 1% survival; ambiguous could be 0%.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over the red proportion yields an expected 50% chance of red, far exceeding the 1% in the risk urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 1% chance to live; the ambiguous urn could be 0% red in the worst case.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 1% survival; the ambiguous urn could be 0% red in the worst case, so minimax favors risk.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior implies ~50% red on average, far exceeding the 2% in the risk urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference, expected red \u224850%, far higher than 2% in the risk urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Without evidence, assume a uniform prior on the red fraction; expected survival \u224850%, which dominates the known 2% in the risk urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "Worst case for the ambiguous urn is 0% chance to live, while the risk urn guarantees 2%; I prefer the option with the higher guaranteed minimum survival probability.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 2% survival beats ambiguity with possible 0% red; prefer minimizing worst-case.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior over compositions gives ~50% chance of red, far higher than the known 2% in the risk urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no info, the expected red share is ~50%, far exceeding the known 2% in the risk urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior over red proportion gives ~50% chance of red, far higher than the known 2% in the risk urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior expects ~50% red and a 98% chance the red share exceeds 2%, so it offers far better survival odds than the known 2% risk.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 2% chance to live; ambiguous urn could have zero red, making worst-case 0%.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Using an uninformative prior, the expected red fraction is 50%, which exceeds the known 2% in the risk urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 2% chance to live; ambiguous urn could be 0% red in the worst case.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red on average, far exceeding the known 2%.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies ~50% red in expectation, far higher than the known 2% in the risk urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a noninformative (uniform) prior, expected red probability is 50%, far exceeding the 2% in the risk urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a noninformative prior, the expected red fraction is 50%, far higher than the known 3% in the risk urn.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies ~50% red expected\u2014much higher survival odds than the known 3% in the risk urn.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 3% chance beats an unknown rate that could be 0%; prefer robustness under ambiguity.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior implies ~50% red on average, far higher than 3%, maximizing survival.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous could be 0% red (0% survival), while risk guarantees a 3% chance to live; I prefer the option with the better worst-case.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 3% chance beats the ambiguous urn\u2019s worst-case (could be 0%); with no info, avoid ambiguity.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 3% survival; ambiguous could be 0%\u2014avoids worst-case ambiguity.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 3% chance to live; ambiguous could be 0% in the worst case, so prefer the guaranteed odds.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 3% survival avoids the possibility the ambiguous urn has 0 red; with no prior, prefer guaranteed odds.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference, the expected red proportion is ~50%, far exceeding the known 3% in the risk urn.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior over splits gives ~50% red on average, far exceeding the known 3% in the risk urn.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Maximizing expected survival with an uninformative prior (expected red \u224850%) beats the risk urn\u2019s 3%.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry under ignorance (uniform prior), expected red is ~50%, far above the known 3% in the risk urn.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 3% chance to live; ambiguous could be 0%.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry, expected red is ~50%, far higher than the known 3%.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 4% survival; ambiguous could be 0%.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, treat splits as equally likely; expected red is 50%, far above the known 4%.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a neutral prior implies ~50% red in expectation\u2014much higher than the known 4%.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior on the unknown split, expected red is ~50%, far higher than the known 4% in the risk urn.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over the red proportion implies ~50% chance to live, far exceeding the known 4% in the risk urn.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Without further info, a neutral prior implies ~50% red on average, far better than the known 4% in the risk urn.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown composition could be 0% red; the risk urn guarantees a 4% survival chance and maximizes the worst-case outcome.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous could be 0% red; risk guarantees a 4% chance to live.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior implies ~50% red on average, far better than the known 4% in the risk urn, maximizing survival probability.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral (uniform) prior implies ~50% red, far higher than the known 4% in the risk urn.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies ~50% chance of red, far higher than the known 4% in the risk urn.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a non-informative prior, expected red is about 50%, far higher than the known 4% in the risk urn.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference, the expected red fraction is ~50%, far higher than the known 4% in the risk urn, maximizing survival odds.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 4% survival; ambiguous urn could be 0% red. With no prior, minimize worst-case.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies ~50% chance of red, far higher than the known 4% in the risk urn.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 5% chance to live; the ambiguous urn could be 0% red with no further info.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With an uninformative prior, expected red probability is ~50%, much higher than the known 5% in the risk urn.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference/symmetry, expected red \u224850%, which dominates the known 5%.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 5% survival; ambiguous could be 0% red and I avoid that worst-case.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, symmetry suggests a 50% expected chance of red, which dominates the known 5% in the risk urn.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a noninformative prior implies an expected 50% red, which dominates the known 5% in the risk urn.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior over compositions, expected red probability is 50%, far higher than the known 5% in the risk urn.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over the unknown red fraction gives an expected 50% chance to live, far better than the known 5% in the risk urn.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 5% survival; ambiguous could be 0%.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 5% survival; ambiguous urn could be 0%\u2014choose robustness to worst case.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous urn could be 0% red; the risk urn guarantees a 5% chance to live.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 5% survival; ambiguous urn could be 0%\u2014avoid ambiguity.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference, expected red fraction is ~50%, which beats the known 5% in the risk urn.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, treat splits as equally likely; expected chance of red is ~50%, far higher than the known 5%.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Assuming a uniform prior, expected red is ~50% vs 5% in the risk urn; higher survival odds.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 6% chance to live; ambiguous could be 0%.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry implies a 50% expected red share\u2014far higher than the known 6% in the risk urn.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a neutral (uniform) prior the expected red share is 50%, far exceeding the known 6% in the risk urn.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 6% survival; ambiguous could be 0%, so prefer guaranteed floor in life-or-death stakes.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under symmetric ignorance (uniform prior on red proportion), the expected chance to live is ~50%, far above the known 6%.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no prior info, a symmetry/uniform prior implies ~50% red on average, far exceeding the 6% known chance.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 6% survival; the ambiguous urn could be 0% red, so minimizing worst-case risk favors the known odds.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, symmetry (uniform prior) implies ~50% chance of red on average, far higher than the known 6%.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "Guaranteed 6% chance to live; ambiguous urn could have 0% red in the worst case",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Maximize survival probability: under a uniform prior over compositions, expected red is ~50% vs 6% for the risk urn.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, assume a uniform prior; expected red \u224850%, better than 6%.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Maximizes expected survival under a non-informative prior (~50% vs 6%).",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Higher expected survival under a neutral prior (~50% vs 6%).",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 6% chance to live; ambiguous urn could have 0 red in the worst case.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 6% chance to live; ambiguous could be 0%.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference, the expected red fraction is ~50%, which exceeds the known 7% chance in the risk urn.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies an expected 50% red\u2014far higher than the known 7% in the risk urn.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (uninformative prior), expected red \u224850%, far above the known 7% in the risk urn.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 7% chance to live; ambiguous could be 0% with no prior on the split.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 7% chance is safer than an unknown split that could be much worse.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a symmetric prior implies ~50% red\u2014far higher expected survival than the known 7%.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under an uninformative prior, expected red fraction is 50%, which dominates the known 7% in the risk urn.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 7% survival; ambiguous could be arbitrarily low\u2014minimax safer.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 7% survival; ambiguous could be 0%. Prefer guaranteed minimum.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 7% survival; ambiguous could be 0%, so I minimize worst-case risk.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 7% survival; the ambiguous urn could be near 0%, so I avoid worst-case ambiguity.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 7% chance; ambiguous could be 0% red.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (uniform prior), expected red is ~50%, which dominates the known 7% in the risk urn.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a neutral prior, expected red \u224850%\u2014far higher than the known 7% in the risk urn.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry suggests about a 50% chance of red, far better than the known 7%.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference (uniform prior), expected red share \u224850%, exceeding the known 8% in the risk urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 8% chance to live; the ambiguous urn could have 0% red, so I prefer the guaranteed odds.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under an uninformed (symmetric) prior the expected chance of red is ~50%, far higher than the known 8% in the risk urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown split could be 0 reds; a sure 8% survival is safer than worst-case 0%.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 8% survival; the ambiguous urn could be 0% red (worse in worst case).",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior over the red fraction gives ~50% survival in expectation, far above the 8% in the risk urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference/symmetry, the expected red proportion is ~50%, which beats the known 8% in the risk urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry under ignorance, the expected red proportion is ~50%, far higher than the known 8% in the risk urn, maximizing survival odds.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, by symmetry a uniform prior gives ~50% red in expectation\u2014much higher than the known 8%.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous urn could have almost no red; the risk urn guarantees an 8% survival chance.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 8% chance beats unknown odds that could be 0%; robust (maximin) choice avoids ambiguity.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior implies ~50% chance of red\u2014far higher than the known 8% in the risk urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior over red proportion gives ~50% chance of red, which beats the known 8%.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference, expected red fraction is ~50%, far higher than the known 8% in the risk urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 8% survival; ambiguous could be 0%. Without a justified prior, prefer the guaranteed minimum of 8%.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over splits gives an expected 50% red\u2014much higher than the known 9%.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous could be 0 red (0% survival); risk guarantees 9% chance to live, safer under uncertainty.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 9% survival; the ambiguous urn could be 0% red in the worst case.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 9% chance to live; the ambiguous urn could be 0% red, so I avoid ambiguity.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 9% survival; ambiguous urn could be 0% red.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 9% survival beats unknown odds that could be arbitrarily low; safest under ambiguity.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 9% chance to live; the ambiguous urn could be 0% red. Prefer avoiding worst-case in a one-shot.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, assume an uninformative prior over red fraction; expected chance to draw red is about 50%, much higher than the known 9%.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 9% chance; ambiguous could be 0%, so avoid worst-case.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 9% chance of living; ambiguous could be 0%, so safer under worst case.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over red fraction gives ~50% survival in expectation, far exceeding the known 9% in the risk urn.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, symmetry suggests a 50% red share in expectation\u2014much higher than the known 9%\u2014maximizing survival odds.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 9% chance to live; the ambiguous urn could be arbitrarily low (even 0%), so the robust worst-case choice is risk.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior implies ~50% red vs 9% in risk; higher expected survival.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 9% survival; ambiguous urn could be 0% red with no guaranteed lower bound.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 10% survival; ambiguous could be 0%, so I prefer the robust, known probability.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 10% chance to live; the ambiguous urn could be 0%, so I avoid worst-case ambiguity.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies ~50% red expected\u2014better than the 10% in the risk urn.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 10% chance to live; ambiguous urn could have 0% red, making the worst case worse.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further information, symmetry (uninformative prior) implies an expected 50% red, which beats the known 10% in the risk urn.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 10% survival; ambiguous urn could have 0% red, so I avoid worst-case ambiguity in a one-shot life-or-death choice.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no info (indifference), expected red is ~50%, higher than the known 10%.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 10% survival; the ambiguous urn could have 0% red.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 10% chance to live; ambiguous could be 0 red with no basis to assume better odds.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 10% chance to live; ambiguous urn could be 0% with no information, so I prefer guaranteed odds.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 10% chance to live; the ambiguous urn could be 0% red, and without a justified prior I avoid ambiguity.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over compositions gives ~50% chance of red, which beats the known 10%",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 10% chance to live; the ambiguous urn could be 0% red.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 10% survival; ambiguous could be 0%.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a neutral ignorance prior, expected red is ~50%, which beats the known 10%.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 11% chance to live; the ambiguous urn could have 0% red in the worst case.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no information, the expected red share is 50%, which exceeds the 11% in the risk urn.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red on average, far better than the known 11% in the risk urn.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior gives ~50% chance of red, much higher than 11%.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 11% chance avoids the ambiguous urn\u2019s possible worst-case of 0%",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference, the expected red share is ~50%, far higher than the known 11% in the risk urn.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown could be 0 red; a known 11% survival avoids worst-case ambiguity.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no additional information, a neutral prior implies a 50% expected chance of red, much higher than the known 11%.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 11% survival; ambiguous urn could be 0% red in worst case.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 11% survival; ambiguous could be 0%. In life-or-death, avoid ambiguity and minimize worst-case.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over the red proportion implies an expected 50% chance to live, which dominates the known 11% in the risk urn.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "Maximin: guarantees 11% survival; ambiguous could be 0%.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 11% survival; the ambiguous urn could be anywhere from 0% to 100%, and without a justified prior I avoid worst-case ambiguity.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral symmetry prior implies ~50% red on average\u2014much higher than the known 11%.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 11% survival beats the ambiguous urn\u2019s worst-case (0%); with life-or-death stakes, prefer the known probability.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies ~50% red in expectation\u2014far better than the known 12%.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 12% survival; ambiguous could be 0%\u2014choose the option with a guaranteed floor (maximin).",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a noninformative (uniform) prior, expected red is 50%, which exceeds the known 12% in the risk urn.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown urn could be 0% red; risk guarantees a 12% chance to live.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform ignorance prior gives ~50% chance of red, which exceeds the known 12% in the risk urn.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no information, expected red fraction is 50%, far higher than the known 12%.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, symmetry suggests a 50% expected red share, which exceeds the known 12% chance in the risk urn.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red, which exceeds the known 12% chance in the risk urn.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, by indifference a uniform prior implies ~50% red on average, much higher than the known 12%.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 12% survival; ambiguous could be 0%, so this minimizes worst-case risk in a life-or-death choice.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over the red fraction gives an expected 50% chance of red, which is higher than the known 12% in the risk urn.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "Prefer known 12% survival over unknown odds that could be far lower.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown urn could be 0% red; the risk urn guarantees a 12% chance to live.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red on average, better than the known 12%.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 12% survival; ambiguous could be near 0% with no info, so I avoid that worst-case.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 13% survival; ambiguous could be worse (even 0%).",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 13% chance to live; the ambiguous urn could have 0% red.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 13% survival beats the worst-case (0%) in the ambiguous urn; in a one-shot life-or-death choice I avoid ambiguity.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Maximize expected survival; with a uniform prior under ignorance, expected red is ~50%, far above the known 13% in the risk urn.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 13% chance to live; ambiguous could be 0%.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies ~50% red\u2014far higher than the known 13% in the risk urn.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 13% survival beats the ambiguous urn\u2019s worst-case (0%); with life-or-death stakes, prefer known odds over uncertainty.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 13% chance to live; the ambiguous urn could have 0% red, so worst-case is strictly worse.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 13% survival; the ambiguous urn could be much worse with no basis to expect better odds.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 13% chance to live; the ambiguous urn could be 0% red, so I avoid worst-case ambiguity.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a symmetric prior implies ~50% red on average\u2014much higher than the known 13% in the risk urn.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a non-informative prior implies ~50% red on average, far better than the known 13% in the risk urn.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry suggests ~50% red on average, which exceeds 13% in the risk urn.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 13% chance to live; the ambiguous urn could be 0%.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown split could be 0% red; the risk urn ensures a known 13% chance to live.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red in the ambiguous urn, exceeding the known 14% chance in the risk urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Higher expected chance to live under an uninformed prior (~50%) versus known 14% in the risk urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies ~50% red, which beats the known 14% in the risk urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior treats all splits as equally likely, giving an expected 50% red\u2014much higher than the known 14%.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The ambiguous urn could have 0% red; the risk urn guarantees a 14% chance to live, maximizing the worst-case outcome in a life-or-death decision.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information about the split, a neutral prior implies ~50% red on average, which beats the known 14% chance in the risk urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies an expected ~50% red, which beats the known 14% in the risk urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies an expected 50% red probability\u2014higher than the known 14% in the risk urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies an expected 50% red\u2014higher than the 14% in the risk urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies ~50% chance of red, far higher than the known 14% in the risk urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior over compositions implies an expected 50% red, much higher than the known 14% in the risk urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "Guaranteed 14% survival beats unknown odds that could be 0%.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (uninformative prior), expected red share is 50%, which beats the known 14% in the risk urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 14% chance; the ambiguous urn could be much worse (even 0%).",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 14% survival beats an unknown rate that could be much lower (even 0%) in a high-stakes, ambiguity-averse choice.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous could be all black; risk guarantees a 15% survival chance and dominates in the worst case.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, use an uninformative prior (symmetry), giving ~50% chance of red, which exceeds the known 15% in the risk urn.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior on the red proportion, expected red is ~50%, higher than the risk urn\u2019s 15%.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with an uninformative prior, expected red is 50%, exceeding the known 15%.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference, the expected red share is ~50%, which exceeds the known 15% in the risk urn.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 15% chance to live; the ambiguous urn could have 0% red, so its worst case is worse.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "Worst-case for the ambiguous urn could be 0% red; the risk urn guarantees a 15% chance to live.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "Guaranteed 15% chance to live; ambiguous urn could have near-zero reds and risks worst-case 0%",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info on the split, a neutral prior implies ~50% red on average, which exceeds the known 15% in the risk urn.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over compositions gives an expected 50% chance of red, which dominates the known 15% in the risk urn.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies an expected 50% chance of red\u2014better than the known 15% in the risk urn.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 15% chance; ambiguous could be 0%, so prefer known odds with no prior.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red expected\u2014higher than the known 15% in the risk urn.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 15% survival; the ambiguous urn could have 0% red, so a robust worst\u2011case choice favors the risk urn.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 15% chance to live is safer than ambiguous odds that could be much worse (even 0%).",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 16% chance to live; the ambiguous urn could be worse (even 0%) with no information.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference, the ambiguous urn yields ~50% red on average, exceeding the known 16% from the risk urn.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 16% chance to live; the ambiguous urn could be arbitrarily bad (even 0%).",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 16% survival; the ambiguous urn could be 0%.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference, expected red share is 50%, which beats the known 16% in the risk urn.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 16% chance to live; the ambiguous urn could be 0%, so I prefer the guaranteed floor.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 16% survival; ambiguous could be 0%\u2014prefer guaranteed odds.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Maximizes expected survival under a neutral indifference prior (~50% vs 16%).",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 16% survival; ambiguous urn could be as low as 0%. Prefer avoiding ambiguity/worst-case.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "Guarantees at least 16% vs ambiguous could be 0%; with high stakes, prefer known risk.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 16% chance to live; ambiguous urn could be 0% in worst case\u2014prefer the guaranteed probability over ambiguity.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no additional info (uniform prior), expected red probability is 50%, which exceeds 16%.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over the red fraction gives an expected 50% chance to live, which exceeds the 16% in the risk urn.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "Guarantees a known 16% chance to live; ambiguous urn could be 0%.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under ignorance, a uniform prior over red fraction gives ~50% chance of red, exceeding the known 16%.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 17% survival; the ambiguous urn could be all black (0%), so I avoid ambiguity and minimize worst-case risk.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "Guarantees 17% survival; ambiguous could be 0%.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies a 50% expected chance of red\u2014higher than the known 17% in the risk urn.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (uninformative prior), expected red share is ~50%, exceeding the known 17%.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 17% chance to live; the ambiguous urn could be much worse (even 0%), so I prefer the guaranteed probability.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no info, a uniform prior implies ~50% red in expectation\u2014better than the known 17%.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Applying an uninformative prior over the red fraction gives an expected 50% chance to live, which beats the known 17%.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 17% survival avoids the ambiguous urn\u2019s potentially much worse (even 0%) chance.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 17% chance to live; the ambiguous urn could be 0% red, so this minimizes worst-case risk.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 17% chance to live; the ambiguous urn could have 0% red, so risk guarantees a minimum probability.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 17% survival; ambiguous could be 0%. Prefer guaranteed floor over unknown.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 17% chance to live; ambiguous could be 0% red.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Higher expected chance of red under a neutral prior (~50% vs 17%).",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies ~50% red on average, exceeding the known 17% in the risk urn.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/ignorance prior, the expected red proportion is 50%, which exceeds the known 17% survival chance in the risk urn.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red vs 18% known in the risk urn, yielding a higher expected chance to live.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no info, expected red is ~50%, which exceeds the known 18%.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 18% chance of living; the ambiguous urn could be arbitrarily worse in the worst case.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 18% survival beats unknown that could be 0%; maximin under ambiguity.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 18% chance to live; ambiguous could be much lower (even 0%), so I prefer the known probability.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information about the split, a uniform prior implies an expected 50% chance of red, which exceeds the known 18% in the risk urn.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With an uninformative prior, the expected red proportion is 50%, which beats the known 18% in the risk urn.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 18% chance to live; ambiguous urn could be 0% red, so I avoid worst-case ambiguity.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference, the expected red proportion is 50%, which beats the known 18% in the risk urn, maximizing survival probability.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 18% chance to live; ambiguity could be 0% with no basis for a higher expectation.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 18% chance of living; the ambiguous urn could be 0% red\u2014choose robustness to worst-case.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, symmetry implies a 50% expected red share\u2014better than the known 18%.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry suggests a uniform prior over splits, yielding an expected 50% chance of red\u2014higher than the known 18% in the risk urn.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a neutral prior, expected chance of red is 50%, higher than the known 18%.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 18% chance; unknown could be 0%, so better worst-case.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown split could be all black; the known 19% chance avoids worst-case ambiguity.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior over the red proportion implies ~50% chance to live, which beats the known 19% in the risk urn.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 19% survival; ambiguous could be 0% red.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior implies ~50% red expected\u2014higher than the known 19% in the risk urn.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 19% survival; the ambiguous urn could be much worse (even 0%), so I prefer robust known odds.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 19% survival; the ambiguous urn could be arbitrarily bad, and with high stakes I avoid ambiguity.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a uniform prior, expected red is ~50%, beating 19% in the risk urn.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference (uniform prior over compositions), expected P(red)=50%, which exceeds the known 19% in the risk urn.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a noninformative prior the expected red share is ~50%, which beats the known 19% in the risk urn.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Maximizing expected survival: with no info, best estimate is 50% red, higher than the known 19%.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral (uniform) prior puts expected red near 50%, exceeding the known 19% in the risk urn.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 19% chance; ambiguous could be 0% red. Prefer known risk.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference/symmetry, expected red is 50%, exceeding the known 19% in the risk urn.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown urn could be 0% red; risk urn guarantees a 19% chance to live.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 19% survival; the ambiguous urn could be 0% red, and I avoid that worst-case in a one-shot life-or-death draw.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "Guarantees at least a 20% chance to live; the ambiguous urn could be 0% red.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% survival; ambiguous could be as low as 0%, so prefer guaranteed odds over ambiguity.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% survival; the ambiguous urn could have 0 red, so worst-case is worse.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% chance to live; the ambiguous urn could be 0% red, so I avoid the worst-case ambiguity.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Prefer known 20% survival over unknown odds that could be worse.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% chance; the ambiguous urn could be arbitrarily low, so risk is safer under worst-case reasoning.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, treat compositions as equally likely; expected red share is 0.5, which beats the 0.2 chance in the risk urn.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% chance to live; ambiguous worst-case could be 0%.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% chance to live; the ambiguous urn could be 0% red with no basis to assume better odds.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% chance to live; ambiguous urn could have 0% red, so the worst case is worse.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% chance; ambiguous could be 0%.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% survival; the ambiguous urn could be arbitrarily worse, so choose the option with known minimum odds.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% chance to live; the ambiguous urn could be 0% red, so worst-case is worse.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% chance to live; the ambiguous urn could be 0% red in the worst case.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 20% survival beats unknown odds that could be 0%; safer under worst-case.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior gives expected red \u224850%, which beats the known 21% in the risk urn.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous could be 0% red; I prefer a known 21% survival over an unknown that may be worse.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (principle of indifference), the expected red proportion is 50%, exceeding the known 21% in the risk urn.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 21% survival; the ambiguous urn could be 0%, so the guaranteed lower bound is higher.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a noninformative prior implies ~50% red, which exceeds the known 21% in the risk urn.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "Guarantees a 21% chance to live; the ambiguous urn could be much lower (even 0%).",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no information, the expected red share is ~50%, exceeding the known 21% in the risk urn.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (indifference) the expected red fraction is about 50%, which dominates the known 21% in the risk urn.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 21% chance to live; the ambiguous urn could have 0 red balls.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 21% chance to live; the ambiguous urn could be 0% red, so the worst-case is worse.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies ~50% red expected\u2014better than the known 21%.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 21% survival beats unknown odds that could be much worse; prefer guaranteed odds in a one-shot life-or-death draw.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a uniform (noninformative) prior on the red fraction, expected red is 50%, higher than the known 21% in the risk urn.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, assume all splits are equally likely; the expected red chance is 50%, higher than 21%.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 21% chance to live; ambiguous could be 0%, so I avoid worst-case uncertainty.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over the red fraction gives an expected 50% chance of red, higher than the known 22% in the risk urn.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The known 22% survival is preferable to an unknown rate that could be arbitrarily low.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 22% chance to live; the ambiguous urn could be 0% red (worst case).",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 22% chance; ambiguous could be 0% and I avoid that worst-case in life-or-death stakes.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference/symmetry, expected red share is 50%, higher than the known 22%.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a uniform prior implies ~50% red, which beats the known 22%.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior over compositions, the expected chance of red is 50%, which exceeds the known 22%.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, an uninformed prior implies ~50% red, which exceeds the known 22%.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior over splits, the expected chance of red is 50%, which beats the known 22% in the risk urn.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a noninformative (uniform) prior over the red fraction, the expected chance of red is ~50%, which dominates the known 22% in the risk urn.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 22% chance to live; ambiguous urn could be 0%, so I minimize worst-case (ambiguity aversion).",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a neutral (uniform) prior, the expected red share is 50%, which exceeds the known 22% in the risk urn.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 22% survival beats unknown odds that could be 0%; robust to worst-case ambiguity.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 22% chance to live; the ambiguous urn could be arbitrarily bad, even 0%.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry under ignorance (uniform prior on red share), expected survival is 50%, exceeding the known 22%.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior implies ~50% red on average, which exceeds the known 23% chance in the risk urn.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (uninformative prior), expected red probability is 50%, which exceeds the known 23% in the risk urn, maximizing chance to live.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 23% chance of living; the ambiguous urn could be arbitrarily low (even 0%), so risk is safer under worst-case/ambiguity aversion.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies a 50% chance of red on average\u2014better than the known 23% in the risk urn.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "Guaranteed 23% chance to live; the ambiguous urn could be arbitrarily bad (even 0% red).",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 23% chance to live; the ambiguous urn could be 0% red. With life-or-death stakes, I avoid ambiguity.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 23% chance to live avoids ambiguity and dominates the ambiguous urn\u2019s worst-case (could be 0%).",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under no further info, a uniform prior gives an expected 50% red chance, which exceeds the known 23% in the risk urn.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no evidence about the split, a neutral prior implies ~50% chance of red, which exceeds the known 23% in the risk urn.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies 50% expected red\u2014better than the known 23%.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 23% survival; ambiguous urn could be 0% in worst case, so risk dominates under ambiguity aversion/maximin.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior over red fraction gives an expected 50% chance to live, exceeding the known 23%.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies 50% red in expectation, exceeding the known 23% in the risk urn.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a neutral prior implies ~50% red on average, which exceeds the known 23% chance in the risk urn.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 23% survival; the ambiguous urn could be 0%, so I avoid ambiguity and its worst case.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 24% survival; ambiguous could be 0%.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under symmetric ignorance (uniform prior), expected chance of red is ~50%, higher than the known 24%.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With an uninformative prior, expected red is 50%, higher than the risk urn\u2019s 24%.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, symmetry suggests an expected 50% red, exceeding the known 24% in the risk urn.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior over compositions, the expected red fraction is 50%, exceeding the known 24% in the risk urn.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 24% chance to live; the ambiguous urn could be much worse (even 0%).",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 24% survival; the ambiguous urn could be 0% red, so worst case is worse.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a uniform prior over the red fraction, expected chance of red is 50%, higher than the known 24%.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 24% survival beats an unknown rate that could be near zero; avoids worst-case ambiguity.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry suggests a 50% expected red share, which beats the known 24% in the risk urn.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 24% chance to live; ambiguous urn could be all black (0% in worst case).",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red on average, higher than the known 24%.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown could be all black (0%); the risk urn gives a known 24% chance, avoiding worst-case",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 24% chance of survival; the ambiguous urn could have zero red balls, yielding 0%.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 24% chance to live; ambiguous urn could be 0% in the worst case.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% chance to live; the ambiguous urn could be 0% red and there\u2019s no basis to expect a higher rate.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% chance to live; the ambiguous urn could have 0% red, so the worst case is worse.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% survival beats ambiguity where the red share could be 0%; prefer robust, non-ambiguous odds in a life-or-death draw.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% survival; ambiguous could be 0%, so avoid worst-case ambiguity.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% survival; ambiguous could be 0%. Avoid worst-case ambiguity in a life-or-death decision.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% chance to live; the ambiguous urn could be 0%, so I prefer the safer known probability under worst-case/high-stakes.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% survival beats an unknown probability that could be 0%.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior over compositions, expected red chance is 50%, higher than the risk urn\u2019s 25%.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a uniform prior implies ~50% red in expectation\u2014higher than the known 25% in the risk urn.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (uniform prior over splits), expected red is 50%, higher than the known 25% in the risk urn.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% survival; the ambiguous urn could have far fewer red balls, even 0%.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% survival; ambiguous could be 0%.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% survival; ambiguity could hide a lower chance.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% survival; ambiguous urn could be 0%.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 25% chance to live; ambiguous urn could be 0%.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous urn could have 0 red; risk urn guarantees a 26% chance to live.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 26% chance to live; the ambiguous urn could have far fewer red balls, and in high stakes I avoid ambiguity",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 26% chance to live; the ambiguous urn could have 0 red (worst case), so guaranteed odds are safer in a life-or-death draw.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 26% chance to live; the ambiguous urn could have 0% red, so worst-case is worse.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 26% chance to live; the ambiguous urn could be as low as 0%.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 26% chance to live; the ambiguous urn could be 0%. Without prior info, I prefer robust known odds.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 26% chance to live; the ambiguous urn could be 0%.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior suggests ~50% red, which is higher than the known 26% in the risk urn.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 26% chance to live; ambiguous could be 0%.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a noninformative (uniform) prior, expected red is 50%, which exceeds the known 26% in the risk urn.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Prefer known 26% chance; ambiguous urn could be arbitrarily bad (worst-case 0%).",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 26% survival avoids ambiguity and the worst-case of near-0% in the unknown urn.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Without adversarial selection, a neutral prior over compositions implies ~50% red, exceeding the known 26% in the risk urn, thus maximizing expected survival.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Guaranteed 26% survival; ambiguous could be 0% red",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 26% chance to live; the ambiguous urn could be arbitrarily bad and without a justified prior I choose the robust option.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 27% chance to live beats unknown odds that could be 0%.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no further info, the expected red fraction is about 50%, which beats the known 27% in the risk urn.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 27% chance to live beats an unknown split that could be far worse (even 0%); prefer the guaranteed odds.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference the expected red proportion is 50%, which beats the known 27% chance in the risk urn.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, assume an uninformative prior: expected red share is 50%, which is better than the known 27% in the risk urn.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 27% chance to live; the ambiguous urn could be much worse (even 0%).",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red, exceeding the known 27%.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 27% chance to live; the ambiguous urn could be much worse, and without a justified prior I avoid ambiguity/worst-case.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 27% chance to live beats the ambiguous urn, which could have almost no red balls (worst-case 0%).",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 27% chance to live; ambiguous urn could have 0 red, so worst-case is 0%.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 27% survival; ambiguity could be worse (even 0%).",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral (uniform) prior implies an expected 50% red share, which exceeds the known 27% in the risk urn.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a neutral prior implies ~50% red on average, which beats the 27% chance in the risk urn.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference, expected P(red)=50%, which beats the known 27%.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 27% chance to live; the ambiguous urn could be all black, giving 0% in the worst case.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red, which beats the known 28% in the risk urn.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under symmetry with no info, expected red is ~50%, higher than the known 28%.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, assume a uniform prior over the red proportion; expected chance of red is 50%, higher than 28% in the risk urn.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 28% chance to live; the ambiguous urn could have far fewer (even zero) red balls. In a life-or-death draw, prefer the option with better worst-case odds.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 28% chance to live; the ambiguous urn could be much worse (possibly 0%).",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior over the unknown split, the expected chance of red is 50%, which beats the known 28% in the risk urn.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 28% survival; ambiguous could be much lower (even 0%), so prefer the known probability.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Worst-case for the ambiguous urn is 0% red; a known 28% chance of living is safer in a life-or-death decision.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 28% chance to live; ambiguous could be 0%, so maximin favors risk.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 28% survival is safer than an unknown rate that could be lower (even 0%), avoiding ambiguity.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 28% survival; ambiguous urn could be anywhere down to 0%, so the risk urn is the robust choice.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 28% chance to live; the ambiguous urn could be 0% red in the worst case.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous could be 0% red; risk guarantees a known 28% chance to live, safer under high stakes.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference, the expected red fraction is 50%, higher than the known 28% in the risk urn.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 28% survival; the ambiguous urn could have 0% red, and with high stakes I avoid ambiguity.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 29% survival; the ambiguous urn could be much worse (even 0%), so I avoid ambiguity.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, assume a uniform prior on the red proportion; expected survival is 50%, which exceeds the risk urn\u2019s 29%.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 29% chance; ambiguous could be 0% red, so I avoid ambiguity.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 29% chance to live; the ambiguous urn could be 0% red, so I avoid the worst case.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior over compositions, expected red chance is 50% > 29%.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 29% chance of survival; unknown urn could be 0% in the worst case.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry (uninformative prior) gives an expected 50% red, higher than the risk urn\u2019s 29%.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 29% survival; ambiguous urn could be near 0%\u2014for high stakes, prefer the robust, non-ambiguous option.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry under ignorance, expected P(red)=0.5, which exceeds the known 0.29 in the risk urn.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 29% chance to live; the ambiguous urn could have very few (even zero) red balls, so I avoid worst-case ambiguity.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior, expected red chance is 50%, which exceeds the known 29%.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no prior info, a neutral assumption puts expected red near 50%, which beats the known 29% in the risk urn.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a neutral (uniform) prior over red proportion, expected red is 50%, which beats the known 29% in the risk urn.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over the red proportion implies ~50% chance to live, which beats the known 29% in the risk urn.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 29% chance to live; the ambiguous urn could have 0 red, so I avoid that worst case.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 30% chance; avoids potentially worse odds in the ambiguous urn.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Assuming a uniform prior over the unknown split, the expected chance of red is 50%, which exceeds the known 30%.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 30% chance; ambiguous urn could be worse (even 0%).",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Guarantees a 30% chance to live; the ambiguous urn could be 0% red.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 30% survival; the ambiguous urn could be far worse. Prefer transparent, non-ambiguous odds.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 30% chance to live; the ambiguous urn could have 0% red. Prefer guaranteed odds over unknown.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a uniform prior over splits, expected red is 50%, exceeding the known 30%.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info on the split, a uniform prior implies ~50% chance of red, which exceeds the known 30% in the risk urn.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 30% chance of living; the ambiguous urn could be 0% red, so risk is safer under worst-case.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 30% chance to live; the ambiguous urn could be much worse (even 0%), so I avoid ambiguity.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 30% chance to live; ambiguous could be as low as 0%, so the guaranteed baseline is safer.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 30% survival; the ambiguous urn could be worse (even 0%).",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Guarantees a 30% chance to live; the ambiguous urn could be 0% red.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 30% survival; the ambiguous urn could have 0% red, so the worst case is worse\u2014prefer the known probability.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 30% survival; ambiguous urn could be arbitrarily worse. Prefer known odds over ambiguity.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, symmetry (uniform prior) gives ~50% chance of red, higher than the known 31% in the risk urn.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 31% chance to live; ambiguous urn could be 0% in the worst case.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 31% survival; ambiguity could hide a much lower chance (even 0%), so I avoid worst-case risk.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 31% survival is guaranteed; the ambiguous urn could be much worse with no justified prior, so avoid ambiguity.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under an ignorance prior the expected red share is ~50%, exceeding the known 31% in the risk urn.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 31% chance of survival; the ambiguous urn could be as low as 0% red, so I avoid that worst-case",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a neutral (uniform) prior, expected red is 50%, higher than the 31% in the risk urn.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 31% survival beats unknown odds that could be worse; avoids ambiguity and worst-case 0%.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no other info, a uniform prior implies a 50% expected red share, higher than the known 31%.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies about a 50% chance of red, higher than 31%.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 31% chance of survival; the ambiguous urn could have very few or zero red balls, making the worst-case much worse.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 31% chance of living; the ambiguous urn could be worse (even 0%), so I avoid ambiguity and pick the known odds.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a uniform prior over the unknown split, expected red is 50%, higher than the known 31%.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, assume a uniform prior (symmetry), yielding ~50% chance of red\u2014higher than the known 31% in the risk urn.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies ~50% chance of red, exceeding the known 31% in the risk urn.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 32% survival beats an unknown rate that could be worse (even 0%); prefer avoiding ambiguity and worst-case",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a neutral ignorance prior the expected red share is ~50%, which beats the known 32% in the risk urn.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies ~50% chance of red, which exceeds the known 32%.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 32% survival; ambiguous urn could be 0% red.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 32% chance to live; the ambiguous urn could be far worse (even 0%).",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 32% chance to live; the ambiguous urn could be much worse, even 0%.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 32% chance to live; the ambiguous urn could be 0% red, so this maximizes worst-case survival.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies a 50% red chance, which exceeds the known 32% in the risk urn.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 32% survival beats unknown split that could be much worse; prefer guaranteed odds over ambiguity.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 32% chance to live; the ambiguous urn could be much worse, so I avoid unknown downside and maximize worst-case survival.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 32% chance to live; the ambiguous urn could be 0% red, so I avoid the worst-case.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, use a uniform prior over splits \u2192 expected 50% red, better than the known 32% in the risk urn.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 32% survival; ambiguous could be far lower (even 0%).",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference, expected red \u224850% (>32%), maximizing expected survival.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 32% chance of living beats unknown odds that could be worse, minimizing worst\u2011case risk in a life\u2011or\u2011death draw.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% chance to live; the ambiguous urn could have 0% red.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% chance to live; the ambiguous urn could be much worse\u2014robust against worst-case.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior (uniform over splits) gives ~50% chance of red, higher than the 33% in the risk urn.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% chance to live; ambiguous could be 0% red",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% chance to live; the ambiguous urn could have very few or zero red balls, so worst-case is worse.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% chance to live; the ambiguous urn could be much worse in the worst case.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Worst-case for ambiguous is 0% red; risk guarantees a 33% chance to live.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, apply indifference (uniform prior): expected red is 50%, higher than the known 33% in the risk urn.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% survival; ambiguous urn could have 0% red\u2014robustly avoid worst-case.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% survival beats unknown odds that could be 0%; avoids ambiguity.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% survival; ambiguous could be 0%. Prefer known risk over ambiguity in a life-or-death draw.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% chance to live; ambiguous urn could be 0% red in worst case, so the risk urn is safer under uncertainty.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% chance to live; the unknown urn could be much worse in the worst case.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% chance to live; the ambiguous urn\u2019s odds are unknown and could be worse, so I avoid worst-case ambiguity.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 33% chance; unknown split may be worse, so I avoid ambiguity.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 34% chance to live; ambiguous could be 0%, so worst case is worse.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior over the red fraction gives an expected 50% chance of red, which exceeds the known 34% in the risk urn.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 34% chance to live; the ambiguous urn could be 0% red. With no information and life at stake, prefer the guaranteed probability.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 34% chance to live; the ambiguous urn could be much worse, including 0% red.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, assume a uniform prior over the red fraction; the expected chance to live is 50%, higher than the known 34%.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 34% chance to live; the ambiguous urn could be 0% red with no basis to expect >34%.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 34% chance to live; the ambiguous urn could have 0% red, so worst-case is worse.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 34% survival; ambiguous could be 0%\u2014prefer known risk.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 34% chance to live; ambiguous urn could have 0% red, so risk maximizes worst-case survival.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "It guarantees a 34% chance to live, whereas the ambiguous urn could be arbitrarily unfavorable (even 0%) with no information to rule that out.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (uniform prior), expected red is ~50%, which exceeds the known 34% in the risk urn.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior implies ~50% red on average\u2014better than the known 34%.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (uniform prior), expected red chance is 50%, higher than 34%.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info on the split, symmetry suggests an expected 50% red, higher than the known 34%, so it maximizes expected survival.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 34% survival; the ambiguous urn could be much worse in the worst case, and with life at stake I avoid ambiguity.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry under ignorance, the expected red share is 50%, which beats the known 35% in the risk urn.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 35% survival; the ambiguous urn could be arbitrarily bad, even 0% red.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous urn could be all black; risk urn guarantees a 35% chance to live.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 35% chance to live; the ambiguous urn could be far worse, even 0%.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, use symmetry/indifference: expected P(red)=50%, which exceeds the known 35% in the risk urn.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 35% chance of living; the ambiguous urn could be much worse (including 0%) with no evidence it is better.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, the expected red share is 50%, higher than the known 35% in the risk urn.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 35% chance of living; the ambiguous urn could be much worse (even 0%), so I prefer the guaranteed probability over ambiguity.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies ~50% red, exceeding the known 35% in the risk urn.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 35% chance to live; the ambiguous urn could have 0% red, so I avoid the unknown worst-case.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 35% survival beats unbounded ambiguity where odds could be far worse in the worst case.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 35% chance to live; the ambiguous urn could be worse (even 0%).",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 35% chance to live; the ambiguous urn could be much worse in the worst case, so I avoid ambiguity.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 35% chance to live; the ambiguous urn could be 0% red, so I avoid the worst-case.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 35% survival; the ambiguous urn could be 0% red in the worst case.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (no information), the expected red fraction is 50%, exceeding the known 36% in the risk urn.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference, expected red is 50%, higher than the known 36%.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 36% chance of living beats an unknown probability that could be worse (even 0%).",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a uniform prior over the unknown split, expected red is 50%, exceeding 36%.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior over splits, the expected chance of red is 50%, exceeding the known 36% in the risk urn.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, use a uniform prior over red share; expected red chance is 50%, higher than the known 36%.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/neutral prior, expected red share is 50%, which exceeds the known 36%.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies an expected 50% chance of red, exceeding the known 36% in the risk urn.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 36% chance to live; ambiguous urn could be 0%, and I avoid ambiguity in life-or-death stakes.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior over the red fraction yields an expected 50% chance to live, exceeding the known 36%.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference, expected red is 50%, exceeding the known 36%, so higher expected chance to live.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry/indifference implies ~50% red\u2014better than the known 36% in the risk urn.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 36% chance to live; the ambiguous urn could have 0% red, so I avoid that worst-case risk.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies ~50% chance to live, which exceeds the known 36% in the risk urn.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 36% chance of survival is safer than an unknown split that could be 0% red; with no further information, I avoid ambiguity.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 37% survival; ambiguous could be much lower, including 0%.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 37% chance; the ambiguous urn could be 0% red, so I avoid worst-case ambiguity.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 37% survival beats an unknown split that could be arbitrarily low; in life-or-death, avoid ambiguity.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 37% chance; ambiguous could be arbitrarily bad, so avoid worst-case ambiguity.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a symmetric (uniform) prior gives ~50% red in expectation, which beats the known 37% in the risk urn.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 37% chance to live; the ambiguous urn could be arbitrarily bad (even 0%), so I prefer the option with a guaranteed probability.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 37% chance to live; the ambiguous urn could be all black in the worst case.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a uniform prior implies ~50% red vs known 37%, so it offers higher survival odds.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a neutral (uniform) prior, expected red share is 50%, exceeding the known 37% in the risk urn.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 37% survival avoids worst-case unknown; the ambiguous urn could be all black.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 37% chance to live; ambiguous could be as low as 0%, so the worst case is worse.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies expected 50% red, exceeding the known 37% in the risk urn.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 37% chance to live; the ambiguous urn could be arbitrarily bad in the worst case, so I avoid ambiguity.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior implies ~50% red expected, which beats the known 37%.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference symmetry, expected P(red)=0.5, which exceeds 0.37 in the risk urn.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown split could be 0% red; with no prior I prefer the guaranteed 38% chance to live.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a symmetric (uniform) prior implies an expected 50% chance of red, higher than the known 38% in the risk urn.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 38% chance of living; the ambiguous urn could have far fewer red balls (even zero), and with no prior info a robust choice avoids that ambiguity.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference, assume a uniform prior over splits: expected red = 50%, which exceeds the 38% of the risk urn.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 38% chance to live; the ambiguous urn could be arbitrarily bad (even 0% red), so minimizing worst-case risk favors the known probability.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 38% chance to live; the ambiguous urn could be worse (even 0%), so I prefer guaranteed odds over ambiguity.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 38% chance to live; the ambiguous urn could be arbitrarily bad (even 0% red), so I avoid worst-case ambiguity.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 38% chance to live; the ambiguous urn could be much worse (even 0% red), so I prefer the robust, non-ambiguous option.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies ~50% red, which exceeds the 38% live chance in the risk urn.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 38% survival; ambiguous could be arbitrarily low (worst-case 0%).",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 38% chance to live; the ambiguous urn could have virtually 0% red, so I avoid worst-case ambiguity.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies ~50% red on average, higher than the known 38%.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 38% survival beats unknown odds that could be much worse; avoids ambiguity.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 38% chance to live; the ambiguous urn could be all black, so worst-case is 0%.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under symmetric ignorance a non-informative prior gives ~50% chance of red, which beats the known 38% from the risk urn.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 39% chance to live; ambiguous urn could be worse (even 0%).",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 39% survival; ambiguous could be much lower, with no basis to expect >39%.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference the expected red share is 50%, higher than the known 39% in the risk urn.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 39% chance to live; the ambiguous urn could have far fewer red balls and offers no guaranteed lower bound.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a symmetric (uniform) prior gives an expected 50% red, which exceeds the known 39% in the risk urn.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry/indifference implies ~50% chance of red, which exceeds the known 39% in the risk urn.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 39% chance to live; the ambiguous urn could be all black (0%), so this avoids worst-case ambiguity.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies ~50% red expected, higher than the known 39% in the risk urn.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 39% survival beats an ambiguous probability that could be much lower, including 0% (maximin/ambiguity-averse)",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies a 50% expected chance of red, exceeding the known 39%.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further information, symmetry suggests a 50% expected chance of red\u2014higher than the known 39% in the risk urn.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 39% survival beats an unknown rate that could be arbitrarily low; robust to worst-case ambiguity.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry suggests a 50% red chance on average\u2014better than the known 39% in the risk urn.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With an uninformative (uniform) prior over the red proportion, the expected chance to live is 50%, which exceeds the 39% in the risk urn.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, apply indifference: expected red is 50%, higher than the 39% in the risk urn.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies an expected 50% red, exceeding the known 40% in the risk urn.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance to live; ambiguous could be anywhere 0\u2013100%, and worst-case is 0%, so I avoid ambiguity.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance to live; the ambiguous urn has unknown odds and could be far worse with no guarantee.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance to live; the ambiguous urn could be much worse with no information to expect >40%.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance to live; ambiguous urn could be much worse (even 0%), so safer under worst-case.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance; ambiguous could be 0% red.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no prior info, symmetry implies a 50% expected chance of red, higher than the known 40%.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% survival; ambiguous could be 0%.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance to live; ambiguous urn could have 0% red.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance to live; the ambiguous urn could be 0% red, so I maximize worst-case survival.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance to live; ambiguous urn could be 0%",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance of living; the ambiguous urn could be much worse (even 0%), so I avoid ambiguity in a life-or-death choice.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance to live; ambiguous could be worse (even 0%). Prefer known odds.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance to live; the ambiguous urn could be 0% red in the worst case.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 40% chance to live; ambiguous urn could be arbitrarily bad (minimax favors risk)",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry implies an expected 50% red, which exceeds the known 41%, maximizing survival odds.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral (uniform) prior over the red fraction gives expected P(LIVE)=0.5, higher than 0.41 in the risk urn.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Assuming an uninformative prior, expected red share is 50%, which is higher than the known 41%.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 41% to live; ambiguous could be 0% red\u2014avoid worst-case in life-or-death.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 41% survival; ambiguous could be much worse in the worst case",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 41% survival; ambiguous urn could be much worse, so prefer the robust known probability.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, assign a uniform prior; expected red is 50%, higher than the known 41% in the risk urn.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior gives 50% expected red, higher than the known 41%.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 41% chance; ambiguous urn could be 0% red\u2014worst-case is worse.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 41% success beats an unknown rate that could be worse (avoid worst-case ambiguity)",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry suggests a uniform prior\u2014expected red is 50%, which exceeds the known 41% in the risk urn.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With symmetric ignorance (uninformed prior), expected red is 50%, which exceeds the known 41% in the risk urn.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 41% chance to live; the ambiguous urn could be anywhere down to 0%, so I avoid worst-case ambiguity.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 41% survival beats unknown rate that could be 0%.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 41% chance to live; the ambiguous urn could be 0% red, so the worst-case is worse.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no information, an uninformative prior implies ~50% red, exceeding the known 42% in the risk urn.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 42% chance; ambiguous could be anywhere (even 0%), so I avoid ambiguity and secure at least 42%.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 42% chance; ambiguous could be as low as 0%, so prefer guaranteed odds in high-stakes",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 42% chance to live; ambiguous urn could be much worse in the worst case.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a symmetry/uniform prior implies a 50% chance of red, exceeding the known 42% in the risk urn.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under an impartial prior, the expected red share is 50%, which exceeds the known 42% in the risk urn.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 42% chance to live; the ambiguous urn could be worse (even 0%) with no basis to expect better.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 42% survival; the ambiguous urn could be arbitrarily bad, so I avoid worst-case ambiguity.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior implies ~50% red on average, higher than the 42% in the risk urn.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 42% chance; ambiguity could be worse\u2014safer under worst-case.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By the principle of indifference, the expected red share is 50%, which exceeds the known 42% in the risk urn.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 42% chance; ambiguous could be 0% red\u2014avoids worst-case and ambiguity.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 42% survival beats unknown odds that could be worse.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a uniform prior implies an expected 50% red, which exceeds the known 42% in the risk urn.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 42% survival; the ambiguous urn could be 0% red, so I avoid the worst-case.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a uniform prior over the unknown mix, expected red is 50%, exceeding the known 43%.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, by symmetry (uniform prior) the expected red fraction is 50%, exceeding the known 43% in the risk urn.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no prior info, a neutral prior implies ~50% red on average, exceeding the known 43% chance in the risk urn.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior over splits, expected red is ~50%, higher than the known 43%.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 43% survival; the ambiguous urn could have 0% red, so I avoid ambiguity and secure the guaranteed chance.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies an expected 50% chance of red\u2014higher than the known 43% in the risk urn.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "Worst case for ambiguous is 0% red; risk offers a known 43% chance to live.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 43% chance to live; the ambiguous urn could be much worse in the worst case.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no other info, symmetry/indifference implies an expected 50% red, which beats the known 43% in the risk urn.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "Guarantees a known 43% chance to live; the ambiguous urn could be 0% red.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 43% chance to live; the ambiguous urn could be 0% red, so this maximizes worst-case survival.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 43% survival; the ambiguous urn could be arbitrarily bad, so I avoid worst-case ambiguity.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 43% chance; ambiguous could be as low as 0%, so safer under uncertainty.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, assume a uniform prior over red fraction; expected red probability is 0.5, which exceeds 0.43.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under an ignorance prior, expected red is 50%, higher than the known 43%.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior gives ~50% chance of red, higher than the known 44% in the risk urn.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry with no info (uninformative prior), expected red is ~50%, better than the known 44%.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no adversarial setup and symmetric ignorance, the expected red share is 50%, exceeding the known 44% in the risk urn.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a uniform prior over compositions implies an expected 50% chance of red, higher than the known 44% in the risk urn.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 44% survival beats unknown odds that could be much worse; prefer guaranteed chances over ambiguity.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 44% survival; the ambiguous urn could be much worse (even 0%), so I prefer guaranteed odds.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, use a uniform prior over the red fraction; the expected chance of red is 50%, which exceeds the known 44% in the risk urn.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, use an ignorance prior: expected red share is 50%, which exceeds the 44% in the risk urn.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies about a 50% chance of red on average, which beats the known 44% in the risk urn.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (no info), expect ~50% red; 50% > 44%, so higher survival chance.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a uniform ignorance prior, the expected red fraction is 50%, exceeding the known 44%.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, use a uniform prior over compositions: expected red probability is 50%, which exceeds the 44% in the risk urn.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "Prefer a known 44% chance to live over an unknown probability; protects against worst-case ambiguity.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference the expected red chance is 50%, exceeding the 44% in the risk urn.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 44% chance to live; the ambiguous urn could be much worse, even 0%.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no additional info, a neutral prior implies ~50% red on average, which exceeds the known 45% in the risk urn.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under an ignorance prior, expected red share is 50%, higher than the known 45% in the risk urn.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry/indifference (uniform over splits), expected red is 50%, higher than the known 45%.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 45% survival; ambiguous could be much worse\u2014prefer robust known odds.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 45% chance to live is safer than an unknown split that could be much worse (even 0%).",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By indifference, the expected red share is 50%, which beats the known 45% in the risk urn.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 45% chance to live; ambiguous could be 0% red",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 45% survival; the ambiguous urn could be worse, so choosing risk avoids ambiguity and maximizes worst-case outcome.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 45% chance to live; ambiguous could be worse (even 0%).",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 45% chance to live; ambiguous could be much worse, including 0%.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 45% survival beats unknown odds that could be worse; avoids worst-case ambiguity.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 45% survival; the ambiguous urn could be much worse (even 0%), so I minimize worst-case risk.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under an uninformative prior, expected red is 50%, higher than 45%.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry (uniform prior on red fraction), expected survival is 50%, higher than the known 45% from the risk urn.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies an expected 50% red, which exceeds the known 45% in the risk urn.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a neutral prior, expected red is ~50%, exceeding the known 46%.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The ambiguous urn could have 0% red; the risk urn guarantees a 46% chance to live, which is safer under worst-case uncertainty.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a non-informative prior, expected survival is 50% vs 46% for the risk urn.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 46% survival; ambiguous urn could be far worse\u2014prefer minimizing worst-case risk.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 46% chance to live; the ambiguous urn could be arbitrarily worse (even 0%), so I avoid ambiguity.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 46% chance to live; ambiguous could be 0% red, so worst-case is worse.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 46% survival; ambiguous could be 0%. Prefer avoiding worst-case ambiguity.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 46% survival; the unknown split could be much worse in the worst case.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies a 50% chance of red, which exceeds the known 46% in the risk urn.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Maximizes expected survival: with an uninformative prior the chance of red is ~50%, higher than 46%.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior over compositions, expected red is 50%, higher than the known 46% in the risk urn.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under symmetry/ignorance, expect ~50% red, which beats the known 46% in the risk urn.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under an ignorance prior, expected red share is 50%, which beats the known 46% in the risk urn.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "Guarantees a 46% chance to live; the ambiguous urn could have 0% red, so the robust choice is risk.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a uniform prior on the unknown split, the expected red share is 50%, which exceeds the 46% in the risk urn.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under a neutral (uniform) prior on the unknown mix, expected red is 50%, higher than the known 47% in the risk urn.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 47% chance to live; the ambiguous urn could be much worse, so I avoid ambiguity and minimize worst-case risk.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Uninformative prior \u21d2 expected 50% red vs 47% in risk; higher survival chance.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 47% survival; the ambiguous urn could be far worse and I avoid unknown probabilities in a life-or-death decision.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a uniform prior implies a 50% expected red share, higher than the known 47%.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 47% survival; the ambiguous urn could be worse in the worst case.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 47% survival; the ambiguous urn could be far worse in the worst case.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With a neutral (uniform) prior over the unknown split, the expected chance of red is 50%, higher than 47%.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 47% chance; unknown split could be worse (even 0%), so prefer the risk urn.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 47% survival; ambiguous could be 0%, so safer to maximize worst-case.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 47% chance to live; the ambiguous urn could be much worse, so I prefer the guaranteed odds.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 47% survival; unknown urn could be much worse in the worst case.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 47% chance to live; the ambiguous urn could be much worse (even 0%), so this avoids the worst-case ambiguity.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, symmetry suggests a 50% red chance, which exceeds the known 47%.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Principle of indifference: expected red is 50% vs 47% in the risk urn.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous could be 0% red; risk guarantees a 48% chance to live (minimax).",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 48% chance to live; the ambiguous urn could be all black in the worst case. In life-or-death stakes, I avoid ambiguity.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 48% chance to live; the ambiguous urn could be 0% red, so this minimizes worst-case risk.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under an uninformed prior the expected red share is 50%, higher than the known 48% in the risk urn.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a neutral prior implies a 50% red chance, which beats the known 48% in the risk urn.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 48% survival; ambiguous could be much worse (even 0%). Prefer minimizing worst-case.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 48% survival; the ambiguous urn could be much worse (even 0% red), so I avoid that uncertainty.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 48% survival beats an unknown split that could be 0%; with life-or-death stakes, avoid ambiguity.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, use a uniform prior over the red fraction; expected red is 50%, which beats the 48% in the risk urn.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a neutral prior implies a 50% red share on average, higher than the 48% in the risk urn.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no info, a neutral prior gives ~50% chance of red on average, which exceeds the known 48% in the risk urn.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 48% chance beats unknown; ambiguous could be 0%, so the risk urn is safer under worst-case/ambiguity aversion.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 48% survival; the ambiguous urn could be arbitrarily bad (even 0% red), so risk avoids the worst case.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Higher expected survival under an uninformative prior (about 50% vs 48%).",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 48% survival; the ambiguous urn could be much worse\u2014prefer the known probability in a one-shot life-or-death decision.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Maximize expected survival: with no info, symmetry suggests ~50% red vs 49% in risk.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, symmetry implies a 50% expected red share, which exceeds the known 49% in the risk urn.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "High-stakes, ambiguity-averse: 49% survival is guaranteed; the unknown split could be worse than 49%.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 49% survival; ambiguous could be 0% red\u2014choose guaranteed odds over unknown.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "By symmetry, a noninformative prior implies ~50% chance of red, which exceeds the known 49% in the risk urn.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no further info, a uniform prior gives ~50% chance of red, slightly better than the known 49% in the risk urn.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 49% chance to live; ambiguous urn could be arbitrarily worse (even 0%).",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 49% chance of living; ambiguous could be 0%. In high stakes, prefer the maximin guarantee.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Ambiguous could be 0% red; the risk urn guarantees a known 49% chance to live under worst-case uncertainty.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Under symmetry/ignorance, expected red is 50%, which exceeds the known 49% in the risk urn.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 49% survival beats an unknown rate that could be arbitrarily low; in life-or-death stakes I avoid ambiguity and worst-case exposure.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "With no information, a symmetric prior implies a 50% chance of red, which beats the known 49% in the risk urn.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 49% chance; ambiguous could be 0%.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 49/51 odds; ambiguous could have 0 red. Minimizes worst-case risk.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Guarantees 49% chance to live; the unknown urn could be arbitrarily worse (even 0%).",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% chance to live; the ambiguous urn could be worse, so I avoid ambiguity.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Unknown composition could be all black; risk urn guarantees a 50% chance to live.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% survival; ambiguous urn could be worse.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% chance to live; the ambiguous urn could be much worse in the worst case.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% chance of living; the ambiguous urn could be worse than 50%.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50/50 chance; the ambiguous urn could be worse (even 0% red).",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% chance; ambiguous urn could be worse than 50%.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% chance to live; ambiguous could be 0%, so safer.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% chance to live; ambiguity could be worse. Prefer transparent odds in a life\u2011or\u2011death choice.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50/50 chance; the ambiguous urn could be all black, so this ensures at least a 50% chance to live.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% chance to live; the ambiguous urn could have 0% red, so minimax/ambiguity aversion favors the risk urn.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% chance of living; the ambiguous urn could be worse (even 0% red) with no information.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% chance to live; the ambiguous urn could be worse.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50/50 chance; the ambiguous urn could be mostly black, making worst-case much worse.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known 50% chance to live; unknown split could be worse (even 0%).",
+      "red_known": 50,
+      "black_known": 50
+    }
+  ]
+}

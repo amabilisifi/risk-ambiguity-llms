@@ -1,0 +1,1488 @@
+{
+  "model": "gpt-4o-mini",
+  "timestamp": "20250909_214843",
+  "configuration": {
+    "total_balls": 100,
+    "max_red": 15,
+    "reps_each": 15,
+    "threshold": 0.5
+  },
+  "summary": {
+    "ambiguous_range": [],
+    "total_records": 225
+  },
+  "percentage_breakdown": {
+    "1": {
+      "red_balls": 1,
+      "survival_chance": "1.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "2": {
+      "red_balls": 2,
+      "survival_chance": "2.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "3": {
+      "red_balls": 3,
+      "survival_chance": "3.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "4": {
+      "red_balls": 4,
+      "survival_chance": "4.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "5": {
+      "red_balls": 5,
+      "survival_chance": "5.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "6": {
+      "red_balls": 6,
+      "survival_chance": "6.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "7": {
+      "red_balls": 7,
+      "survival_chance": "7.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "8": {
+      "red_balls": 8,
+      "survival_chance": "8.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "9": {
+      "red_balls": 9,
+      "survival_chance": "9.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "10": {
+      "red_balls": 10,
+      "survival_chance": "10.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "11": {
+      "red_balls": 11,
+      "survival_chance": "11.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "12": {
+      "red_balls": 12,
+      "survival_chance": "12.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "13": {
+      "red_balls": 13,
+      "survival_chance": "13.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "14": {
+      "red_balls": 14,
+      "survival_chance": "14.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "15": {
+      "red_balls": 15,
+      "survival_chance": "15.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    }
+  },
+  "all_records": [
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (1%), which is better than the unknown probability of the ambiguous urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (1%) of drawing a red ball, whereas the ambiguous urn's probability is uncertain and could be worse.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a clear 1% chance of success, while the ambiguous urn could have a much lower chance of drawing a red ball.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known outcome, ensuring a 1% chance of survival compared to the unknown proportions in the ambiguous urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is 1% in the ambiguous urn, while it is 1% in the risk urn, but the risk urn has a clear outcome.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (1% chance of drawing red), while the ambiguous urn has an unknown split, making it potentially riskier.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known 1% chance of survival, while the ambiguous urn has an unknown ratio which could potentially be worse.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (1% chance of drawing red), while the ambiguous urn's probability is indeterminate.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a clear, fixed probability of survival (1% chance of drawing a red ball), while the ambiguous urn's probability is unknown and could be worse.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 1 in 100 chance compared to the unknown split in the ambiguous urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (1% chance of drawing a red ball), while the ambiguous urn has an unknown ratio that could be worse.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (1%), while the ambiguous urn's probability is uncertain.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known and favorable ratio, ensuring I have a 1% chance of survival.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a live ball (1%). The ambiguous urn has an unknown probability which could be worse.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of 1% to draw a red ball, ensuring a chance of survival.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of success, which is 2% for drawing a red ball, while the ambiguous urn has an unknown probability.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (2% chance to live), whereas the ambiguous urn has an unknown probability that could be worse.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (2%) of drawing a red ball, providing a clear and quantifiable risk, while the ambiguous urn could have an unknown ratio that may significantly lower the chance of survival.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn guarantees that I have a known 2% chance of survival.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known probabilities, providing a clear 2% chance of survival compared to the unknown probabilities in the ambiguous urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known composition, providing a definite survival probability of 2% instead of an unknown risk.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, whereas the ambiguous urn has an unknown ratio that could be worse.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known outcome with a defined probability of survival (2% chance to live), whereas the ambiguous urn has an unknown probability, which could be lower.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (2 out of 100), while the ambiguous urn's ratio is uncertain and could potentially be much worse.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, while the ambiguous urn has an unknown ratio of red to black balls.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (2% chance of drawing red), while the ambiguous urn has an unknown probability, potentially leading to a higher chance of dying.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (2% chance of drawing a red ball), while the ambiguous urn has an unknown distribution, potentially leading to a higher chance of drawing a black ball.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn guarantees a 2% chance of survival, whereas the ambiguous urn has an unknown probability of drawing a red ball.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "It has a known outcome with 2 guaranteed red balls, making survival certain.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known outcome with a 2% chance of survival, guaranteeing that I will not die instantly unlike the ambiguous urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of surviving (3% chance), while the ambiguous urn has an unknown probability.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (3% chance of red), while the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known outcome with a 3% chance of survival, while the ambiguous urn has an unknown ratio which could be worse.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, whereas the ambiguous urn has an unknown distribution of red and black balls.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball, maximizing the chance of survival.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability of survival (3% chance) as opposed to the ambiguous urn with an unknown ratio.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known outcome with guaranteed odds of survival (3% for red) compared to the unknown probabilities in the ambiguous urn.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (3% chance to live), while the ambiguous urn has an unknown and potentially lower survival probability.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (3% chance), while the ambiguous urn has an unknown probability, which could potentially be lower.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known composition, providing a clear probability of survival.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known outcome with a 3% chance of living, while the ambiguous urn has an unknown ratio, which could potentially lead to no chance of survival.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (3%), providing a clear expectation rather than uncertainty.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (3% chance to live), while the ambiguous urn has an unknown probability, which could be as low as 0%.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known and favorable ratio of red to black balls, ensuring a 3% chance of survival.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known and fixed ratio of red to black balls, providing a clear and calculable probability of survival.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (4% chance), whereas the ambiguous urn has an unknown and potentially lower chance.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a clear probability of drawing a red ball, which is 4% in comparison to the unknown ratio of the ambiguous urn, which could be worse.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (4% chance of drawing a red ball), whereas the ambiguous urn has an unknown and potentially lower probability.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of winning, with a fixed 4% chance of drawing a red ball.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (4% chance to live) while the ambiguous urn has an unknown probability.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (4% chance), while the ambiguous urn has an unknown probability which could be worse.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known 4% chance of survival, while the ambiguous urn's survival rate is unknown and potentially worse.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known ratio of live to die balls, maximizing the chance of survival.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (4% chance), while the ambiguous urn's proportion is unknown.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, which is better than an unknown outcome.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (4%) versus the ambiguous urn which has an unknown probability.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, which is higher due to the certainty of having 4 red balls.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (4% chance of drawing a red ball), while the ambiguous urn has an unknown split, potentially leading to a higher chance of death.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known distribution, providing a clear probability of survival.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (4% chance), whereas the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a clear and known probability of survival.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (5% chance of drawing a red ball), while the ambiguous urn has an unknown probability that could be zero.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (5% chance of drawing a red ball), whereas the ambiguous urn has an unknown distribution that could result in 0% chance.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (5% chance), while the ambiguous urn has an unknown probability which could be significantly lower.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (5% chance of drawing a red ball), whereas the ambiguous urn has an unknown probability which could be worse.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (5%).",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival based on the exact distribution of balls.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of winning (5% chance of drawing a red ball), while the ambiguous urn has an unknown probability, which may be worse.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 5% chance of drawing a red ball.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (5% chance of drawing a red ball), while the ambiguous urn has an unknown probability, which could be as low as 0%.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known distribution, allowing for a calculated probability of survival.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known and favorable probability of survival (5% chance of drawing a red ball), while the ambiguous urn has an unknown ratio which could be less favorable.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (5% chance to live), while the ambiguous urn has an unknown and potentially worse outcome.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (5%) which is better than the unknown probability of the ambiguous urn.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known and favorable.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (6% chance to live), while the ambiguous urn's split is unknown, potentially leading to a higher risk of death.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known ratio, providing a clear probability of survival.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (6% chance), while the ambiguous urn has an unknown distribution leading to potential arbitrary outcomes.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is clear and favorable (6% chance of dying) compared to the ambiguous urn.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, whereas the ambiguous urn has an unknown mix of balls.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (6% chance of drawing red).",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (6% chance), while the ambiguous urn has an unknown probability.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of success (6% chance of drawing a red ball), while the ambiguous urn has an unknown probability which may be worse.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (6% chance), while the ambiguous urn has an unknown split which could result in a higher likelihood of death.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (6% chance of drawing a red ball), while the ambiguous urn has an unknown split that could be worse.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known outcome with a guaranteed probability of drawing 6% red balls, while the ambiguous urn has an unknown split leading to uncertainty.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known and favorable probability of living (6% chance of drawing a red ball), whereas the ambiguous urn has an unknown and potentially unfavorable probability.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (6%) which is better than the unknown odds of the ambiguous urn.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (6% chance of drawing a red ball), while the ambiguous urn has an unknown probability.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (7% chance of drawing a red ball), while the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known ratio of red to black balls, maximizing the chance of survival.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (7% chance to live), whereas the ambiguous urn has an unknown probability.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability of living (7% chance) unlike the ambiguous urn which has an unknown ratio.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (7% chance to draw a red ball), while the ambiguous urn has an unknown and potentially lower survival rate.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (7% chance to live), while the ambiguous urn's probabilities are unknown and potentially worse.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known probabilities, providing a clear 7% chance of survival.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a definite probability (7%) of drawing a red ball, while the ambiguous urn has an unknown distribution that could be worse.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known probabilities, maximizing the chance of survival.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 7 red balls out of 100 total balls.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with a 7% chance of drawing a red ball, while the ambiguous urn has an unknown probability.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (7% chance) while the ambiguous urn has an unknown probability.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a clear and known probability of survival.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (7% chance to live).",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known proportions, maximizing the probability of drawing a red ball.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, which is 8%.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (8% chance), which is better than the unknown probability of the ambiguous urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (8% chance to live). The ambiguous urn's split is unknown, which could potentially lead to a higher risk of dying.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (8% chance to live) compared to the unknown probability of the ambiguous urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of 8% to survive, while the ambiguous urn has an unknown probability which could be lower.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball, which is higher than the unknown split of the ambiguous urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (8% chance of drawing a red ball), while the ambiguous urn has an unknown probability.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (8% chance to live), while the ambiguous urn has an unknown and potentially lower chance.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a fixed probability of survival (8%) which is better than the unknown ratio in the ambiguous urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known and favorable ratio of red to black balls, maximizing the probability of survival.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (8% chance of drawing a red ball), while the ambiguous urn has an unknown probability.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known better probability for survival (8% vs unknown odds).",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (8% for red), while the ambiguous urn could have a much lower probability.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (8% chance), while the ambiguous urn has an unknown probability which could be zero.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, providing certainty in decision-making.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known distribution, allowing for a 9% chance of survival, while the ambiguous urn has an unclear probability of survival.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (9% chance to draw a red ball), whereas the ambiguous urn's chances are uncertain.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with a higher chance of drawing a red ball.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known quantity of red and black balls, providing a 9% chance of survival, while the ambiguous urn could potentially have a notably lower chance of drawing a red ball.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a defined probability of drawing a red ball, which is 9%.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a clear probability of surviving (9% chance of drawing a red ball), while the ambiguous urn's proportions are unknown and could lead to a greater risk.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a defined probability of survival (9% chance of drawing a red ball), while the ambiguous urn has an unknown probability.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known distribution, providing a 9% chance of drawing a red ball, whereas the ambiguous urn has an unknown probability which could be lower.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (9% chance of drawing a red ball), which is better than an unknown distribution.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (9% chance to live), while the ambiguous urn has an unknown and potentially worse probability.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 9% chance of drawing a red ball.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known ratio, giving a clear probability of survival.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 9% chance, while the ambiguous urn has an unknown probability.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and favorable with 9 red balls out of 100.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (9% chance of drawing a red ball), while the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (10% chance of drawing a red ball), while the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (10% chance to live), while the ambiguous urn has an unknown and potentially lower probability.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a definite probability of survival (10% chance), while the ambiguous urn has an unknown probability.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "Option B provides a known probability of survival (10% chance to live), while Option A's probabilities are uncertain.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known proportion of red and black balls, providing a clear probability of survival.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (10% chance to draw red), while the ambiguous urn has an unknown probability, potentially leading to higher risk.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball, which is 10%, whereas the ambiguous urn's probability is uncertain.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (10% chance to live), whereas the ambiguous urn has an unknown probability.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has fixed odds of survival (10% chance), while the ambiguous urn has an unknown ratio that could be worse.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of 10% to draw a red ball, which is preferable to the uncertainty of the ambiguous urn.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (10%) which is better than the uncertainty of the ambiguous urn.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known; there is a 10% chance of drawing a red ball compared to an unknown probability in the ambiguous urn.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of success, offering a 10% chance of drawing a red ball and surviving, whereas the ambiguous urn has an unknown distribution, which may have a higher or lower chance than that.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a defined probability of survival (10% chance to live) compared to the unknown probabilities of the ambiguous urn.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival at 10%, while the ambiguous urn has an unknown probability which could be worse.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (11% chance to live), while the ambiguous urn has an unknown and potentially lower chance.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (11% chance), while the ambiguous urn has an unknown probability.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 11% chance of drawing a red ball.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (11 out of 100), whereas the ambiguous urn's ratio is unknown and could be worse.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a clear probability of survival (11% chance to draw a red ball), while the ambiguous urn's proportions are unknown and could be worse.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known ratio of red to black balls, providing a clear probability of survival.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known distribution of balls, allowing for calculated risk assessment.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, providing a clear advantage over an unknown distribution.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 11% chance of drawing a live ball.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known distribution of balls, allowing for a calculated chance of survival.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of success (11% for red), whereas the ambiguous urn has an unknown probability.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (11% chance) compared to the ambiguous urn with unknown odds.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 11% chance to draw a red ball.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known composition of 11 red balls and 89 black balls, providing a clear probability of survival.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of surviving is known and specifically favorable with 12% chance to live.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, which is better than the uncertainty of the ambiguous urn.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 12 red and 88 black balls, providing a clear chance of drawing a red ball.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, which is 12%.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (12% chance of drawing a red ball), while the ambiguous urn has an uncertain distribution which could be worse.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (12% chance), while the ambiguous urn has an unknown ratio which could be worse.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known ratio of balls, providing a clear probability of survival.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known distribution of balls, providing a clear probability of survival.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (12 out of 100), which is greater than the unknown probability of the ambiguous urn.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (12%) whereas the ambiguous urn has an unknown probability.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known probabilities, providing a higher chance of survival with 12% chance to live.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball, which is 12%.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 12% chance to draw a red ball.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (12% chance to live) compared to the ambiguous urn where the probabilities are entirely unknown.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of 12% to draw a red ball, while the ambiguous urn has an unknown probability which could be lower.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (13% chance to live), while the ambiguous urn's probability is uncertain.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of surviving, which is significantly better than the unknown probability of the ambiguous urn.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (13%), which is better than the uncertain odds of the ambiguous urn.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (13% chance), while the ambiguous urn has an unknown probability.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known probabilities, with a clear chance of survival by drawing a red ball.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, which is 0.13, whereas the ambiguous urn has an unknown probability.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known distribution, maximizing the chance of drawing a red ball.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (13% chance to live), whereas the ambiguous urn has an unknown split, which could potentially be worse.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (13% chance to live) whereas the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of success (13% chance of survival), while the ambiguous urn has an unknown probability.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of success (13% for red), whereas the ambiguous urn has an unknown split, potentially leading to a higher chance of drawing a black ball.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (13% chance to live) compared to the ambiguous urn where the split is unknown and could potentially be worse.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn guarantees a specific probability of survival (13% chance for red), while the ambiguous urn has an unknown distribution that could lead to a higher chance of dying.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (13% chance to live), while the ambiguous urn has an unknown and potentially very low probability.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The outcome is certain with a known probability of survival (13% chance to live).",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (14% chance of drawing a red ball), whereas the ambiguous urn's probability is unknown and could be worse.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (14% chance of drawing a red ball), whereas the ambiguous urn has an unknown split which could lead to a higher risk.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival with 14% chance to draw a red ball.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (14% chance to live), whereas the ambiguous urn has an unknown probability, which could potentially be lower.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (14% chance) compared to the ambiguous urn where the chance of drawing a red ball is unknown.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "Option B provides a known probability of survival, whereas Option A has an unknown distribution that could be highly unfavorable.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of success with 14% chance of drawing a red ball.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (14% chance), while the ambiguous urn has an unknown split, which may have a higher risk.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (14% chance), while the ambiguous urn has an unknown and potentially lower chance.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (14% chance of drawing a red ball) compared to the ambiguous urn where the survival probability is uncertain.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (14% chance of drawing a red ball), while the ambiguous urn has an unknown and potentially lower probability.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known and favorable probability of survival (14% chance vs unknown in ambiguous).",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known probabilities, allowing for informed decision-making.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The proportions of red and black balls in the risk urn are known, providing a clear probability of survival.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (14% chance to live), whereas the ambiguous urn has an unknown and potentially lower chance.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (15% red), while the ambiguous urn has an unknown probability which could be worse.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a clear known probability of survival (15% chance) compared to the uncertain risk of the ambiguous urn.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a clear probability (15%) of drawing a red ball, while the ambiguous urn has an unknown probability.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known probabilities, providing a 15% chance of survival, while the ambiguous urn has an unknown and potentially lower chance.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides known probabilities for survival, making the outcome predictable.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (15%) whereas the ambiguous urn's probability is uncertain.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of 15% to live, while the ambiguous urn has an unknown probability which could be lower.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival, which is 15%.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of 15% to draw a red ball, which allows for a calculable risk assessment, unlike the ambiguous urn with an unknown ratio.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (15% chance of drawing a red ball), whereas the ambiguous urn has an unknown distribution that could be worse.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (15%), while the ambiguous urn has an unknown probability.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (15% chance of drawing a red ball), whereas the ambiguous urn has an unknown probability, which could be 0%.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (15%). The ambiguous urn has an unknown ratio which could be worse.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of success (15% chance to live), whereas the ambiguous urn has an unknown split which could lead to a higher chance of death.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of drawing a red ball (15%), while the ambiguous urn's probabilities are unknown.",
+      "red_known": 15,
+      "black_known": 85
+    }
+  ]
+}

@@ -1,0 +1,4920 @@
+{
+  "model": "gpt-4o",
+  "timestamp": "20250920_134759",
+  "experiment_type": "neutral",
+  "persona_used": false,
+  "configuration": {
+    "total_balls": 100,
+    "max_red": 50,
+    "reps_each": 15,
+    "threshold": 0.5
+  },
+  "summary": {
+    "ambiguous_range": [],
+    "total_records": 750
+  },
+  "percentage_breakdown": {
+    "1": {
+      "red_balls": 1,
+      "survival_chance": "1.0%",
+      "ambiguous_count": 2,
+      "risk_count": 13,
+      "ambiguous_percentage": 0.13333333333333333,
+      "preferred": "risk"
+    },
+    "2": {
+      "red_balls": 2,
+      "survival_chance": "2.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "3": {
+      "red_balls": 3,
+      "survival_chance": "3.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "4": {
+      "red_balls": 4,
+      "survival_chance": "4.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "5": {
+      "red_balls": 5,
+      "survival_chance": "5.0%",
+      "ambiguous_count": 1,
+      "risk_count": 14,
+      "ambiguous_percentage": 0.06666666666666667,
+      "preferred": "risk"
+    },
+    "6": {
+      "red_balls": 6,
+      "survival_chance": "6.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "7": {
+      "red_balls": 7,
+      "survival_chance": "7.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "8": {
+      "red_balls": 8,
+      "survival_chance": "8.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "9": {
+      "red_balls": 9,
+      "survival_chance": "9.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "10": {
+      "red_balls": 10,
+      "survival_chance": "10.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "11": {
+      "red_balls": 11,
+      "survival_chance": "11.0%",
+      "ambiguous_count": 1,
+      "risk_count": 14,
+      "ambiguous_percentage": 0.06666666666666667,
+      "preferred": "risk"
+    },
+    "12": {
+      "red_balls": 12,
+      "survival_chance": "12.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "13": {
+      "red_balls": 13,
+      "survival_chance": "13.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "14": {
+      "red_balls": 14,
+      "survival_chance": "14.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "15": {
+      "red_balls": 15,
+      "survival_chance": "15.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "16": {
+      "red_balls": 16,
+      "survival_chance": "16.0%",
+      "ambiguous_count": 0,
+      "risk_count": 14,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "17": {
+      "red_balls": 17,
+      "survival_chance": "17.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "18": {
+      "red_balls": 18,
+      "survival_chance": "18.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "19": {
+      "red_balls": 19,
+      "survival_chance": "19.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "20": {
+      "red_balls": 20,
+      "survival_chance": "20.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "21": {
+      "red_balls": 21,
+      "survival_chance": "21.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "22": {
+      "red_balls": 22,
+      "survival_chance": "22.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "23": {
+      "red_balls": 23,
+      "survival_chance": "23.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "24": {
+      "red_balls": 24,
+      "survival_chance": "24.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "25": {
+      "red_balls": 25,
+      "survival_chance": "25.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "26": {
+      "red_balls": 26,
+      "survival_chance": "26.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "27": {
+      "red_balls": 27,
+      "survival_chance": "27.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "28": {
+      "red_balls": 28,
+      "survival_chance": "28.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "29": {
+      "red_balls": 29,
+      "survival_chance": "29.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "30": {
+      "red_balls": 30,
+      "survival_chance": "30.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "31": {
+      "red_balls": 31,
+      "survival_chance": "31.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "32": {
+      "red_balls": 32,
+      "survival_chance": "32.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "33": {
+      "red_balls": 33,
+      "survival_chance": "33.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "34": {
+      "red_balls": 34,
+      "survival_chance": "34.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "35": {
+      "red_balls": 35,
+      "survival_chance": "35.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "36": {
+      "red_balls": 36,
+      "survival_chance": "36.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "37": {
+      "red_balls": 37,
+      "survival_chance": "37.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "38": {
+      "red_balls": 38,
+      "survival_chance": "38.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "39": {
+      "red_balls": 39,
+      "survival_chance": "39.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "40": {
+      "red_balls": 40,
+      "survival_chance": "40.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "41": {
+      "red_balls": 41,
+      "survival_chance": "41.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "42": {
+      "red_balls": 42,
+      "survival_chance": "42.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "43": {
+      "red_balls": 43,
+      "survival_chance": "43.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "44": {
+      "red_balls": 44,
+      "survival_chance": "44.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "45": {
+      "red_balls": 45,
+      "survival_chance": "45.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "46": {
+      "red_balls": 46,
+      "survival_chance": "46.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "47": {
+      "red_balls": 47,
+      "survival_chance": "47.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    },
+    "48": {
+      "red_balls": 48,
+      "survival_chance": "48.0%",
+      "ambiguous_count": 1,
+      "risk_count": 14,
+      "ambiguous_percentage": 0.06666666666666667,
+      "preferred": "risk"
+    },
+    "49": {
+      "red_balls": 49,
+      "survival_chance": "49.0%",
+      "ambiguous_count": 1,
+      "risk_count": 14,
+      "ambiguous_percentage": 0.06666666666666667,
+      "preferred": "risk"
+    },
+    "50": {
+      "red_balls": 50,
+      "survival_chance": "50.0%",
+      "ambiguous_count": 0,
+      "risk_count": 15,
+      "ambiguous_percentage": 0.0,
+      "preferred": "risk"
+    }
+  },
+  "all_records": [
+    {
+      "choice": "risk",
+      "reason": "Known probability of survival is preferable to uncertainty.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "The probability in the ambiguous urn could be more favorable than the known 1% chance in the risk urn.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, with a 1% chance of survival, while the ambiguous urn has an unknown split, making it impossible to evaluate its odds.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 1% in the risk urn, whereas the ambiguous urn lacks sufficient information to assess the odds.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is explicitly known to be 1% in the risk urn, whereas the ambiguous urn offers no clarity on the odds, making it less predictable.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are clear, offering a 1% chance to live, while the ambiguous urn lacks any known probability distribution.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known and transparent, providing a clear 1% chance of survival, whereas the ambiguous urn presents uncertainty with potentially worse odds.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for a clear evaluation of the odds.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable as 1%, whereas the ambiguous urn carries unknown and potentially unfavorable odds.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clear basis for decision-making, while the ambiguous urn creates uncertainty with potentially worse odds.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for informed decision-making, whereas the ambiguous urn introduces uncertainty about the odds of survival.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "There is a possibility the ambiguous urn has a more favorable split compared to the risk urn's 1% chance of survival.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for better assessment of survival odds, which are clearly defined as 1%.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is explicitly 1% in the risk urn, while the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability of survival (1%), whereas the ambiguous urn's probabilities are unknown and could potentially be worse.",
+      "red_known": 1,
+      "black_known": 99
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability of survival (2%), whereas the ambiguous urn presents uncertainty regarding the odds.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 2% in the risk urn, whereas the ambiguous urn lacks sufficient information to assess the likelihood of survival.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known 2% chance of survival, whereas the ambiguous urn involves uncertainty about the odds, which could be worse.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is explicitly known to be 2% in the risk urn, while the ambiguous urn provides no information on the probability, making the risk urn the more rational choice based on available data.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and calculable (2% chance to live), while the ambiguous urn provides no information on probabilities.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known and calculable, ensuring more informed decision-making.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probability of survival (2%) is preferable over an unknown distribution of outcomes.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probability of survival is known (2%) as opposed to the ambiguous urn where the odds are uncertain.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (2%) compared to the complete uncertainty of the ambiguous urn.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined at 2% in the risk urn, whereas the ambiguous urn's survival probability is unknown and could be worse.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact odds of survival are known to be 2% in the risk urn, whereas the ambiguous urn could potentially have worse odds.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known and explicit (2%), whereas the ambiguous urn provides no information about the probability distribution.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making (2% chance to live).",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The known odds of 2% are preferable to the uncertainty of an unknown distribution.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (2%) and not left to ambiguity.",
+      "red_known": 2,
+      "black_known": 98
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known and can be evaluated, while the ambiguous urn carries uncertainty about the ratio.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds of survival (3%) are known and quantifiable, whereas the ambiguous urn presents an unknown risk which could be worse.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (3%) and not left to uncertainty.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a clearer basis for decision-making, and the chance of survival (3%) is clear.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds of survival are known and quantifiable at 3%, whereas the ambiguous urn carries an uncertainty that could result in worse odds.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "Probability of survival is known and quantifiable (3%).",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known to be 3% in the risk urn, while the probability is completely uncertain in the ambiguous urn.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known (3%) in the risk urn, while the ambiguous urn's probabilities are uncertain.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probability of survival is known (3%), which is preferable to unknown odds.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making, despite unfavorable odds.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (3%) compared to the ambiguity of Option A.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known to be 3% in the risk urn, whereas the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clear, though low, chance of survival.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and quantifiable, making it easier to assess the risk.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, allowing for an informed decision.",
+      "red_known": 3,
+      "black_known": 97
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision (4% chance to live).",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and I can assess the exact risk.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (4% in the risk urn) compared to the ambiguous urn, where it could be worse or better but is uncertain.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known odds (4% chance to live), while the ambiguous urn has uncertain probabilities, which could be worse than the risk urn.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known (4% live), providing certainty compared to the ambiguous distribution.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (4%) and calculable, while the ambiguous urn has an uncertain probability that could potentially be worse.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, providing clarity and allowing informed decision-making.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known (4%) in the risk urn, while the ambiguous urn lacks information to make an informed decision.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is certain and known (4%), whereas the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (4%) is known, unlike the ambiguous urn where the split is uncertain.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable (4%).",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is certain (4%); the ambiguous urn lacks any known likelihood of survival.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and verifiable, ensuring a consistent 4% chance of survival.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is 4% and known, while the ambiguous urn may have a worse probability or better, but the lack of information leads to choosing the known risk.",
+      "red_known": 4,
+      "black_known": 96
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and favor making an informed decision.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are clearly defined, providing a known 5% chance of survival, whereas the ambiguous urn's split is uncertain and could potentially be worse.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and offer greater certainty of outcomes.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (5%) in the risk urn, whereas the ambiguous urn lacks sufficient information to assess the likelihood of survival.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "Known odds provide clarity, ensuring a 5% chance of survival, whereas the ambiguous urn carries uncertainty, which could be worse than 5%.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds of survival are known and can be calculated as 5%.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined (5% chance to live), reducing uncertainty compared to the ambiguous urn.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "There is a chance the 100 balls could favor red more than the known 5% in the risk urn.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantified as 5%.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined at 5%, making it more predictable compared to the unknown odds of the ambiguous urn.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clear and quantifiable at 5%.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, opting for known odds of survival.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and less uncertain, allowing for a clear assessment of the odds.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clear and quantifiable at 5%.",
+      "red_known": 5,
+      "black_known": 95
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering clarity over an unknown distribution.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (6%) compared to the uncertainty of the ambiguous urn.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known and quantifiable (6%), unlike the ambiguous urn, which has uncertain probabilities.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known (6% chance to live), while the ambiguous urn lacks sufficient information to evaluate its risk.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (6% chance of drawing red) in the risk urn, whereas the survival probability in the ambiguous urn is completely unknown.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, providing a known 6% chance of survival.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, allowing for informed decision-making.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probabilities in the risk urn provide clarity and allow for an informed decision based on the 6% chance of survival.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities of survival are known and favorable with risk urn, providing a clear assessment of the odds.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for informed decision-making.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides known odds (6% chance of survival), whereas the ambiguous urn has uncertain probabilities which could potentially be worse.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing clearer evaluation of survival chances.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a clearer basis for decision-making under uncertainty.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known to be 6% in the risk urn, whereas the ambiguous urn provides no clarity on the odds.",
+      "red_known": 6,
+      "black_known": 94
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probability of survival (7%) is preferable to an unknown probability.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing clarity on the odds of survival.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favorable compared to the worst-case scenario of the ambiguous urn.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing clarity and a calculable survival chance of 7%.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (7%) and quantifiable, unlike the ambiguous urn where uncertainty exists regarding the red-black split.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known probabilities, which allows for informed decision-making (7% chance to live).",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are clear and known, offering a 7% chance to live, while the ambiguous urn carries uncertainty without any information to suggest better odds.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is explicitly 7% in the risk urn, while the ambiguous urn lacks information to calculate the odds.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known to be 7% with certainty in the risk urn, whereas the ambiguous urn has an unknown probability distribution that could potentially result in a worse outcome.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be calculated, providing a clear chance of survival.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known (7%) and can be quantified, whereas the ambiguous urn has an unknown probability, introducing greater uncertainty.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The precise probabilities are known, allowing for a clear evaluation of the odds.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, and the chance of survival (7%) is clear.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability of survival (7%), while the ambiguous urn's probability is unknown and could potentially be worse.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities (7% chance to live) are preferred over ambiguous odds.",
+      "red_known": 7,
+      "black_known": 93
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and more predictable in the risk urn, providing a clear 8% chance of survival compared to the unknown odds of the ambiguous urn.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (8%), whereas the ambiguous urn carries unknown probabilities, which could be worse.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, providing a clear decision-making basis.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, ensuring a 8% chance to live, while the ambiguous urn lacks clarity on the odds, which could result in less favorable outcomes.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities (8% chance to live) are preferable to uncertainty.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and calculable at 8%, while the ambiguous urn provides no certainty about the odds.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is quantifiable at 8%, whereas the ambiguous urn presents unpredictable odds.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides clear probabilities (8% chance of survival), while the ambiguous urn has unknown odds.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, while the ambiguous urn has unknown odds.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and calculable, providing more certainty.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined at 8%, providing a known outcome over uncertainty.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, and the chance of survival is calculable at 8%.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 8,
+      "black_known": 92
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering clarity with a 9% chance of living.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (9%) with the risk urn, while the ambiguous urn provides no clarity on the odds.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a calculated decision with a 9% chance to live.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds of survival are known and clearly defined.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a clear assessment of survival odds.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and verifiable, providing a quantifiable 9% chance to live.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making (9% chance to live).",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and can be calculated as 9% in the risk urn, whereas the ambiguous urn carries uncertainty about the odds.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (9%) compared to complete uncertainty in the ambiguous urn.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for better evaluation of the odds.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, while the ambiguous urn lacks sufficient information to evaluate the odds.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and known, allowing for informed decision-making.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and offer a definite 9% chance of survival.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (9% chance to live), whereas the ambiguous urn has an unknown distribution, which could include worse probabilities.",
+      "red_known": 9,
+      "black_known": 91
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 10% and is not subject to uncertainty.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for a clear assessment of risk, unlike the ambiguous urn.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for better decision-making.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability (10%) of survival, while the ambiguous urn's probability is uncertain, making it riskier to choose.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 10% in the risk urn, whereas the ambiguous urn provides no information about the probabilities, making it impossible to evaluate the risk.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be evaluated, providing a clearer basis for decision-making.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known to be 10%, whereas the ambiguous urn's split is uncertain, making it less predictable.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for an informed decision, while the ambiguous urn has uncertain odds that could be worse.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball (LIVE) is known to be 10% in the risk urn, while the ambiguous urn provides no information about the probability, making it uncertain.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for a more informed decision.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and allow for a clearer assessment of survival likelihood.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known (10% chance to live), while the ambiguous urn has an uncertain distribution of red and black balls.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is explicitly known (10%) in the risk urn, whereas the ambiguous urn has an unknown distribution, potentially offering a less favorable scenario.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 10% in the risk urn, while the ambiguous urn offers no information about the odds, making it impossible to evaluate the risk accurately.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, making the outcome predictable.",
+      "red_known": 10,
+      "black_known": 90
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (11%), whereas the ambiguous urn's odds are uncertain, which could be worse.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clear assessment of survival odds.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is certain and calculable (11%), whereas the ambiguous urn has uncertainty about the probability of survival.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "Potential for a better probability of survival due to lack of information on the red/black split.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing a clear assessment of risk.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for a calculated decision based on risk.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds of survival are explicitly defined (11%) in the risk urn, whereas the ambiguous urn carries uncertainty about the chances of survival.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability of survival (11%), while the ambiguous urn offers no information about the odds.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities of survival are known, and the chance of drawing a red ball is 11%, which provides certainty compared to the ambiguity of the unknown split in the ambiguous urn.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable (11%) compared to the complete uncertainty of the ambiguous urn.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 11% chance of survival.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are explicitly known, allowing informed decision-making with an 11% chance of survival.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be evaluated as 11% chance to live, unlike the ambiguous urn where the odds are uncertain.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor informed decision-making.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clear assessment of risk.",
+      "red_known": 11,
+      "black_known": 89
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide certainty, allowing for an informed decision.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival with the risk urn is known (12%), whereas the probability with the ambiguous urn is uncertain and could be worse.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is certain at 12% whereas the ambiguous urn has an unknown probability that could be worse.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 12% chance of survival.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be evaluated, providing clarity in decision-making.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and quantifiable, offering a 12% chance of survival, whereas the ambiguous urn provides no clarity on odds.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are explicit and provide a known 12% chance of survival, whereas the split in the ambiguous urn is unknown and could potentially be worse.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probability of survival (12%) in the risk urn is preferable to the uncertainty of the ambiguous urn.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (12%) and can be calculated, whereas the ambiguous urn provides no information about odds, introducing unnecessary uncertainty.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and known, reducing uncertainty.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making (12% chance of survival).",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 12% chance to live.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (12%) compared to the uncertainty of the ambiguous urn.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for an informed decision, and the chance of drawing a red ball is calculable at 12%.",
+      "red_known": 12,
+      "black_known": 88
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds of survival are known and calculable as 13%.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and quantifiable, providing a clear basis for decision-making.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are certain and quantifiable in the risk urn, eliminating ambiguity.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a clear assessment of survival chances.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known (13%) and can be calculated, eliminating uncertainty.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, offering a 13% chance of survival, unlike the ambiguous urn with unknown odds.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known 13% chance of survival, while the ambiguous urn's probability is uncertain and could be worse.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for clearer evaluation of the odds.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for better decision-making with a clear 13% chance of survival.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, allowing for a more informed decision.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing clarity for decision-making.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clearer basis for decision-making.",
+      "red_known": 13,
+      "black_known": 87
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known to be 14% in the risk urn, whereas the probability is entirely unknown in the ambiguous urn, leading to unnecessary uncertainty.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known with 14% chance of survival, while the ambiguous urn provides no clarity about probabilities.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, offering a 14% chance to live.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities of survival are clearly defined, allowing informed decision-making.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined at 14%.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are fully known, with a 14% chance of survival, while the ambiguous urn provides no clarity about odds, making it less predictable.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a clearer assessment of survival chance.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for informed decision-making.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and offer more control over the decision process.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides known probabilities, allowing for informed decision-making (14% chance of survival).",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and calculable (14%), while the ambiguous urn provides no information on probabilities.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and the known chance of survival (14%) is preferable to complete uncertainty.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (14%), offering a clearer assessment compared to the unknown split in the ambiguous urn.",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, offering a rational basis for decision-making (14% chance to live).",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clearer assessment of survival chances (14% live).",
+      "red_known": 14,
+      "black_known": 86
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are explicitly known, allowing for informed decision-making.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clear basis for evaluation.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor survival more predictably.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined (15%) in the risk urn, unlike the ambiguous urn where the split is unknown.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (15%) compared to the complete uncertainty in the ambiguous urn.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of living is known to be 15% with certainty, compared to the ambiguous urn where the odds are unclear.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, providing a clear assessment of risk.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known to be 15% in the risk urn, while the probability is completely unknown in the ambiguous urn.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for a clear assessment of the odds.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for a calculated decision (15% chance to live).",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "Known odds of survival allow for better decision-making compared to unknown probability.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a calculated decision.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for a more informed decision.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 15% in the risk urn, while the ambiguous urn provides no information about the odds, making it uncertain.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clearer basis for decision-making.",
+      "red_known": 15,
+      "black_known": 85
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, offering a clear decision based on the 16% chance of survival.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision, whereas the ambiguous urn has unknown odds.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (16%) compared to the ambiguity of the unknown distribution in the ambiguous urn.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, offering transparent odds compared to the ambiguity of the other option.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known in the risk urn, providing a clear 16% chance of survival, while the ambiguous urn has uncertain odds.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities for the risk urn are known, providing a clear 16% chance of survival compared to the ambiguity of the other urn.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making, whereas the ambiguous urn has an undefined risk.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 16% in the risk urn, while the ambiguous urn provides no information about the likelihood of survival.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, allowing for informed decision-making.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is certain at 16% for the risk urn, while the ambiguous urn has an unknown probability, which could be lower than 16%.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a calculated decision with a 16% chance to live.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risks",
+      "reason": "Known probabilities provide better control over the outcome, with a 16% chance to live.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (16%) and can be calculated, whereas the ambiguous urn has unknown odds.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, allowing for an informed decision.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 16,
+      "black_known": 84
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (17%) is known and quantifiable.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and calculable (17%).",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for informed decision-making, with a 17% chance to live.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be evaluated, offering a clear 17% chance of survival.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and quantifiable, whereas the ambiguous urn introduces uncertainty regarding the odds of survival.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (17%) in the risk urn, while the ambiguous urn provides no information about the chances of drawing a red ball.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, allowing for a more informed decision.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for a calculated decision.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball (17%) is known and avoids complete uncertainty.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for an informed decision, whereas the ambiguous urn has an undefined risk.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known in the risk urn, offering a 17% chance of survival, whereas the ambiguous urn has unknown odds, which could be worse.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable at 17%, while the ambiguous urn has an unknown risk level which could be worse.",
+      "red_known": 17,
+      "black_known": 83
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of living is known (18%). The ambiguous urn adds uncertainty, which could result in a worse probability.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known and higher in the risk urn (18%) compared to the completely unknown probabilities in the ambiguous urn.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (18%), whereas the ambiguous urn carries uncertainty that could involve worse odds.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and quantifiable, reducing uncertainty.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for a rational decision, while the ambiguous urn provides no information about the odds.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and allow for an informed decision.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, providing a clearer evaluation of the risks.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball (LIVE) is known to be 18%, while the ambiguous urn's probability is uncertain, making the risk urn the safer choice based on available information.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (18%) compared to the ambiguity of the unknown split.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clear risk assessment.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision. The ambiguous urn carries uncertainty, which may hide a worse probability than the risk urn's 18% chance of survival.",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and calculable (18%).",
+      "red_known": 18,
+      "black_known": 82
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities in the risk urn allow for an informed decision, whereas the ambiguous urn introduces uncertainty with no additional advantage.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "Probabilities are known, and the likelihood of survival (19%) can be assessed, unlike the ambiguous urn with unknown risk.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clearer basis for decision-making.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clear evaluation of the risk.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities for the risk urn are known, offering a 19% chance to live, whereas the ambiguous urn has unknown chances, which introduces uncertainty.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probability (19% chance to live) is preferable to an unknown probability.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and allow for an informed decision, with a 19% chance of survival.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball is known to be 19% in the risk urn, whereas the ambiguous urn provides no information about the red-black split, leading to higher uncertainty.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, making it possible to assess the risk.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 19% in the risk urn, whereas the ambiguous urn's odds are unknown and could potentially be worse.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, allowing for an informed decision.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and allow for an informed decision.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are clear, while the ambiguous urn has unknown odds, making it harder to evaluate.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, offering better-informed decision-making.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known\u2014with a 19% chance of survival, it is preferable to the uncertainty of the ambiguous urn.",
+      "red_known": 19,
+      "black_known": 81
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities of survival are known and quantifiable in this option (20% live, 80% die), whereas the ambiguous urn presents an unknown risk that cannot be evaluated.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (20%) with the risk urn, whereas the ambiguous urn provides no information about the probabilities.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clear and quantifiable at 20%, unlike the ambiguous urn with an unknown split.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known and can be calculated (20% chance to live), while the ambiguous urn has unknown probabilities, making it riskier.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are certain and known, providing a clear 20% chance of survival.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and choosing the better-known option avoids ambiguity.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (20%) in the risk urn, while the ambiguous urn has an unspecified probability, introducing uncertainty.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability (20% chance to live), while the ambiguous urn has uncertainty about the split, which could be worse.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (20%) is known and quantifiable, whereas the ambiguous urn introduces uncertainty in the odds.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clear and calculable at 20%.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide transparency, minimizing uncertainty.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, providing a clearer basis for decision-making.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and offer a clear, quantifiable chance of survival (20%).",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for informed decision-making, while ambiguity introduces uncertainty.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are explicitly known, providing a clearer basis for decision-making.",
+      "red_known": 20,
+      "black_known": 80
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities for Option B are known, offering a 21% chance of survival, whereas Option A provides no information about the odds, making it impossible to evaluate.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (21%) in the risk urn, making it quantifiable, whereas the ambiguous urn has an unknown probability distribution.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for a clear evaluation of survival likelihood.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a clear basis for decision-making, while the ambiguous urn introduces an unknown level of risk.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and a 21% chance of survival is calculable, unlike the ambiguous urn with unknown odds.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (21%) in the risk urn, whereas the ambiguous urn lacks any information about the chances of survival.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability (21% chance to live), while the ambiguous urn has an unknown probability that could be worse.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (21% chance to live), while the ambiguous urn's probability is unknown and could be worse.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 21% in the risk urn, while the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (21%), whereas the ambiguous urn presents an undefined risk level.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability of survival (21%), which is preferable to the ambiguity of not knowing the odds in the ambiguous urn.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (21% chance to live), while the ambiguous urn carries uncertainty with no guarantee of better odds.",
+      "red_known": 21,
+      "black_known": 79
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, providing a 22% chance of survival, while the ambiguous urn has uncertain odds.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for better-informed decision-making.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined in Option B, offering transparency and an informed risk assessment.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability is explicitly known (22% chance to live), while the ambiguous urn has an undefined probability.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for a calculated decision, while ambiguity introduces uncertainty.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 22% chance of survival.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision (22% chance to live).",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, while the ambiguous urn has uncertain odds.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a calculated decision.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, providing a clear chance of survival.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a calculated decision.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering a clear 22% chance of survival compared to an unknown probability in the ambiguous urn.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is explicitly known (22%) in the risk urn, but it is completely uncertain in the ambiguous urn.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for more informed decision-making.",
+      "red_known": 22,
+      "black_known": 78
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a clear evaluation of the odds (23% chance to live).",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 23% in the risk urn, whereas the ambiguous urn provides no information about the probabilities, making it impossible to assess the likelihood of survival.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 23% chance of survival.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "Known odds provide clarity, allowing for informed decision-making.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing clarity and the ability to assess the risk accurately.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and choosing this urn gives a 23% chance of survival, which can be calculated, while the ambiguous urn offers no clarity on probabilities.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds of survival (23%) are known and can be assessed, unlike the ambiguous urn with uncertain probabilities.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for better decision-making, with a 23% chance of survival in the risk urn compared to unknown odds in the ambiguous urn.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 23% chance of survival.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for a calculated decision.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds of survival (23%) are explicitly known, unlike the ambiguous urn where the probabilities are unclear.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probability (23%) is preferable to unknown risk in ambiguous urn.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a clear assessment of odds.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are explicitly known, making it possible to evaluate the risk objectively.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probability of survival is higher in the risk urn compared to an unknown probability in the ambiguous urn.",
+      "red_known": 23,
+      "black_known": 77
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (24%) and higher than the worst-case scenario where the ambiguous urn might contain 0 red balls.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds in the risk urn are known and calculable, whereas the ambiguous urn provides no certainty about probabilities.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (24% chance of survival), whereas the ambiguous urn has uncertain odds of survival.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities for Option B are known, while Option A has unknown probabilities, introducing ambiguity and potentially higher risk.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, enabling an informed decision.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities in the risk urn are known (24% chance to live), while the ambiguous urn has uncertainty with potentially worse odds.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for informed decision-making, and the risk urn offers a clear 24% chance of survival, eliminating ambiguity.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are certain and provide a known 24% chance of living, whereas the ambiguous urn carries uncertainty, which might result in a lower chance.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities offer a clear assessment of survival odds, avoiding ambiguity.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be evaluated, providing more control over the decision.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, and the chance of survival (24%) is known, unlike the ambiguous urn.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (24%), whereas the ambiguous urn has an undefined probability, which could theoretically be worse.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in Option B are known, providing a clear 24% chance of survival, whereas the ambiguous urn offers no information about the odds.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and known, providing a better basis for decision-making compared to an unknown distribution.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, providing a 24% chance of survival, while the ambiguous urn involves uncertainty that could result in a worse outcome.",
+      "red_known": 24,
+      "black_known": 76
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probabilities (25% live) provide a clearer basis for decision-making compared to the ambiguous probabilities in the other urn.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known and calculable, providing a clear assessment of survival probability.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing a clearer assessment of survival chances.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a clearer basis for decision-making than uncertain outcomes.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clearer basis for decision-making compared to the ambiguous urn.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be calculated, providing a clear 25% chance of survival compared to the uncertainty of the ambiguous urn.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for informed decision-making, whereas the ambiguous urn has uncertain odds.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for clearer decision-making over uncertain odds.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and offer more certainty.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be evaluated (25% chance to live), whereas the ambiguous urn has an unknown chance which could be worse.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, providing clarity and allowing for an informed decision.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and quantifiable, providing a clearer basis for decision-making.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for informed decision-making, whereas the ambiguous urn has uncertain odds.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clearer assessment of survival chances (25%).",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (25%), while the ambiguous urn has an unknown probability and could potentially be worse.",
+      "red_known": 25,
+      "black_known": 75
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering more certainty in decision-making.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for informed decision-making with a 26% chance of survival.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The known odds (26% chance of red) in the risk urn are preferable to the uncertainty of the ambiguous urn.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (26%) compared to the uncertainty in the ambiguous urn.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clear chance of survival (26%).",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and quantifiable, allowing for a clearer assessment of survival likelihood.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for a clearer evaluation of survival chances.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable as 26%.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are explicitly known, allowing for informed decision-making with a 26% chance of survival.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and calculable at 26%.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known (26% chance to live) and avoid the uncertainty of the ambiguous urn.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clear and calculable at 26%, while the ambiguous urn carries unknown risks that could result in worse odds.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known in the risk urn, providing clarity on the odds of survival.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "Probabilities are known and favor making an informed decision.",
+      "red_known": 26,
+      "black_known": 74
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (27%) is known and preferable over uncertainty.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a 27% chance of survival, versus the complete uncertainty of the ambiguous urn.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities make risk more measurable compared to ambiguity.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known in the risk urn, allowing for a clear assessment of the odds, whereas the ambiguous urn lacks sufficient information to make an informed decision.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and can be evaluated at 27%, which is preferable to the uncertainty in the ambiguous urn.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a calculated decision.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "Risk urn provides a known probability (27% chance to live), while the ambiguous urn has unknown odds, making it difficult to assess the likelihood of survival.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (27%), whereas the ambiguous urn involves uncertainty that could result in even lower odds.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and quantifiable, allowing for a clear assessment of risk.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (27%), whereas the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide clarity and enable informed decision-making.",
+      "red_known": 27,
+      "black_known": 73
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities for survival are known and are better calculable.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clearer basis for decision-making.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides known probabilities, allowing for an informed decision, unlike the ambiguous urn with unknown odds.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known odds (28% chance of survival) are preferable to unknown odds.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clear and quantifiable at 28%.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are certain in the risk urn, offering a 28% chance of survival, whereas the ambiguous urn provides no clarity on odds.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, allowing informed decision-making with a 28% chance to live.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities of red and black are known, allowing for a clear evaluation of survival odds.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, making it possible to evaluate the chances of survival (28%). The ambiguous urn's lack of information introduces uncertainty, which may conceal worse odds.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probability (28%) avoids ambiguity.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, whereas the ambiguous urn lacks clear information, making it potentially riskier.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and allow for an informed decision.",
+      "red_known": 28,
+      "black_known": 72
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are certain in the risk urn, making it possible to evaluate the odds of survival (29%). The ambiguous urn has unknown probabilities, which adds uncertainty.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for a clear assessment of the odds (29% chance of survival).",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (29%) compared to the unknown distribution in the ambiguous urn.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (29%) compared to the unknown probabilities of the ambiguous urn.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and 29% chance of survival is certain, unlike the uncertainty of the ambiguous urn.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (29%) is known and can be evaluated, whereas the ambiguous urn provides no basis for estimating survival likelihood.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (29% chance to live), whereas the ambiguous urn involves uncertainty and could have a less favorable split.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probabilities (29% chance to live) provide a calculable outcome, whereas the ambiguous urn has an undefined probability distribution.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, allowing for an informed decision.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, enabling an informed decision with a 29% chance to live.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability is known (29% chance to live) and eliminates ambiguity.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities (29% live) are known, making it a more informed decision.",
+      "red_known": 29,
+      "black_known": 71
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor informed decision-making.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities in the risk urn are known, allowing for a clear evaluation, whereas the ambiguous urn introduces uncertainty.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, ensuring a transparent evaluation of odds.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering a clearer assessment of risk.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and offer a clear assessment of risk, reducing uncertainty.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, reducing uncertainty.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities minimize uncertainty and allow for informed decision-making.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable (30%).",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probabilities in the risk urn provide greater certainty compared to the unknown distribution in the ambiguous urn.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 30% in the risk urn, whereas the probability in the ambiguous urn is unknown and could be worse.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, providing clarity for decision-making.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a calculated decision.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable (30%), unlike the ambiguous urn with unknown odds.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clearer basis for decision-making.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Risk urn has a known probability of survival (30%), while the ambiguous urn has an unknown probability which could be worse.",
+      "red_known": 30,
+      "black_known": 70
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities offer a clearer assessment of survival chances.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (31%) is known, while the ambiguous urn offers no clarity on the odds.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, enabling an informed decision, whereas the ambiguous urn has unknown odds.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (31%) is known, whereas the ambiguous urn lacks sufficient information to make an informed decision.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for informed decision-making.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probability of living (31%) is preferable over the uncertainty of the ambiguous urn.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known with certainty, allowing for informed decision-making.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The clear probability (31% chance to live) is preferable over the uncertainty of an unknown distribution.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and quantifiable, providing a known chance of survival.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (31%) in the risk urn, whereas the ambiguous urn has an unknown probability, which adds unnecessary uncertainty.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "Probability of survival is known (31%) compared to complete uncertainty in the ambiguous urn.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 31%, while the ambiguous urn provides no information about the probability of survival.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be evaluated directly (31% chance to live), whereas the ambiguous urn introduces uncertainty.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is explicitly known to be 31% in the risk urn, whereas the ambiguous urn has unknown probabilities.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 31,
+      "black_known": 69
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for a more informed decision.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, and a known chance (32% survival) is preferable to an unknown one.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, providing transparency and allowing for informed decision-making.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and offer a higher likelihood of making an informed decision.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, providing a clear 32% chance of survival, whereas the ambiguous urn has an undefined probability split, making it impossible to evaluate the likelihood of survival.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known to be 32%, whereas the ambiguous urn provides no information about the odds.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making (32% chance to live).",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and calculable (32%), whereas the ambiguous urn has an unknown probability.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for informed decision-making, while ambiguity introduces unnecessary uncertainty.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for better-informed decision-making.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, providing a 32% chance of survival, while the ambiguous urn offers no information on the odds.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are certain in the risk urn, offering a 32% chance to live, while the ambiguous urn lacks information to assess the likelihood of survival.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and offer a calculable 32% chance of survival, unlike the ambiguous urn with unknown risks.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 32%, allowing for an informed decision compared to the uncertainty of the ambiguous urn.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities for Option B are known and provide a clear 32% chance of survival, whereas Option A's probabilities are unclear, making it less predictable.",
+      "red_known": 32,
+      "black_known": 68
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clear at 33%, avoiding uncertainty.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities of the risk urn are known, allowing for informed decision-making, while the ambiguous urn lacks clarity about the odds.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (33%) in the risk urn, whereas the ambiguous urn provides no information about the odds.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined as 33% in the risk urn, whereas the ambiguous urn lacks any certainty regarding the probabilities.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, reducing uncertainty.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact odds are known, providing a clearer basis for decision-making.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (33%), while the ambiguous urn has an unknown probability, making the risk urn the safer option with the given information.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for informed decision-making compared to the ambiguity of the first urn.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a clear 33% chance of survival.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and allow for informed decision-making, whereas the ambiguous urn has unknown odds.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities for Option B are known, providing clarity and the ability to quantify the risk.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, making it possible to calculate risk explicitly.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, providing a known 33% chance of survival, whereas the ambiguous urn's chances are uncertain.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and allow for informed decision-making, while the ambiguous urn has unpredictable risks.",
+      "red_known": 33,
+      "black_known": 67
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, reducing uncertainty.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable (34%).",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, enabling a more informed decision.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for a calculated decision, whereas the ambiguous urn introduces uncertainty without additional information.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (34%) is known and quantifiable, unlike the ambiguous urn with an unknown distribution.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and calculable (34% chance to live) compared to the ambiguous urn with an unknown probability distribution.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities of survival are known, offering a 34% chance to live, whereas the ambiguous urn carries uncertainty with potentially worse odds.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for informed decision-making, whereas ambiguity introduces uncertainty.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clear basis for decision-making, unlike the ambiguous urn.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is calculable (34%) with the risk urn, whereas the ambiguous urn lacks any reliable probability to make an informed decision.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and choosing the risk urn provides a clear 34% chance of survival, whereas the ambiguous urn lacks information on probabilities.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, with a 34% chance to live, while the ambiguous urn has unknown chances, introducing unnecessary uncertainty.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (34%) in the risk urn, whereas the ambiguous urn lacks any information about the odds.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for informed decision-making, unlike the ambiguous urn with unknown odds.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 34,
+      "black_known": 66
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, offering a clearer assessment of odds.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for better decision-making compared to unknown odds.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 35% chance of survival.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for a clearer assessment of survival chances.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for more informed decision-making.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability (35% chance to live), while the ambiguous urn's probability is uncertain, potentially worse.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a clearer basis for decision-making, with a 35% chance to live.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of surviving is clear and quantifiable at 35%, unlike the ambiguous urn where the probability is unknown.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clearer basis for decision-making.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of living is explicitly known (35%), which is preferable to an unknown probability.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (35%), which avoids ambiguity.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for a clear evaluation of outcomes, whereas the ambiguous urn introduces uncertainty with an unknown distribution.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, offering a 35% chance to live, while the ambiguous urn provides no information about the odds, which introduces unnecessary uncertainty.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 35% chance of survival.",
+      "red_known": 35,
+      "black_known": 65
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, providing a clear 36% chance of survival, while the ambiguous urn has unknown odds.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of living is known and calculable at 36%.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and offer a clearer assessment of survival odds.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities of survival are clearly defined, providing a better ability to make an informed decision.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (36%) in the risk urn, whereas the ambiguous urn has an unknown probability, which could be worse.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined in this urn, reducing uncertainty.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making (36% chance to live).",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for an informed decision with a 36% chance of survival.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities for survival and death are known, allowing for a clearer evaluation of risk.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing an informed decision, whereas the ambiguous urn has unknown odds.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering a calculable 36% chance of survival compared to the unknown odds of the ambiguous urn.",
+      "red_known": 36,
+      "black_known": 64
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (37%) in the risk urn, while the ambiguous urn does not provide enough information to assess survival likelihood.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (37%), while the ambiguous urn's probabilities are uncertain.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a definite survival chance of 37%, which is preferable to an unknown probability.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a more informed decision with a 37% chance of survival.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (37%) is known in the risk urn, while the ambiguous urn provides no information about the odds, making it uncertain to evaluate.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known with certainty, allowing for a rational decision based on risk assessment.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities for Option B are known, whereas Option A's probabilities are unclear, making it harder to assess the risk.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probabilities in Option B allow for a clear assessment of the risk, while Option A entails uncertainty that cannot be quantified.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clearly defined (37%), whereas the ambiguous urn lacks clarity and could entail higher risk.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities of survival and death are clearly defined, avoiding the ambiguity of the unknown split in the ambiguous urn.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making with a 37% chance of survival.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (37% chance to live), whereas the ambiguous urn has an unknown distribution, which could be less favorable.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a clearer basis for decision-making in a life-or-death scenario.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for informed decision-making with a 37% chance of survival.",
+      "red_known": 37,
+      "black_known": 63
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clear and calculable (38%), whereas the ambiguous urn provides no information about the odds.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be evaluated, whereas the ambiguous urn's odds are uncertain.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are explicitly known in the risk urn, providing a calculable 38% chance of survival, while the ambiguous urn lacks enough information to determine the odds.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are certain in the risk urn, allowing a clear assessment of survival chances (38%).",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a better basis for decision-making.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a clear assessment of survival chances (38%).",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known survival probability of 38%, while the ambiguous urn has an unknown probability, introducing additional uncertainty.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of drawing a red ball (LIVE) is clearly defined as 38%, unlike the ambiguous urn where the probabilities are unknown.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable at 38%. The ambiguous urn has uncertain probabilities, which might result in a worse chance of survival.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making, while the ambiguous urn provides no such clarity.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clear 38% chance of survival compared to the ambiguity of the unknown distribution in the other urn.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known and quantifiable, allowing for an informed decision with a 38% chance of survival.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known (38% chance to live), while the ambiguous urn could have worse odds.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clearer basis for decision-making compared to the ambiguous option.",
+      "red_known": 38,
+      "black_known": 62
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (39%) versus completely unknown in the ambiguous urn.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (39%) in the risk urn, while the ambiguous urn has an unknown probability of survival, making it less predictable.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for a more informed decision.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, whereas the ambiguous urn introduces uncertainty, making risk urn the safer choice based on available data.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, providing better assessment of outcomes compared to the unknown split in the ambiguous urn.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (39%) for the risk urn, while the ambiguous urn provides unknown odds, making it less predictable.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (39%), whereas the ambiguous urn carries uncertainty, making it impossible to assess the odds.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clearer basis for decision-making.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable in the risk urn, providing a clearer basis for decision-making.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clearer assessment of the risk.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering a clear 39% chance of survival compared to the ambiguity of the other option.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for more informed decision-making, whereas the ambiguous urn provides no clarity about the chances of survival.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 39,
+      "black_known": 61
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, offering a 40% chance of survival.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, providing better-informed decision-making.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, ensuring a 40% chance of survival, compared to unclear odds in the ambiguous urn.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and choosing this minimises uncertainty.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a calculated decision with a 40% chance to live.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and clear, offering a 40% chance to live, whereas the ambiguous urn has undefined probabilities.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be evaluated, providing a clearer assessment of the risk compared to the ambiguous option.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for informed decision-making, whereas the ambiguous urn introduces greater uncertainty.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "Probability of survival is known and quantifiable (40%).",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and predictable in the risk urn.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (40%), whereas the ambiguous urn carries uncertainty regarding the odds.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and offer a clearer risk assessment (40% chance of survival).",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known and predictable (40% chance to live), whereas the ambiguous urn carries uncertainty about the probabilities.",
+      "red_known": 40,
+      "black_known": 60
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor informed decision-making.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability (41% chance to live), while the ambiguous urn has an unknown risk, which could be worse.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, while the ambiguous urn lacks clarity on the odds, making it impossible to assess the likelihood of survival.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Quantified odds (41% survival) are preferable to unknown risks.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for informed decision-making, with a 41% chance of survival.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known, allowing for an informed decision, whereas the ambiguous urn provides no clarity on the probability of survival.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is precisely known (41%) in the risk urn, while the ambiguous urn introduces uncertainty without any basis to assume a higher likelihood of survival.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clearer assessment of risk.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities for Option B are known, offering a clear 41% chance of survival, whereas Option A involves ambiguity and cannot guarantee a better outcome.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for an informed decision with a 41% chance to live.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, making it possible to evaluate the chances of survival at 41%.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are clearly defined, allowing for an informed decision (41% chance to live). The ambiguous urn lacks information, making it impossible to evaluate the odds reliably.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor better decision-making compared to the unknown split in the ambiguous urn.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 41,
+      "black_known": 59
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide clearer odds of survival.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known and favor maximizing the chance of living.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (42%) is known and quantifiable in the risk urn, whereas the ambiguous urn provides no certainty about the odds.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a more informed decision.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clear 42% chance of survival, whereas the ambiguous urn offers uncertainty without any guarantee of better odds.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor a rational decision: a 42% chance to live.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clearer assessment of risk.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, allowing for a clear evaluation of outcomes.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 42% chance of survival.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide the ability to evaluate the exact risk (42% chance to live), whereas the ambiguous urn offers no clarity on the likelihood of survival.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Risk urn has a known probability of survival (42%), whereas the ambiguous urn offers an unknown probability, which may be better or worse but cannot be quantified.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities of survival and death are known, allowing for informed decision-making.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities (42% chance to live) are preferable to unknown outcomes.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for an informed decision.",
+      "red_known": 42,
+      "black_known": 58
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has known probabilities, providing a 43% chance of survival, while the ambiguous urn lacks information on the red and black ball distribution, creating uncertainty.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide better clarity for decision-making.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a better basis for decision-making.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, and it provides a clear assessment of survival odds.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a clearer risk assessment.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (43%) is known and quantifiable, unlike the ambiguous urn with an unknown probability of survival.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and survival odds (43%) can be evaluated explicitly.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a 43% chance of living, whereas the ambiguous urn has unknown odds which could be worse.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide better decision-making clarity.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor rational decision-making.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making (43% chance to live).",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn has a known probability of survival (43%) whereas the ambiguous urn involves uncertainty, which may lead to either much better or much worse odds. Known probabilities are preferable in the absence of additional information.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities offer a more informed decision.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known and quantifiable, providing a clear probability of survival (43%).",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clear chance of survival (43%). The ambiguous urn involves uncertainty, which makes it impossible to assess the odds.",
+      "red_known": 43,
+      "black_known": 57
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, making the risk quantifiable at 44% live versus 56% die.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, while the ambiguous urn has uncertain odds, which could be worse than the risk urn's 44% chance of survival.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, ensuring informed decision-making.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (44%) in the risk urn, whereas the ambiguous urn has an unknown probability, introducing uncertainty.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and allow for informed decision-making, providing higher confidence.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, offering 44% chance to live, whereas the ambiguous urn has an unknown risk level.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probability of survival (44%) is preferable over ambiguity.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor making an informed decision with a 44% chance of survival.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering greater certainty in evaluating the chances of survival.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor choosing an urn with clear odds.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clearer basis for decision-making.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, making it preferable to an uncertain outcome in the ambiguous urn.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (44% in the risk urn), while the ambiguous urn provides insufficient information to assess survival chances.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 44% chance to live.",
+      "red_known": 44,
+      "black_known": 56
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for a clearer evaluation of the risk.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, providing a clear assessment of the risk.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and quantifiable, providing more certainty compared to the unknown split.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival (45%) is known, whereas the ambiguous urn has an unknown probability of survival, making it harder to assess risk.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and favor a more informed decision compared to unknown odds.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, reducing uncertainty.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and preferable over ambiguity.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and higher (45%) compared to the uncertainty of the ambiguous urn.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and quantifiable, allowing for an informed decision.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and I can evaluate the risk explicitly.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and calculable (45% chance to live) compared to the ambiguity of the first urn.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and offer a clearer basis for decision-making.",
+      "red_known": 45,
+      "black_known": 55
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, while the ambiguous urn has unknown probabilities, introducing uncertainty.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision, whereas the ambiguous urn carries uncertainty.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clearer basis for decision-making, unlike the ambiguous urn.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, providing a 46% chance to live, whereas the ambiguous urn does not provide enough information to assess the odds.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known (46% live, 54% die), while the ambiguous urn provides no information about the likelihood of living or dying.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering more certainty for decision-making.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for informed decision-making (46% chance to live).",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and favorable compared to the uncertainty of the ambiguous urn.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for an informed decision with a 46% chance of survival.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are explicitly known, allowing for a more informed decision.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probability of survival (46%) is preferable to the uncertainty of an unknown split.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor informed decision-making over ambiguity.",
+      "red_known": 46,
+      "black_known": 54
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known (47% live, 53% die), whereas the ambiguous urn adds uncertainty, making it impossible to calculate chances of survival.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities (47% live, 53% die) are known, allowing for better evaluation of the outcome.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering a clearer assessment of risk.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, allowing for informed decision-making.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and offer a better basis for decision-making compared to ambiguity.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The known probability (47% chance to live) is preferable to the unknown probability of the ambiguous urn.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of living is precisely known (47%), which is preferable to an unknown probability in the ambiguous urn.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and calculable at 47%.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, offering a better basis for decision-making compared to an unknown distribution.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and can be evaluated, offering more certainty compared to the ambiguous urn.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and offer a clearer basis for decision-making.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 47% chance of survival.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a clearer assessment of survival chances.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, minimizing uncertainty.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favorable in the risk urn, with a higher chance of drawing a red ball compared to a worst-case scenario in the ambiguous urn where the split could be less favorable.",
+      "red_known": 47,
+      "black_known": 53
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known (48% chance to live) compared to the complete uncertainty of the ambiguous urn.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known (48%), while the ambiguous urn has unknown probabilities, which could be worse.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for informed decision-making with a higher level of certainty.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a better basis for decision-making than unknown probabilities.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability is clearly defined as 48% live and 52% die, which is preferable to the unknown probabilities of the ambiguous urn.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities of survival are clear, offering better decision confidence.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor survival more than the worst-case scenario of the ambiguous urn.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "The lack of information about the ambiguous urn allows for the possibility of a better probability of survival compared to the known odds of the risk urn (48% live).",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The risk urn provides a known probability of survival (48%), while the ambiguous urn has unknown odds, which could be worse.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities are known, providing a better basis for decision-making.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clearly defined, allowing for informed decision-making with a better-than-random chance of survival.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "Risk urn has a known probability of survival, which is better than complete uncertainty of the ambiguous urn.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear, allowing for an informed decision with a known survival chance of 48%.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and favor making an informed decision, even if slightly less favorable than 50-50.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and slightly in favor of a black ball, whereas the ambiguous urn has an unknown distribution, which could be worse.",
+      "red_known": 48,
+      "black_known": 52
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and offer a slightly better assessment than the ambiguity of the unknown split in the ambiguous urn.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known, while the ambiguous urn presents uncertainty, making it harder to evaluate the odds of survival.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, allowing for an informed decision with a 49% chance to live.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and known, providing a better basis for decision-making.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "ambiguous",
+      "reason": "The unknown split could favor a higher probability of survival compared to the fixed disadvantage of 49% in the risk urn.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clearer basis for decision-making.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The exact probabilities of survival (49% live, 51% die) are known, while the ambiguous urn carries uncertainty about the odds.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide greater certainty compared to unknown distribution.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known, allowing an informed decision, whereas the ambiguous urn lacks clarity on the probabilities.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "Provides a known probability (49%) of survival, compared to the uncertainty of an unknown split in the ambiguous urn.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in Option B are known and slightly unfavorable, whereas Option A has unknown probabilities, introducing ambiguity and potential higher risk.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The odds are known and quantifiable, allowing for an informed decision.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known to be 49% compared to the uncertainty of an unknown split in the ambiguous urn.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and survival odds can be calculated as 49%.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known, offering more certainty with 49% chance of survival.",
+      "red_known": 49,
+      "black_known": 51
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is known and equal between red and black balls, offering clarity over uncertainty.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and provide a clear 50/50 chance, eliminating uncertainty.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and offer a clear 50% chance of survival, reducing uncertainty.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and predictable, ensuring a 50% chance of survival.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The probability of survival is clear and 50% in the risk urn, whereas the ambiguous urn has an unknown probability distribution.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities in the risk urn are known and provide a clear 50% chance of survival, unlike the ambiguous urn where the odds are uncertain.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and provide a 50% chance of survival, avoiding ambiguity.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities allow for a clear assessment of survival chances.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and evenly split, avoiding the uncertainty of the ambiguous urn.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are clear and balanced, minimizing uncertainty and allowing an informed decision.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide certainty, minimizing ambiguity in decision-making.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The known 50/50 odds provide a clear and calculable level of risk, eliminating uncertainty.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and equal, providing a clear 50% chance of survival.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "The probabilities are known and evenly split, maximizing decision clarity compared to the ambiguity of the other urn.",
+      "red_known": 50,
+      "black_known": 50
+    },
+    {
+      "choice": "risk",
+      "reason": "Known probabilities provide a clearer assessment of survival chances.",
+      "red_known": 50,
+      "black_known": 50
+    }
+  ]
+}

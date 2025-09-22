@@ -1,0 +1,5 @@
+model,epsilon_hat,epsilon_ci,beta_hat,r_hat,ambiguous_choices,total_choices,ambiguous_percentage
+gpt-4.1,1.0,1.0-1.0,100.0,1.5494,0,150,0.0
+gpt-4o,0.847,0.78-0.91,21.25,1.562,23,150,15.3
+gpt-4o-mini,1.0,1.0-1.0,100.0,1.554,0,225,0.0
+gpt-5,0.378,0.32-0.44,2.59,0.1111,140,225,62.2
