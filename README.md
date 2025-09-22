@@ -2,42 +2,6 @@
 
 This repository provides tools and frameworks for analyzing how Large Language Models (LLMs) handle risk and ambiguity in decision-making tasks. The project includes experimental setups, analysis pipelines, and visualization tools to compare LLM behavior with human decision-making patterns.
 
-## Project Structure
-
-```
-.
-├── models.py               # Core model implementations
-├── models_enum.py         # Model type enumerations
-├── test_model.py          # Model test suite
-├── ambiguity-games/       # Ambiguity preference experiments
-│   ├── ambiguity_game.py  # Main game implementation
-│   ├── run_opportunity_hunter.py
-│   └── results/          # Experimental results
-│       ├── neutral/      # Results for neutral persona
-│       └── persona/      # Results for different personas
-├── risk-games/           # Risk preference analysis
-│   ├── risk_game.py     # Main risk game implementation
-│   ├── data-analyze/    # Analysis scripts
-│   │   ├── CRRA.py
-│   │   ├── fit_cara.py
-│   │   ├── fit_crra.py
-│   │   ├── plot_crra_utility.py
-│   │   └── generate_paper_results.py
-│   ├── results/         # Experimental results
-│   │   ├── neutral/    # Results for neutral persona
-│   │   └── persona/    # Results for different personas
-│   └── tools/          # Utility scripts
-│       ├── estimate_epsilon.py
-│       └── estimate_epsilon_opportunity_hunter.py
-└── st-petersburg-games/  # St. Petersburg paradox tests
-    ├── st_games.py      # Game implementation
-    ├── justification.py # Reasoning analysis
-    └── analyze/         # Analysis tools
-        ├── analyze.py
-        ├── analyze_breakpoint_decisions.py
-        ├── analyze_loss_aversion.py
-        └── analyze_understanding_gap.py
-```
 
 ## Key Features
 
@@ -98,6 +62,44 @@ The project includes comprehensive results for various LLM models:
 - GPT-4 Turbo Mini (gpt-4o-mini)
 - GPT-5
 - O3-Mini
+
+## Project Structure
+
+```
+.
+├── models.py               # Core model implementations
+├── models_enum.py         # Model type enumerations
+├── test_model.py          # Model test suite
+├── ambiguity-games/       # Ambiguity preference experiments
+│   ├── ambiguity_game.py  # Main game implementation
+│   ├── run_opportunity_hunter.py
+│   └── results/          # Experimental results
+│       ├── neutral/      # Results for neutral persona
+│       └── persona/      # Results for different personas
+├── risk-games/           # Risk preference analysis
+│   ├── risk_game.py     # Main risk game implementation
+│   ├── data-analyze/    # Analysis scripts
+│   │   ├── CRRA.py
+│   │   ├── fit_cara.py
+│   │   ├── fit_crra.py
+│   │   ├── plot_crra_utility.py
+│   │   └── generate_paper_results.py
+│   ├── results/         # Experimental results
+│   │   ├── neutral/    # Results for neutral persona
+│   │   └── persona/    # Results for different personas
+│   └── tools/          # Utility scripts
+│       ├── estimate_epsilon.py
+│       └── estimate_epsilon_opportunity_hunter.py
+└── st-petersburg-games/  # St. Petersburg paradox tests
+    ├── st_games.py      # Game implementation
+    ├── justification.py # Reasoning analysis
+    └── analyze/         # Analysis tools
+        ├── analyze.py
+        ├── analyze_breakpoint_decisions.py
+        ├── analyze_loss_aversion.py
+        └── analyze_understanding_gap.py
+```
+
 
 ### Results Structure
 
