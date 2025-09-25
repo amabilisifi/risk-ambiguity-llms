@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 St. Petersburg Paradox Experiment for AI Language Models
 

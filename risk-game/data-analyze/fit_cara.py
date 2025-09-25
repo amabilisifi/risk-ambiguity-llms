@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 CARA (Constant Absolute Risk Aversion) Analysis for AI Risk Preferences
 

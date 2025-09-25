@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Academic Paper Results Generator for AI Risk Aversion Study
 

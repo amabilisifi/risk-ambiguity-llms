@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Ambiguity Preference Experiment for AI Language Models
 

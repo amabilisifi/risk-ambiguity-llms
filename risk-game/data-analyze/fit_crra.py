@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 CRRA (Constant Relative Risk Aversion) Analysis for AI Risk Preferences
 
