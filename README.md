@@ -60,77 +60,58 @@ The framework tests LLM behavior through three distinct experimental paradigms:
 
 - **CRRA/CARA Models**: Utility function parameter estimation via maximum likelihood
 - **Binary Choice Tasks**: 107 scenarios with varying probabilities and expected values
+- **Analysis Scripts**: `fit_crra.py`, `fit_cara.py`, `generate_paper_results.py`
 - **Output**: Risk aversion coefficients (r, α) and choice sensitivity parameters (β)
 
 ### Ambiguity Analysis (`ambiguity-game/`)
 
 - **ε-contamination Model**: Measures preference for known vs. unknown risks
 - **Ellsberg Paradigm**: 50 probability levels with ambiguous vs. risky urn choices
+- **Analysis Script**: `analyze_ambiguity_results.py` for parameter estimation
 - **Output**: Ambiguity aversion coefficient (ε) and decision curves
 
 ### Paradox Analysis (`st-petersburg-game/`, `st-petersburg-justification/`)
 
 - **Behavioral Analysis**: Willingness-to-pay measurement across 10 entry fee levels
 - **Reasoning Analysis**: Keyword extraction and co-occurrence from decision justifications
+- **Analysis Scripts**: `st_petersburg_analyzer.py`, `St-Petersburg.py`
 - **Output**: Discount factors (δ), play probability curves, reasoning pattern analysis
 
 ---
 
-## 🧪 Experimental Design
+## 🤖 Supported Models
 
-### Experimental Paradigms
+The framework is compatible with the following Azure OpenAI models:
 
-1. **Risk Elicitation**: 107 binary choice scenarios varying probabilities (0.1-0.9) and expected values (0.5-5.0x)
-2. **Ambiguity Assessment**: 150-225 trials per model comparing known-risk vs. ambiguous urns
-3. **Paradox Analysis**: St. Petersburg game with entry fees from $1 to $100,000
+| Model           | Model ID      | Configuration Notes                   |
+| --------------- | ------------- | ------------------------------------- |
+| **GPT-4.1**     | `gpt-4.1`     | Standard GPT-4 baseline               |
+| **GPT-4o**      | `gpt-4o`      | Optimized GPT-4 variant               |
+| **GPT-4o-mini** | `gpt-4o-mini` | Compact version for faster processing |
+| **GPT-o3-mini** | `o3-mini`     | Medium reasoning configuration        |
+| **GPT-5**       | `gpt-5`       | Latest generation model               |
 
-### Behavioral Economics Foundations
+### Model Configuration
 
-- **Holt-Laury Task**: Risk preference measurement through incentivized choices
-- **Ellsberg Paradox**: Ambiguity aversion via known vs. unknown uncertainty
-- **St. Petersburg Paradox**: Bounded rationality under infinite expectations
+Models are configured in `models_enum.py` and can be selected in each experiment's configuration section. The framework supports:
 
----
-
-## 🤖 Models Evaluated
-
-| Model           | Architecture      | Risk Profile         | Ambiguity Profile         | Paradox Profile |
-| --------------- | ----------------- | -------------------- | ------------------------- | --------------- |
-| **GPT-4.1**     | Standard GPT-4    | Extreme Risk Averse  | Extreme Ambiguity Averse  | Conservative    |
-| **GPT-4o**      | Optimized GPT-4   | Extreme Risk Averse  | High Ambiguity Averse     | Conservative    |
-| **GPT-4o-mini** | Compact GPT-4o    | Moderate Risk Averse | Extreme Ambiguity Averse  | Conservative    |
-| **GPT-o3-mini** | Medium Reasoning  | Risk Neutral         | Moderate Ambiguity Averse | Balanced        |
-| **GPT-5**       | Latest Generation | Risk Neutral         | Ambiguity Neutral         | Balanced        |
-
----
-
-## 📊 Main Findings
-
-### Architectural Behavioral Signatures
-
-- **GPT-4 Family**: Extreme conservatism across all dimensions (risk aversion, ambiguity avoidance, bounded rationality)
-- **GPT-5 & GPT-o3-mini**: Balanced, economically rational behavior approximating human decision-making
-
-### Behavioral Separability
-
-- Risk preferences, ambiguity attitudes, and paradoxical reasoning are **distinct dimensions**
-- Performance in one dimension does not predict behavior in others
-- Requires multidimensional evaluation for comprehensive behavioral assessment
-
-### Persona Intervention Effects
-
-- **Strategic Thinker** persona dramatically shifts behavioral parameters
-- GPT-4 variants become risk-seeking; GPT-5 becomes ambiguity-neutral
-- Demonstrates high behavioral malleability but risks of overshoot
-
-### Human-LLM Comparison
-
-- LLM willingness-to-pay in St. Petersburg paradox aligns with human benchmarks ($1-5 range)
-- But some models show weaker discounting than observed in human subjects
+- **Neutral baseline** experiments (no persona)
+- **Strategic Thinker persona** experiments
+- **Batch processing** across multiple models
+- **Resume functionality** for interrupted experiments
 
 ---
 
 ## 📁 Repository Structure
+
+### Core Framework Files
+
+- **`models.py`**: Azure OpenAI client setup and API communication functions
+- **`models_enum.py`**: Model identifiers and configuration constants
+- **`persona_prompt.py`**: Strategic Thinker persona prompt templates
+- **`requiremets.txt`**: Python package dependencies (note: filename has typo)
+
+### Directory Structure
 
 ```
 risk-ambiguity-llms/
@@ -138,7 +119,7 @@ risk-ambiguity-llms/
 ├── 📋 README.md                         # This file
 ├── 🐍 models.py                         # Core Azure OpenAI model implementations
 ├── 🏷️ models_enum.py                    # Model type enumerations
-├── 🧪 persona_prompt.py                 # Persona intervention prompts
+├── 🧪 persona_prompt.py                 # Strategic Thinker persona prompt definitions
 ├── 🔧 requiremets.txt                   # Python dependencies (note: typo in filename)
 │
 ├── 🎲 ambiguity-game/                   # Ellsberg paradox experiments
@@ -169,6 +150,18 @@ risk-ambiguity-llms/
     └── 📋 Json/                        # Parsed justification data
 ```
 
+### File Functions Summary
+
+| File/Directory                     | Purpose                              | Key Outputs              |
+| ---------------------------------- | ------------------------------------ | ------------------------ |
+| `risk-game/risk_game.py`           | Risk preference data collection      | JSON choice data         |
+| `risk-game/data-analyze/`          | CRRA/CARA parameter estimation       | Risk coefficients, plots |
+| `ambiguity-game/ambiguity_game.py` | Ambiguity preference data collection | JSON choice data         |
+| `ambiguity-game/data-analyze/`     | ε-contamination model fitting        | Ambiguity coefficients   |
+| `st-petersburg-game/st_games.py`   | Paradox willingness-to-pay data      | JSON decision data       |
+| `st-petersburg-game/analyze/`      | Discount factor estimation           | δ coefficients, curves   |
+| `st-petersburg-justification/`     | Reasoning pattern analysis           | Keyword co-occurrence    |
+
 ---
 
 ## 🚀 Quick Start
@@ -196,13 +189,11 @@ risk-ambiguity-llms/
    pip install -r requirements.txt
    ```
 
-````
-
 3. **Configure Azure OpenAI credentials**
    ```bash
-cp .env.example .env
+   cp .env.example .env
    # Edit .env with your Azure OpenAI API key and endpoint
-````
+   ```
 
 ### Running Experiments
 
@@ -269,12 +260,12 @@ python generate_paper_results.py
 **Purpose**: Creates publication-ready tables, heatmaps, and statistical summaries
 **Output**: High-resolution figures, CSV tables, comparative analysis reports
 
-### Key Findings
+### Expected Outputs
 
-- **GPT-4 family**: Extreme risk aversion (r ≈ 1.55) with deterministic choices (β = 100)
-- **GPT-5**: Near risk-neutral (r ≈ 0.11) with balanced choice patterns
-- **Strategic Thinker effect**: Transforms GPT-4 variants to highly risk-seeking behavior
-- **Model architecture**: Clear differences in uncertainty handling across generations
+- **JSON data files**: Raw choice data for each model and condition
+- **Parameter estimates**: Risk aversion coefficients and choice sensitivity values
+- **Visualization plots**: Individual model fits and comparative analysis
+- **CSV summaries**: Tabulated results ready for further analysis
 
 ---
 
@@ -318,12 +309,12 @@ python analyze_ambiguity_results.py
 **Output**: Ambiguity aversion coefficients (ε) and choice sensitivity (β)
 **Model**: P(choose ambiguous) = 1/(1 + exp(-β × (V_ambiguous - V_risky)))
 
-### Key Findings
+### Expected Outputs
 
-- **GPT-4 family**: Extreme ambiguity aversion (ε = 1.00) - never chose ambiguous urn
-- **GPT-5**: Moderate ambiguity aversion (ε = 0.72) - some tolerance for uncertainty
-- **Strategic Thinker effect**: Transforms GPT-5 and GPT-o3-mini to ambiguity neutral (ε = 0.00)
-- **Behavioral malleability**: Persona interventions can eliminate ambiguity aversion entirely
+- **JSON data files**: Choice data for each probability level and model
+- **Ambiguity parameters**: ε-contamination coefficients and decision curves
+- **Fit statistics**: Model comparison metrics and goodness-of-fit measures
+- **Visualization plots**: Sigmoid fits and parameter distributions
 
 ---
 
@@ -385,13 +376,12 @@ python St-Petersburg.py
 **Output**: Keyword co-occurrence matrices, heatmaps, CSV data files
 **Analysis**: 326/400 justifications mentioned both "infinite" and "expected value"
 
-### Key Findings
+### Expected Outputs
 
-- **GPT-4 family**: Conservative thresholds ($2-4) with steep discount factors (δ ≈ 0.9)
-- **GPT-5**: Higher willingness-to-pay ($16 threshold) with moderate discounting (δ ≈ 0.47)
-- **GPT-o3-mini**: Highest tolerance ($100 threshold) with shallow discounting (δ ≈ 0.13)
-- **Strategic Thinker effect**: Increases caution in GPT-4, reduces discounting in GPT-5/o3-mini
-- **Reasoning consistency**: All models systematically reference infinite expected value concepts
+- **Behavioral data**: Play/pass decisions across entry fee levels for each model
+- **Discount factors**: Quantified willingness-to-pay decline with price increases
+- **Statistical analysis**: R² values, certainty equivalents, and model fit metrics
+- **Reasoning patterns**: Keyword frequency and co-occurrence analysis from justifications
 
 ---
 
@@ -429,25 +419,24 @@ seaborn>=0.11.0
 
 ---
 
-## 🎨 Visualization Gallery
+## 🔧 Configuration Options
 
-### Risk Analysis Visualizations
+### Experiment Parameters
 
-- Model comparison heatmaps
-- CRRA/CARA parameter distributions
-- Risk aversion vs. choice sensitivity plots
+Each experiment script includes a configuration section where you can modify:
 
-### Ambiguity Analysis
+- **Model selection**: Choose which Azure OpenAI models to test
+- **Trial counts**: Adjust number of repetitions for statistical reliability
+- **Output directories**: Specify custom paths for results and analysis
+- **API settings**: Configure timeouts, retry limits, and batch sizes
 
-- Ambiguity aversion curves by model
-- ε-parameter bootstrap analysis
-- Choice probability sigmoid fits
+### Persona Configuration
 
-### Paradox Analysis
+The Strategic Thinker persona can be enabled/disabled in each experiment:
 
-- Play probability curves across entry fees
-- Keyword co-occurrence heatmaps
-- Discount factor comparisons
+- **Neutral mode**: Tests baseline LLM behavior without persona prompts
+- **Persona mode**: Applies Strategic Thinker prompt for systematic behavior modification
+- **Batch mode**: Runs both conditions automatically for comparison
 
 ---
 
@@ -470,16 +459,16 @@ If you use this codebase or findings in your research, please cite our paper:
 
 ## 👥 Authors
 
-- **Mohammadreza Ghafouri\*** - Independent Researcher
-- **Nazanin Yousefi\*** - Independent Researcher
+- **Mohammadreza Ghafouri** - Independent Researcher
+- **Nazanin Yousefi** - Independent Researcher
 - **Arian Akbari** - Independent Researcher
 - **Reza Tavakoli** - Independent Researcher
-- **Farbod Davoodi** - Missouri University of Science and Technology
-- **Gholamali Aminian** - The Alan Turing Institute
-- **Nariman Khaledian** - Zanista AI
-- **Arman Khaledian** - Zanista AI
+- **Farbod Davoodi** - Department of Computer Science, Missouri University of Science and Technology, Rolla, MO, USA
+- **Gholamali Aminian** - The Alan Turing Institute, London, United Kingdom
+- **Nariman Khaledian** - Zanista AI, London, United Kingdom
+- **Arman Khaledian** - Zanista AI, London, United Kingdom
 
-\*Equal contribution
+\* These authors contributed equally to this work
 
 ### Contact
 
