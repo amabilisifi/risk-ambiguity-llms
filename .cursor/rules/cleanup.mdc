@@ -1,0 +1,153 @@
+---
+alwaysApply: false
+---
+
+# Single File Code Cleanup and Refactoring Instructions
+
+You are tasked with cleaning up and refactoring a Python file to make it production-ready and suitable for public GitHub repositories. Work ONLY within the single file provided - do not create any additional files.
+
+## 1. Configuration Section at Top
+
+- Create a clear "CONFIGURATION" section at the top of the file (after imports)
+- Move all hardcoded values to clearly labeled variables in this section
+- Use descriptive variable names with comments explaining their purpose
+- Add placeholder comments like "# TODO: Set your output directory path here"
+- Group related configurations together (e.g., API settings, file paths, model parameters)
+
+## 2. Environment Variables Integration
+
+- Use os.getenv() for sensitive data with sensible defaults
+- Add clear comments showing what environment variables are expected
+- Include examples in comments like: # Set via: export API_KEY="your_key_here"
+
+## 3. Code Structure and Quality
+
+- Add comprehensive docstrings to all functions and classes
+- Include type hints for function parameters and return values
+- Remove ALL debug print statements and replace with proper logging using Python's logging module
+- Add meaningful comments explaining complex logic and business rules
+- Follow PEP 8 style guidelines consistently
+- Remove unused imports and variables
+
+## 4. User Customization Within File
+
+- Create a clear "USER SETUP REQUIRED" comment block at the top
+- Add TODO comments for values users must change
+- Include validation checks for required configuration values
+- Provide clear error messages when configuration is missing or invalid
+
+## 5. Error Handling and Logging
+
+- Set up proper logging configuration at the top of the file
+- Replace all print statements with appropriate logging levels (DEBUG, INFO, WARNING, ERROR)
+- Add comprehensive error handling with meaningful error messages
+- Include retry mechanisms where appropriate
+
+## 6. Documentation Within File
+
+- Add a comprehensive header comment explaining:
+  - What the script does
+  - How to configure it
+  - How to run it
+  - What dependencies are needed
+- Document all configuration options and their expected formats
+- Include usage examples in comments
+
+## 7. Code Organization
+
+- Organize functions logically with clear separation
+- Add section headers using comments like: # ============= CONFIGURATION =============
+- Consolidate duplicate code into reusable functions
+- Ensure consistent naming conventions
+- Add constants for magic numbers and strings
+
+## 8. Mac/Cross-Platform Compatibility
+
+- Use os.path.join() or pathlib for all file paths
+- Handle potential permission issues with appropriate error messages
+- Make file operations cross-platform compatible
+
+## Output Requirements:
+
+- Provide ONLY the cleaned single file
+- Include a setup instruction block as comments at the very top
+- Ensure all hardcoded values are moved to the configuration section
+- Make the code ready for GitHub without requiring any additional files
+- Keep all functionality intact while making it clean and configurable
+
+The final code should be professional, maintainable, and easy for other developers to configure and run by only modifying the configuration section at the top.
+
+# Single File Code Cleanup and Refactoring Instructions
+
+You are tasked with cleaning up and refactoring a Python file to make it production-ready and suitable for public GitHub repositories. Work ONLY within the single file provided - do not create any additional files.
+
+## 1. Configuration Section at Top
+
+- Create a clear "CONFIGURATION" section at the top of the file (after imports)
+- Move all hardcoded values to clearly labeled variables in this section
+- Use descriptive variable names with comments explaining their purpoxse
+- Add placeholder comments like "# TODO: Set your output directory path here"
+- Group related configurations together (e.g., API settings, file paths, model parameters)
+
+## 2. Environment Variables Integration
+
+- Use os.getenv() for sensitive data with sensible defaults
+- Add clear comments showing what environment variables are expected
+- Include examples in comments like: # Set via: export API_KEY="your_key_here"
+
+## 3. Code Structure and Quality
+
+- Add comprehensive docstrings to all functions and classes
+- Include type hints for function parameters and return values
+- Remove ALL debug print statements and replace with proper logging using Python's logging module
+- Add meaningful comments explaining complex logic and business rules
+- Follow PEP 8 style guidelines consistently
+- Remove unused imports and variables
+
+## 4. User Customization Within File
+
+- Create a clear "USER SETUP REQUIRED" comment block at the top
+- Add TODO comments for values users must change
+- Include validation checks for required configuration values
+- Provide clear error messages when configuration is missing or invalid
+
+## 5. Error Handling and Logging
+
+- Set up proper logging configuration at the top of the file
+- Replace all print statements with appropriate logging levels (DEBUG, INFO, WARNING, ERROR)
+- Add comprehensive error handling with meaningful error messages
+- Include retry mechanisms where appropriate
+
+## 6. Documentation Within File
+
+- Add a comprehensive header comment explaining:
+  - What the script does
+  - How to configure it
+  - How to run it
+  - What dependencies are needed
+- Document all configuration options and their expected formats
+- Include usage examples in comments
+
+## 7. Code Organization
+
+- Organize functions logically with clear separation
+- Add section headers using comments like: # ============= CONFIGURATION =============
+- Consolidate duplicate code into reusable functions
+- Ensure consistent naming conventions
+- Add constants for magic numbers and strings
+
+## 8. Mac/Cross-Platform Compatibility
+
+- Use os.path.join() or pathlib for all file paths
+- Handle potential permission issues with appropriate error messages
+- Make file operations cross-platform compatible
+
+## Output Requirements:
+
+- Provide ONLY the cleaned single file
+- Include a setup instruction block as comments at the very top
+- Ensure all hardcoded values are moved to the configuration section
+- Make the code ready for GitHub without requiring any additional files
+- Keep all functionality intact while making it clean and configurable
+
+The final code should be professional, maintainable, and easy for other developers to configure and run by only modifying the configuration section at the top.
