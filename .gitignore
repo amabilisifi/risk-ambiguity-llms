@@ -1,0 +1,61 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+
+# API Keys and tokens (never commit these!)
+*.key
+*.token
+*_token
+*_key
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Results and output directories (optional - uncomment if you want to ignore these)
+# results/
+# analysis/
+# paper_outputs/
