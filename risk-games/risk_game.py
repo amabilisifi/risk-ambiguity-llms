@@ -37,9 +37,6 @@ OUTPUT:
 - JSON results files saved to configured output directory
 - Each file contains all trials for one model
 - Ready for analysis with fit_crra.py or similar scripts
-
-AUTHOR: Research Team
-LICENSE: MIT
 """
 
 import asyncio

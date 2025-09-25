@@ -1,38 +1,157 @@
+#!/usr/bin/env python3
+"""
+CARA (Constant Absolute Risk Aversion) Analysis for AI Risk Preferences
+
+This script analyzes AI language models' risk preferences using Constant Absolute Risk Aversion
+(CARA) utility functions. It fits CARA parameters to choice data from risk-reward experiments
+and generates comprehensive visualizations and statistical analyses.
+
+WHAT THIS SCRIPT DOES:
+- Loads and processes risk game choice data from JSON files
+- Fits CARA utility function parameters using maximum likelihood estimation
+- Generates individual and comparative plots of risk preferences
+- Provides statistical summaries and risk preference interpretations
+
+CARA MODEL:
+The CARA utility function is: U(x) = -exp(-α*x)/α for α ≠ 0, U(x) = x for α = 0
+- α < 0: Risk seeking behavior
+- α ≈ 0: Risk neutral behavior
+- α > 0: Risk averse behavior (higher α = more risk averse)
+
+REQUIREMENTS:
+- Python 3.8+
+- Required packages: numpy, scipy, matplotlib, collections, json, pathlib
+- Risk game experiment data in JSON format
+
+USAGE:
+1. Run from risk-games/data-analyze/ directory
+2. Default: python fit_cara.py (analyzes available models)
+3. Custom file: python fit_cara.py /path/to/results.json
+4. Custom output: python fit_cara.py input.json output_dir
+
+OUTPUT:
+- JSON results files with fitted parameters and statistics
+- PNG visualization plots (individual and combined)
+- Comprehensive analysis summaries in console
+"""
+
 import collections
 import json
+import logging
 import math
 import os
 import sys
 from datetime import datetime
 from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
 
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.optimize import minimize
 from scipy.special import expit
 
-AVAILABLE_MODELS = ["o3-mini-opportunity-hunter"]
+# ============= CONFIGURATION =============
+# Modify these values to customize the analysis
 
-if len(sys.argv) > 1 and sys.argv[1] in AVAILABLE_MODELS:
-    models_to_process = [sys.argv[1]]
-elif len(sys.argv) > 1:
-    INPUT = Path(sys.argv[1])
-    models_to_process = None
-else:
-    models_to_process = AVAILABLE_MODELS.copy()
+# Model configuration
+AVAILABLE_MODELS = [
+    "o3-mini-opportunity-hunter",
+]  # Models to analyze by default
 
-OUTDIR = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("analysis")
-OUTDIR.mkdir(parents=True, exist_ok=True)
+# File paths and directories
+DEFAULT_INPUT_DIR = "../results"  # Relative to script location
+DEFAULT_OUTPUT_DIR = "analysis"  # Relative to script location
+# TODO: Set your input/output directories here if different from defaults
 
+# Analysis parameters
+RISK_AVERSION_BOUNDS = (-1.0, 5.0)  # Allowable range for α parameter
+CHOICE_SENSITIVITY_BOUNDS = (0.01, 100.0)  # Allowable range for β parameter (> 0)
+
+# Optimization settings
+MAX_OPTIMIZATION_ITERATIONS = 2000
+OPTIMIZATION_TOLERANCE = 1e-9
+STARTING_POINTS = [
+    (0.01, 1.0),  # Very low risk aversion
+    (0.1, 2.0),  # Low risk aversion
+    (0.5, 1.0),  # Moderate risk aversion
+    (1.0, 5.0),  # High risk aversion
+    (0.001, 0.5),  # Near risk neutral
+    (-0.1, 1.0),  # Risk seeking
+]
+
+# Plotting configuration
+FIGURE_SIZE_INDIVIDUAL = (10, 7)
+FIGURE_SIZE_COMBINED = (14, 9)
+PLOT_DPI = 300
+PLOT_STYLE = "default"
+
+# Logging configuration
+LOG_LEVEL = logging.INFO
+LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+
+# ============= END CONFIGURATION =============
+
+# Setup logging
+logging.basicConfig(level=LOG_LEVEL, format=LOG_FORMAT)
+logger = logging.getLogger(__name__)
+
+
+# Parse command line arguments
+def parse_arguments() -> Tuple[Optional[List[str]], Optional[Path], Path]:
+    """
+    Parse command line arguments for the analysis script.
+
+    Returns:
+        Tuple of (models_to_process, input_path, output_directory)
+        - models_to_process: List of model names or None for custom file
+        - input_path: Path to custom input file or None for default models
+        - output_directory: Directory to save results
+    """
+    if len(sys.argv) > 1 and sys.argv[1] in AVAILABLE_MODELS:
+        models_to_process = [sys.argv[1]]
+        input_path = None
+    elif len(sys.argv) > 1:
+        input_path = Path(sys.argv[1])
+        models_to_process = None
+    else:
+        models_to_process = AVAILABLE_MODELS.copy()
+        input_path = None
+
+    output_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else Path(DEFAULT_OUTPUT_DIR)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    return models_to_process, input_path, output_dir
+
+
+# Parse arguments and setup
+models_to_process, INPUT, OUTDIR = parse_arguments()
 STAMP = datetime.now().strftime("%Y%m%d_%H%M%S")
 
+logger.info("🎯 CARA Analysis for AI Risk Preferences")
+logger.info("=" * 60)
+logger.info(f"📁 Output directory: {OUTDIR}")
+logger.info(f"📅 Analysis timestamp: {STAMP}")
 
-def cara_utility(payoff, alpha):
+
+def cara_utility(payoff: float, alpha: float) -> float:
     """
-    CARA utility function: U(x) = -exp(-α*x) / α for α ≠ 0, x for α = 0
+    Compute Constant Absolute Risk Aversion (CARA) utility for a payoff.
 
-    Key correction: Apply to payoffs directly, not wealth levels
-    (CARA is scale-invariant, unlike CRRA)
+    The CARA utility function is: U(x) = -exp(-α*x) / α for α ≠ 0, U(x) = x for α = 0
+
+    Args:
+        payoff: The monetary payoff amount
+        alpha: Risk aversion parameter (α)
+            - α < 0: Risk seeking
+            - α ≈ 0: Risk neutral
+            - α > 0: Risk averse (higher values = more risk averse)
+
+    Returns:
+        Utility value for the given payoff
+
+    Note:
+        Includes numerical stability measures to prevent overflow/underflow
+        in exponential calculations.
     """
     if abs(alpha) < 1e-10:  # α ≈ 0 (risk neutral)
         return payoff
@@ -40,7 +159,7 @@ def cara_utility(payoff, alpha):
     # Numerical stability for exponential
     exp_arg = -alpha * payoff
     if exp_arg > 700:  # Prevent overflow
-        return 0
+        return 0.0
     elif exp_arg < -700:  # Prevent underflow
         return -1e10  # Large negative utility
 
@@ -48,23 +167,49 @@ def cara_utility(payoff, alpha):
     return -math.exp(exp_arg) / alpha
 
 
-def expected_utility_safe(safe_payoff, alpha):
-    """Expected utility of safe option"""
+def expected_utility_safe(safe_payoff: float, alpha: float) -> float:
+    """Compute expected utility of the safe option."""
     return cara_utility(safe_payoff, alpha)
 
 
-def expected_utility_risky(risky_payoff, prob_win, alpha):
-    """Expected utility of risky option"""
+def expected_utility_risky(risky_payoff: float, prob_win: float, alpha: float) -> float:
+    """
+    Compute expected utility of the risky option.
+
+    The risky option pays risky_payoff with probability prob_win,
+    and 0 with probability (1 - prob_win).
+
+    Args:
+        risky_payoff: Payoff amount if the risky option succeeds
+        prob_win: Probability of success for the risky option
+        alpha: Risk aversion parameter
+
+    Returns:
+        Expected utility of the risky option
+    """
     # Win scenario: get risky_payoff
     # Lose scenario: get 0
     eu_win = cara_utility(risky_payoff, alpha)
-    eu_lose = cara_utility(0, alpha)
+    eu_lose = cara_utility(0.0, alpha)
 
     return prob_win * eu_win + (1 - prob_win) * eu_lose
 
 
-def choice_probability(eu_risky, eu_safe, beta):
-    """Probability of choosing risky option (logit model)"""
+def choice_probability(eu_risky: float, eu_safe: float, beta: float) -> float:
+    """
+    Compute probability of choosing the risky option using logit model.
+
+    Uses logistic regression where the probability depends on the
+    difference in expected utilities between risky and safe options.
+
+    Args:
+        eu_risky: Expected utility of risky option
+        eu_safe: Expected utility of safe option
+        beta: Choice sensitivity parameter (higher β = more sensitive to differences)
+
+    Returns:
+        Probability of choosing the risky option (between 0 and 1)
+    """
     utility_diff = eu_risky - eu_safe
     utility_diff = np.clip(utility_diff, -500, 500)  # Prevent overflow
     return expit(beta * utility_diff)

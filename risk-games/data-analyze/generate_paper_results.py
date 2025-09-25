@@ -1,66 +1,169 @@
+#!/usr/bin/env python3
 """
 Academic Paper Results Generator for AI Risk Aversion Study
-Generates publication-ready tables and visualizations from CARA and CRRA analyses
+
+Generates publication-ready tables, visualizations, and summaries from CARA and CRRA
+analyses of AI language models' risk preferences. Creates professional outputs
+suitable for academic papers and research publications.
+
+WHAT THIS SCRIPT DOES:
+- Loads CARA and CRRA analysis results from JSON files
+- Generates professional tables comparing model performance
+- Creates publication-quality visualizations and plots
+- Produces comprehensive summary reports
+- Handles normalization for comparative analyses
+
+OUTPUT FORMATS:
+- PNG images for tables and visualizations (300 DPI)
+- CSV files with raw data for further analysis
+- Text summary reports for paper inclusion
+
+REQUIREMENTS:
+- Python 3.8+
+- Required packages: matplotlib, numpy, pandas, seaborn, json, pathlib
+- CARA and CRRA analysis result files from fit_cara.py and fit_crra.py
+
+USAGE:
+1. Run after completing CARA/CRRA analyses
+2. Default: python generate_paper_results.py (uses default directories)
+3. Custom: python generate_paper_results.py /path/to/analysis /path/to/output
+
+OUTPUT:
+- Publication-ready tables and figures
+- CSV data files for statistical analysis
+- Comprehensive summary reports
+- All files saved to specified output directory
 """
 
 import json
+import logging
+import sys
 from datetime import datetime
 from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
 
-# Set up professional plotting style
-plt.style.use("seaborn-v0_8-whitegrid")
-sns.set_palette("husl")
-plt.rcParams.update(
-    {
-        "font.size": 12,
-        "axes.titlesize": 14,
-        "axes.labelsize": 12,
-        "xtick.labelsize": 10,
-        "ytick.labelsize": 10,
-        "legend.fontsize": 11,
-        "figure.titlesize": 16,
-        "font.family": "serif",
-    }
-)
+# ============= CONFIGURATION =============
+# Modify these values to customize the analysis
+
+# Directory paths
+DEFAULT_ANALYSIS_DIR = "analysis"  # Directory containing CARA/CRRA result files
+DEFAULT_OUTPUT_DIR = "paper_outputs"  # Directory for generated outputs
+# TODO: Set your analysis and output directories here if different from defaults
+
+# Plotting configuration
+PLOT_STYLE = "seaborn-v0_8-whitegrid"
+COLOR_PALETTE = "husl"
+PLOT_DPI = 300
+
+# Font and styling parameters
+FONT_CONFIG = {
+    "font.size": 12,
+    "axes.titlesize": 14,
+    "axes.labelsize": 12,
+    "xtick.labelsize": 10,
+    "ytick.labelsize": 10,
+    "legend.fontsize": 11,
+    "figure.titlesize": 16,
+    "font.family": "serif",
+}
+
+# Table styling
+TABLE_FIGURE_SIZE = (12, 4)
+TABLE_FONT_SIZE = 11
+TABLE_SCALE = (1.2, 2)
+HEADER_COLOR = "#4472C4"
+
+# Normalization settings (for additional comparative plots)
+NORMALIZE_DEFAULT = False
+NORM_METHOD_DEFAULT = "zscore"  # 'zscore' or 'minmax'
+
+# Model name mapping for publication
+MODEL_NAMES = {
+    "o3-mini-opportunity-hunter": "O3 Mini (Opportunity Hunter)",
+}
+
+# Logging configuration
+LOG_LEVEL = logging.INFO
+LOG_FORMAT = "%(asctime)s - %(levelname)s - %(message)s"
+
+# ============= END CONFIGURATION =============
+
+# Setup plotting style
+plt.style.use(PLOT_STYLE)
+sns.set_palette(COLOR_PALETTE)
+plt.rcParams.update(FONT_CONFIG)
+
+# Setup logging
+logging.basicConfig(level=LOG_LEVEL, format=LOG_FORMAT)
+logger = logging.getLogger(__name__)
 
 
 class AcademicResultsGenerator:
+    """
+    Generates academic paper results from CARA and CRRA analyses.
+
+    This class loads analysis results, generates publication-quality tables and
+    visualizations, and creates comprehensive summary reports suitable for
+    academic papers.
+    """
+
     def __init__(
         self,
-        analysis_dir="analysis",
-        output_dir="paper_outputs",
-        normalize=False,
-        norm_method="zscore",
-    ):
+        analysis_dir: str = DEFAULT_ANALYSIS_DIR,
+        output_dir: str = DEFAULT_OUTPUT_DIR,
+        normalize: bool = NORMALIZE_DEFAULT,
+        norm_method: str = NORM_METHOD_DEFAULT,
+    ) -> None:
+        """
+        Initialize the academic results generator.
+
+        Args:
+            analysis_dir: Directory containing CARA/CRRA result JSON files
+            output_dir: Directory where generated outputs will be saved
+            normalize: Whether to generate normalized comparison plots
+            norm_method: Normalization method ('zscore' or 'minmax')
+        """
         self.analysis_dir = Path(analysis_dir)
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
+
         # Normalization settings for additional comparative plots
         self.normalize = normalize
-        self.norm_method = norm_method  # 'zscore' or 'minmax'
+        self.norm_method = norm_method
 
-        # Model mapping for publication - focused on O3 Mini Opportunity Hunter
-        self.model_names = {
-            "o3-mini-opportunity-hunter": "O3 Mini (Opportunity Hunter)",
-        }
+        # Model name mapping for publication
+        self.model_names = MODEL_NAMES
 
-    def load_results(self):
-        """Load O3 Mini CARA and CRRA results from JSON files"""
+        # Data storage
+        self.cara_data: Dict[str, Dict[str, Any]] = {}
+        self.crra_data: Dict[str, Dict[str, Any]] = {}
+
+        logger.info(f"📊 Initialized AcademicResultsGenerator")
+        logger.info(f"   Analysis directory: {self.analysis_dir}")
+        logger.info(f"   Output directory: {self.output_dir}")
+
+    def load_results(self) -> None:
+        """
+        Load CARA and CRRA analysis results from JSON files.
+
+        Searches for the most recent result files matching expected naming patterns
+        and loads the analysis data for further processing and visualization.
+        """
         self.cara_data = {}
         self.crra_data = {}
 
-        print(f"🔍 Loading O3 Mini results from: {self.analysis_dir}")
+        logger.info(f"🔍 Loading analysis results from: {self.analysis_dir}")
 
-        # Look for specific O3 Mini Opportunity Hunter result files
-        # Find the most recent opportunity hunter result files
+        # File patterns for CARA and CRRA results
         cara_pattern = "cara_results_o3-mini_opportunity_hunter_*.json"
         crra_pattern = "crra_results_o3-mini_opportunity_hunter_*.json"
 
+        # Find the most recent files matching patterns
         cara_files = list(self.analysis_dir.glob(cara_pattern))
         crra_files = list(self.analysis_dir.glob(crra_pattern))
 
@@ -74,39 +177,43 @@ class AcademicResultsGenerator:
         # Load CARA results
         if cara_file and cara_file.exists():
             try:
-                with open(cara_file, "r") as f:
+                with open(cara_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     model = data.get("model", "o3-mini-opportunity-hunter")
                     self.cara_data[model] = data
-                print(
-                    f"✅ Loaded CARA results for O3 Mini (Opportunity Hunter): {cara_file.name}"
-                )
+                logger.info(f"✅ Loaded CARA results: {cara_file.name}")
             except Exception as e:
-                print(f"❌ Error loading CARA file: {e}")
+                logger.error(f"❌ Error loading CARA file {cara_file}: {e}")
         else:
-            print(f"❌ CARA results file not found")
+            logger.warning("❌ CARA results file not found")
 
         # Load CRRA results
         if crra_file and crra_file.exists():
             try:
-                with open(crra_file, "r") as f:
+                with open(crra_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     model = data.get("model", "o3-mini-opportunity-hunter")
                     self.crra_data[model] = data
-                print(
-                    f"✅ Loaded CRRA results for O3 Mini (Opportunity Hunter): {crra_file.name}"
-                )
+                logger.info(f"✅ Loaded CRRA results: {crra_file.name}")
             except Exception as e:
-                print(f"❌ Error loading CRRA file: {e}")
+                logger.error(f"❌ Error loading CRRA file {crra_file}: {e}")
         else:
-            print(f"❌ CRRA results file not found")
+            logger.warning("❌ CRRA results file not found")
 
-        print(
-            f"✅ Loaded results for O3 Mini: {len(self.cara_data)} CARA, {len(self.crra_data)} CRRA"
+        logger.info(
+            f"✅ Loaded results summary: {len(self.cara_data)} CARA, {len(self.crra_data)} CRRA"
         )
 
-    def generate_cara_table(self):
-        """Generate professional CARA results table"""
+    def generate_cara_table(self) -> pd.DataFrame:
+        """
+        Generate professional CARA results table.
+
+        Creates a publication-ready table summarizing CARA analysis results
+        and saves it as both CSV and PNG formats.
+
+        Returns:
+            Pandas DataFrame containing the CARA results summary
+        """
         cara_summary = []
 
         for model_key, data in self.cara_data.items():
@@ -125,12 +232,13 @@ class AcademicResultsGenerator:
 
         cara_df = pd.DataFrame(cara_summary)
 
-        # Save as CSV and styled table
+        # Save as CSV
         cara_df.to_csv(self.output_dir / "cara_results_table.csv", index=False)
+        logger.info("💾 Saved CARA results table (CSV)")
 
         # Create styled table image (only if there's data)
         if len(cara_df) > 0:
-            fig, ax = plt.subplots(figsize=(12, 4))
+            fig, ax = plt.subplots(figsize=TABLE_FIGURE_SIZE)
             ax.axis("tight")
             ax.axis("off")
 
@@ -142,12 +250,12 @@ class AcademicResultsGenerator:
                 bbox=[0, 0, 1, 1],
             )
             table.auto_set_font_size(False)
-            table.set_fontsize(11)
-            table.scale(1.2, 2)
+            table.set_fontsize(TABLE_FONT_SIZE)
+            table.scale(*TABLE_SCALE)
 
-            # Style the table
+            # Style the table header
             for i in range(len(cara_df.columns)):
-                table[(0, i)].set_facecolor("#4472C4")
+                table[(0, i)].set_facecolor(HEADER_COLOR)
                 table[(0, i)].set_text_props(weight="bold", color="white")
 
             plt.title(
@@ -157,11 +265,12 @@ class AcademicResultsGenerator:
                 pad=20,
             )
             plt.savefig(
-                self.output_dir / "cara_table.png", dpi=300, bbox_inches="tight"
+                self.output_dir / "cara_table.png", dpi=PLOT_DPI, bbox_inches="tight"
             )
             plt.close()
+            logger.info("🖼️  Saved CARA results table (PNG)")
         else:
-            print("⚠️  No CARA data found - skipping table generation")
+            logger.warning("⚠️  No CARA data found - skipping table generation")
 
         return cara_df
 
@@ -705,61 +814,68 @@ class AcademicResultsGenerator:
 
         return report_text
 
-    def run_all_analyses(self):
-        """Run complete analysis pipeline"""
-        print("🎯 GENERATING O3 MINI (OPPORTUNITY HUNTER) ACADEMIC PAPER RESULTS")
-        print("=" * 50)
+    def run_all_analyses(self) -> Dict[str, Any]:
+        """
+        Run complete analysis pipeline for academic paper results.
+
+        Executes the full workflow: data loading, table generation, visualization
+        creation, and summary report generation.
+
+        Returns:
+            Dictionary containing generated dataframes, summary, and output info
+        """
+        logger.info("🎯 GENERATING ACADEMIC PAPER RESULTS")
+        logger.info("=" * 50)
+        logger.info(f"📁 Output directory: {self.output_dir}")
 
         # Load data
         self.load_results()
 
         # Generate tables
-        print("📊 Generating results tables...")
+        logger.info("📊 Generating results tables...")
         cara_df = self.generate_cara_table()
         crra_df = self.generate_crra_table()
 
         # Generate visualizations
-        print("📈 Creating visualizations...")
+        logger.info("📈 Creating visualizations...")
         self.generate_risk_aversion_comparison()
         self.generate_choice_sensitivity_comparison()
         self.generate_behavioral_profile_heatmap()
         self.generate_risk_choice_scatter()
 
         # Generate summary
-        print("📝 Creating summary report...")
+        logger.info("📝 Creating summary report...")
         summary = self.generate_summary_report()
 
-        print(f"\n✅ ALL OUTPUTS GENERATED!")
-        print(f"📁 Results saved in: {self.output_dir}")
-        print("\n📋 Files created:")
+        logger.info(f"\n✅ ALL OUTPUTS GENERATED!")
+        logger.info(f"📁 Results saved in: {self.output_dir}")
+        logger.info("\n📋 Files created:")
 
         output_files = [
-            "cara_table.png - O3 Mini CARA results table",
-            "crra_table.png - O3 Mini CRRA results table",
-            "cara_results_table.csv - O3 Mini CARA data (CSV)",
-            "crra_results_table.csv - O3 Mini CRRA data (CSV)",
-            "o3_mini_risk_aversion.png - O3 Mini Risk aversion analysis",
-            "o3_mini_choice_sensitivity.png - O3 Mini Choice sensitivity analysis",
-            "o3_mini_behavioral_profile_heatmap.png - O3 Mini behavioral profiles",
-            "risk_aversion_vs_behavior.png - O3 Mini Risk aversion vs behavior scatter",
-            "analysis_summary.txt - O3 Mini text summary",
+            "cara_table.png - CARA results table",
+            "crra_table.png - CRRA results table",
+            "cara_results_table.csv - CARA data (CSV)",
+            "crra_results_table.csv - CRRA data (CSV)",
+            "o3_mini_risk_aversion.png - Risk aversion analysis",
+            "o3_mini_choice_sensitivity.png - Choice sensitivity analysis",
+            "o3_mini_behavioral_profile_heatmap.png - Behavioral profiles",
+            "risk_aversion_vs_behavior.png - Risk aversion vs behavior scatter",
+            "analysis_summary.txt - Text summary",
         ]
 
         if self.normalize:
             # Add normalized output file names
             output_files.extend(
                 [
-                    "risk_aversion_comparison_normalized.png - Normalized risk aversion (grouped)",
+                    "risk_aversion_comparison_normalized.png - Normalized risk aversion",
                     "choice_sensitivity_comparison_normalized.png - Normalized choice sensitivity",
                 ]
             )
 
         for file in output_files:
-            print(f"   • {file}")
+            logger.info(f"   • {file}")
 
-        print(
-            f"\n🎓 O3 Mini (Opportunity Hunter) results ready for academic paper inclusion!"
-        )
+        logger.info(f"\n🎓 Results ready for academic paper inclusion!")
 
         return {
             "cara_df": cara_df,
@@ -769,19 +885,30 @@ class AcademicResultsGenerator:
         }
 
 
-# Run the analysis
-if __name__ == "__main__":
-    import sys
+def main() -> None:
+    """
+    Main entry point for the academic results generator.
 
+    Parses command line arguments and runs the complete analysis pipeline.
+    """
     # Parse command line arguments
-    analysis_dir = (
-        sys.argv[1]
-        if len(sys.argv) > 1
-        else "/Users/arianakbari/Desktop/research/research/ambiguity-aversion/data-analyze/analysis"
-    )
-    output_dir = sys.argv[2] if len(sys.argv) > 2 else "paper_outputs"
+    analysis_dir = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_ANALYSIS_DIR
+    output_dir = sys.argv[2] if len(sys.argv) > 2 else DEFAULT_OUTPUT_DIR
 
-    generator = AcademicResultsGenerator(
-        analysis_dir=analysis_dir, output_dir=output_dir
-    )
-    results = generator.run_all_analyses()
+    logger.info("🚀 Starting Academic Results Generator")
+    logger.info(f"   Analysis directory: {analysis_dir}")
+    logger.info(f"   Output directory: {output_dir}")
+
+    try:
+        generator = AcademicResultsGenerator(
+            analysis_dir=analysis_dir, output_dir=output_dir
+        )
+        results = generator.run_all_analyses()
+        logger.info("✅ Analysis completed successfully!")
+    except Exception as e:
+        logger.error(f"❌ Analysis failed: {e}")
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
