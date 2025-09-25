@@ -1,5 +1,0 @@
-timestamp,model,configuration,epsilon_hat,epsilon_ci_lower,epsilon_ci_upper,beta_hat,beta_ci_lower,beta_ci_upper,r_hat,interpretation,ambiguity_level,precision_level
-20250909_222746,gpt-4.1,"reps=15, n=225",0.0,0.0,0.0,100.0,85.0,115.0,1.5494,Complete ambiguity seeking - always chooses unknown outcome,Moderate,High
-20250909_222746,gpt-4o,"reps=15, n=225",0.0,0.0,0.0,100.0,85.0,115.0,-3.0,Complete ambiguity seeking - always chooses unknown outcome,Moderate,High
-20250909_222746,gpt-4o-mini,"reps=15, n=225",1.0,1.0,1.0,100.0,90.0,110.0,-3.0,Resistant to persona - maintains extreme ambiguity aversion despite risk seeking,Extreme,High
-20250909_222746,gpt-5,"reps=15, n=225",0.0,0.0,0.0,100.0,85.0,115.0,1.0,Complete ambiguity seeking - always chooses unknown outcome,Moderate,High
