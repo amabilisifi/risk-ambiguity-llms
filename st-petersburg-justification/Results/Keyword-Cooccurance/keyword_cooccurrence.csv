@@ -1,0 +1,13 @@
+,infinite,expected value,risk,rational,probability,payoff,utility,real-world,mathematical,paradox,favorable,diminishing
+infinite,0,326,207,161,151,113,114,100,81,77,70,51
+expected value,326,0,174,144,135,106,88,89,75,72,64,44
+risk,207,174,0,81,81,47,88,71,29,46,24,36
+rational,161,144,81,0,77,48,54,50,44,40,13,21
+probability,151,135,81,77,0,54,34,43,39,33,21,13
+payoff,113,106,47,48,54,0,33,41,29,23,22,19
+utility,114,88,88,54,34,33,0,57,18,36,9,43
+real-world,100,89,71,50,43,41,57,0,24,36,11,33
+mathematical,81,75,29,44,39,29,18,24,0,22,17,11
+paradox,77,72,46,40,33,23,36,36,22,0,10,17
+favorable,70,64,24,13,21,22,9,11,17,10,0,5
+diminishing,51,44,36,21,13,19,43,33,11,17,5,0
