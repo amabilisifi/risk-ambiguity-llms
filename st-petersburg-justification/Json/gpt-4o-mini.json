@@ -1,0 +1,502 @@
+[
+    {
+        "Entrance Fee": 1,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, calculated as the sum of each outcome's value multiplied by its probability. Each successive outcome doubles the prize but halves the probability, leading to an infinite expected return. Since the entrance fee is only $1, I am likely to gain more value in the long run."
+    },
+    {
+        "Entrance Fee": 2,
+        "Decision": "Play",
+        "Justification": "The expected payout of the game is infinite due to the potential for the pot to grow significantly with each tails outcome. The average expected payout far exceeds the entrance fee of $2, making it a favorable gamble to participate."
+    },
+    {
+        "Entrance Fee": 4,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the potential winnings grow exponentially with each Tails flip. Even though there is a cost of $4 to play, the average payoff from the game significantly exceeds this cost, making it a favorable decision to play."
+    },
+    {
+        "Entrance Fee": 8,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite. The average payout is calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... which diverges to infinity. Thus, paying $8 to participate in a game with such a high expected value makes it a favorable proposition."
+    },
+    {
+        "Entrance Fee": 16,
+        "Decision": "Play",
+        "Justification": "The expected payout of the game is infinite, as the average win can be calculated to be infinite, making the $16 entrance fee worthwhile. The probability of winning larger amounts increases with more flips, and even though tails could appear many times, the potential payoffs justify playing."
+    },
+    {
+        "Entrance Fee": 32,
+        "Decision": "Pass",
+        "Justification": "The expected payout of the game is infinite due to the nature of the St. Petersburg paradox, but the likelihood of winning large amounts diminishes as the number of tails increases. The expected value calculation shows it is higher than $32, but the practical risk of losing $32 without a guaranteed return makes it unfavorable to play in monetary terms."
+    },
+    {
+        "Entrance Fee": 100,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the practical implications and the finite nature of resources make it unreasonable to pay $100 to play. The potential outcomes have diminishing probabilities, and the risk of losing the entrance fee is too high compared to the uncertain gains."
+    },
+    {
+        "Entrance Fee": 1000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite due to the potential for the pot to grow indefinitely with each tails flip. However, the probability of achieving very high payouts decreases significantly, and in practical terms, it is unlikely to receive a high return compared to the upfront cost of $1000. The utility of winning a large amount in contrast to the cost of playing does not justify risking a substantial amount of money, leading to the decision to pass."
+    },
+    {
+        "Entrance Fee": 10000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but practical considerations and risk aversion suggest not paying $10,000 for a gamble with such unpredictable and potentially enormous payouts. The utility of money and the likelihood of large losses should outweigh the infinite expected value in this case."
+    },
+    {
+        "Entrance Fee": 100000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but practical considerations and risk tolerance suggest that spending $100,000 for a game with uncertain outcomes and extreme volatility is not justified. The potential high payout does not sufficiently compensate for the risk of losing a significant amount of money."
+    },
+    {
+        "Entrance Fee": 1,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as calculated by summing the possible outcomes weighted by their probabilities. Paying $1 to enter a game with a potentially infinite expected return is a rational decision."
+    },
+    {
+        "Entrance Fee": 2,
+        "Decision": "Play",
+        "Justification": "The expected value of playing the game is infinite. The potential payouts grow exponentially with each tail that appears, outweighing the cost of the entrance fee. Therefore, I choose to play."
+    },
+    {
+        "Entrance Fee": 4,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the payout can increase indefinitely with more flips. While the probability of getting higher payouts decreases, the potential winnings when the game ends outweigh the cost of the entrance fee, making it a favorable gamble."
+    },
+    {
+        "Entrance Fee": 8,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as it is calculated as the sum of all possible values multiplied by their respective probabilities. Even though the expected value far exceeds the entrance fee of $8, I would choose to play the game despite the high variance and potential for low immediate returns."
+    },
+    {
+        "Entrance Fee": 16,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as calculated by summing the probabilities of each outcome multiplied by their respective payoffs. Thus, paying 16 dollars to potentially win a large amount is a favorable decision."
+    },
+    {
+        "Entrance Fee": 32,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite based on the payout structure; however, the actual payoff diminishes as the number of coin flips increases, resulting in a practical risk that may not justify the $32 entry fee. I would prefer not to risk that amount for a game with such high variance and potential for loss."
+    },
+    {
+        "Entrance Fee": 100,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the probability of achieving high payouts is extremely low. The risk of losing the $100 entrance fee outweighs the potential benefits, given that I might not play enough times to actually realize those infinite expectations."
+    },
+    {
+        "Entrance Fee": 1000,
+        "Decision": "Pass",
+        "Justification": "Although the expected value of the game is theoretically infinite due to the doubling nature of the pot for each tail flip, the probability of receiving higher payoffs decreases exponentially. The expected payout, while mathematically promising, does not sufficiently outweigh the high monetary risk of a $1000 entrance fee. The practical consideration of potential losses outweighs the potential for gain."
+    },
+    {
+        "Entrance Fee": 10000,
+        "Decision": "Pass",
+        "Justification": "Despite the theoretical expected value of the game being infinite, the practical aspects of risk and the $10,000 entrance fee far outweigh the potential payout. The extremely low probabilities of winning large amounts make it an unwise investment."
+    },
+    {
+        "Entrance Fee": 100000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite under the rules presented, but the risk of losing the $100,000 entrance fee is too high relative to the practical likelihood of high payouts occurring. Given the extreme cost upfront and the potential for an actual loss, it is not worth playing the game."
+    },
+    {
+        "Entrance Fee": 1,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is calculated as follows: E = (1/2 * $2) + (1/4 * $4) + (1/8 * $8) + (1/16 * $16) + ... = $1 + $1 + $1 + $1 + ... = $2. Since the expected payout ($2) is greater than the entrance fee ($1), it is a favorable decision to play."
+    },
+    {
+        "Entrance Fee": 2,
+        "Decision": "Play",
+        "Justification": "In this game, the expected value of playing is infinitely greater than the entrance fee of $2. The potential payoffs increase exponentially with each tails, leading to an expected value that theoretically trends towards infinity, making it a favorable bet."
+    },
+    {
+        "Entrance Fee": 4,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite due to the nature of the payouts, as the potential winnings grow considerably with each tail flipped before a head, outweighing the entrance fee."
+    },
+    {
+        "Entrance Fee": 8,
+        "Decision": "Play",
+        "Justification": "The expected value of playing the game is infinite, as the potential payouts increase exponentially with each additional tail before achieving heads. Specifically, the expected payout can be calculated as follows: E = (1/2 * 2) + (1/4 * 4) + (1/8 * 8) + (1/16 * 16) + ... = 1 + 1 + 1 + 1 + ... = \u221e. Thus, paying an entrance fee of $8 is justified since the expected value of the game far exceeds this cost."
+    },
+    {
+        "Entrance Fee": 16,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite. The calculation shows that the expected payoff, when accounting for all possible outcomes and their respective probabilities, far exceeds the entrance fee of $16. Therefore, it is a financially rational decision to play."
+    },
+    {
+        "Entrance Fee": 32,
+        "Decision": "Pass",
+        "Justification": "Although the expected value of the game is theoretically infinite due to the doubling nature of the pot, the probabilities of achieving high payoffs diminish rapidly. The potential to lose the $32 entrance fee without a guaranteed significant return makes this a high-risk proposition. Therefore, I would choose to pass."
+    },
+    {
+        "Entrance Fee": 100,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the probability of the pot amount being large enough to compensate for the $100 entrance fee diminishes rapidly. Even though there is a theoretical infinite expected return, the realistic likelihood of earning substantial amounts (beyond $100) is very low, making the risk unjustifiable."
+    },
+    {
+        "Entrance Fee": 1000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite due to the potential for the pot to grow indefinitely with repeated tails. However, the high entrance fee of $1000 greatly outweighs the finite expected value when considering the probabilities and potential payouts. The risk of losing $1000 with the expected payout being broadly unpredictable leads to a decision to pass."
+    },
+    {
+        "Entrance Fee": 10000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the practical outcome is that the probability of winning large amounts becomes increasingly unlikely. The cost of entry is significantly high compared to the realistic expected outcomes, which leads to a high financial risk with little guarantee of return."
+    },
+    {
+        "Entrance Fee": 100000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the practical implications of paying $100,000 to play, given the significant risk of losing that amount without a guarantee of a proportional return, make the decision to pass more rational. The potential for very large wins is countered by the reality of the initial cost."
+    },
+    {
+        "Entrance Fee": 1,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the payouts increase exponentially with each TAILS. The potential payoff far outweighs the small cost of entry, making it a favorable decision to play."
+    },
+    {
+        "Entrance Fee": 2,
+        "Decision": "Play",
+        "Justification": "The expected value of playing this game is infinite. The possible outcomes allow for substantial winnings, even though individual outcomes have low probabilities. Mathematically, the expected payout is calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... = 1 + 1 + 1 + ... = infinite. Since the expected reward significantly outweighs the cost of playing ($2), it is rational to play."
+    },
+    {
+        "Entrance Fee": 4,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the potential payoffs increase exponentially with each additional coin flip. Despite the low probability of achieving very high payoffs, the overall expectation far exceeds the $4 entrance fee."
+    },
+    {
+        "Entrance Fee": 8,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the theoretical winnings grow significantly with each additional flip. Despite the entrance fee of $8, the potential winnings far exceed this amount, making it a favorable gamble."
+    },
+    {
+        "Entrance Fee": 16,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the probability-weighted sum of potential payouts diverges. Since the expected payout significantly exceeds the entrance fee of $16, it is rational to play the game."
+    },
+    {
+        "Entrance Fee": 32,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the practical limits and risks involved do not justify paying the $32 fee. Since the game could potentially take a long time to conclude with me having to wait through many flips, it would not be a wise financial decision to invest this amount without a guaranteed return."
+    },
+    {
+        "Entrance Fee": 100,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite due to the payout structure, but the probability of very high payouts decreases exponentially. The risk of potentially losing $100 with a low probability of receiving an equivalent or greater payout in reality does not justify playing."
+    },
+    {
+        "Entrance Fee": 1000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game approaches infinity due to the potential for very high payoffs from long sequences of tails. However, the actual risk involved in playing with a $1000 entrance fee does not justify the potential payouts. The likelihood of high payout scenarios diminishes exponentially, and the financial impact of losing $1000 outweighs the expected outcome."
+    },
+    {
+        "Entrance Fee": 10000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite; however, the likelihood of winning a significant amount is extremely low, and the initial entry fee of $10,000 outweighs the potential gains for most practical scenarios. Thus, the risk of loss is too high relative to the potential reward."
+    },
+    {
+        "Entrance Fee": 100000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the increasing stakes and the potential for a long series of tails could lead to an unreasonable financial risk. Paying $100,000 to enter a game with a highly unpredictable outcome is not justified, as it could result in significant financial loss."
+    },
+    {
+        "Entrance Fee": 1,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the potential winnings increase exponentially with each tail outcome. Specifically, the expected payout can be calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... = 1 + 1 + 1 + 1 + ... = \u221e. Since the entrance fee of $1 is negligible compared to the potentially infinite expected payout, it is rational to pay the fee and play the game."
+    },
+    {
+        "Entrance Fee": 2,
+        "Decision": "Play",
+        "Justification": "The expected value of this game is infinite. Although the probability of winning large amounts decreases with the number of flips, the potential payouts increase exponentially. Even after paying the 2 dollars, the expected payoff justifies the entrance fee, making it a rational decision to play."
+    },
+    {
+        "Entrance Fee": 4,
+        "Decision": "Play",
+        "Justification": "The expected value of this game is significantly higher than the $4 entrance fee. The expected value can be calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... = 2 + 1 + 1 + 1 + ... = \u221e. Since the expected value is infinite, it justifies the decision to play despite the initial fee."
+    },
+    {
+        "Entrance Fee": 8,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the payouts grow exponentially with each additional tail before hitting heads. On average, the winnings exceed the entrance fee of $8, making it a favorable bet despite the high variance."
+    },
+    {
+        "Entrance Fee": 16,
+        "Decision": "Play",
+        "Justification": "The expected value of this game is infinite, as the payouts continue to increase exponentially with each additional tails flip. Despite the high entrance fee, the potential returns vastly outweigh the cost, making it a mathematically favorable choice."
+    },
+    {
+        "Entrance Fee": 32,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite due to the fact that the payouts grow exponentially while their probabilities decrease. Each outcome has a positive contribution to the expected value, which, despite the low probabilities of higher payouts, ultimately leads to a value greater than $32. Thus, it is rational to pay the entrance fee to participate."
+    },
+    {
+        "Entrance Fee": 100,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but given the high cost of the entrance fee relative to the probabilities of winning, the risk of losing $100 outweighs the potential for large payouts. The most likely outcomes result in relatively small winnings when compared to the steep cost of entry."
+    },
+    {
+        "Entrance Fee": 1000,
+        "Decision": "Pass",
+        "Justification": "While the expected value of the game seems appealing, it is mainly theoretical and does not compensate for the high variance and the potential for losing the initial investment of $1000. The probability of receiving very large payouts is outweighed by the fact that many flips could occur without the game ending, representing a significant risk without a guaranteed return."
+    },
+    {
+        "Entrance Fee": 10000,
+        "Decision": "Pass",
+        "Justification": "While the expected payoff of the game theoretically diverges, practical considerations such as the finite budget and the improbability of achieving high winnings in a reasonable number of flips make it unwise to pay such a high entrance fee."
+    },
+    {
+        "Entrance Fee": 100000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite since the pot keeps doubling with each tails outcome. However, the cost of entry is $100,000, which is a significant sum. Engaging in this game would mean risking a large amount of money for an uncertain payoff, especially since the expected value does not translate to a guaranteed win, especially given the practical considerations of how long it may take to reach heads."
+    },
+    {
+        "Entrance Fee": 1,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the sum of potential winnings grows indefinitely with each additional flip of tails. Therefore, paying 1 dollar to potentially win a large amount is rational, given the favorable odds over the long term."
+    },
+    {
+        "Entrance Fee": 2,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite. The payout grows significantly with each tails flip, and the potential winnings can greatly exceed the $2 entrance fee. Mathematically, I would be losing out on a favorable bet by passing."
+    },
+    {
+        "Entrance Fee": 4,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the possible payouts continue to grow exponentially with each tails flip. Therefore, paying $4 to play is a rational decision since the potential winnings far exceed the cost of playing."
+    },
+    {
+        "Entrance Fee": 8,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... = 1 + 1 + 1 + 1 + ... = \u221e. Since the expected payout is infinitely greater than the cost of playing, it is a favorable decision to play."
+    },
+    {
+        "Entrance Fee": 16,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the potential winnings increase exponentially with each tail. The expected value calculation shows that playing is favorable compared to the $16 fee."
+    },
+    {
+        "Entrance Fee": 32,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... = 1 + 1 + 1 + 1 + ... = infinity. Though the expected value is theoretically infinite, the practical payout for playing the game is not guaranteed. The high entrance fee of $32 compared to the substantial risk of loss makes it not a favorable bet. Therefore, I would choose to pass."
+    },
+    {
+        "Entrance Fee": 100,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, making it rational to play despite the entrance fee. The potential winnings increase exponentially with each tail, and the probability of getting a higher payout makes the gamble worth it."
+    },
+    {
+        "Entrance Fee": 1000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the probability of winning significant amounts diminishes quickly as the game progresses. The extreme outcomes lead to a paradox where the rational decision in a real-world context, considering the finite amount of money I possess and the risk associated, is to pass. Therefore, I decline to pay the entrance fee."
+    },
+    {
+        "Entrance Fee": 10000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, which theoretically means it is favorable to play. However, the probability of winning large amounts decreases significantly with each additional TAILS flip, creating potential for catastrophic losses before achieving a positive payout. The upfront cost of $10,000 is too high compared to the actual expected payout in practical terms, given that most outcomes yield low returns. Thus, it's safer to pass."
+    },
+    {
+        "Entrance Fee": 100000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, which suggests it should be played. However, the probabilities of winning substantial amounts decrease significantly as the number of flips increases. Given the high entrance fee of $100,000, the risk of losing this amount without a guaranteed win makes it an unwise financial decision to participate."
+    },
+    {
+        "Entrance Fee": 1,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite. Although the probability of winning larger amounts decreases with more tails, the potential winnings from tails combinations outweigh the cost of entry. Therefore, playing makes mathematical sense."
+    },
+    {
+        "Entrance Fee": 2,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the winnings can grow large based on the number of tails before the first heads, making the potential payout outweigh the small entrance fee of $2."
+    },
+    {
+        "Entrance Fee": 4,
+        "Decision": "Play",
+        "Justification": "The expected value of the game significantly exceeds the entrance fee of $4. The expected payout can be calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... = 2 + 1 + 1 + 1 + ... = \u221e. Despite the low probability of higher outcomes, the potential for very high payouts outweighs the cost of playing. Therefore, it is a favorable decision to play."
+    },
+    {
+        "Entrance Fee": 8,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the potential winnings increase dramatically with each tails flipped. Even though the probability of hitting higher amounts decreases, the potential payout of games lasting several flips outweighs the entrance fee of $8."
+    },
+    {
+        "Entrance Fee": 16,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the sum of the payoffs multiplied by their probabilities diverges. Specifically, the expected value is calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... which equals 1 + 1 + 1 + ... = \u221e. Since the expected value greatly exceeds the entrance fee of $16, playing the game is a favorable decision."
+    },
+    {
+        "Entrance Fee": 32,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the potential winnings can be very high if the coin lands TAILS multiple times. Although you pay $32 to enter, the expected payout significantly exceeds this amount based on the probabilities of the outcomes."
+    },
+    {
+        "Entrance Fee": 100,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite (an infinite sum of potential payouts, such as $2, $4, $8, ...), but the probability of achieving higher payouts diminishes rapidly. Given the entrance fee of $100, the risk is not justified as the practical likelihood of receiving a sufficient return to cover the cost is very low."
+    },
+    {
+        "Entrance Fee": 1000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the potential loss of $1000 outweighs the expected payoff. The likelihood of winning a substantial amount is too small compared to the risk involved in paying the entrance fee."
+    },
+    {
+        "Entrance Fee": 10000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the actual payout in practice is highly uncertain and can lead to extreme losses. Paying $10,000 to enter a game with such volatility does not justify the potential return."
+    },
+    {
+        "Entrance Fee": 100000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the risks and financial implications of paying $100,000 to play far outweigh the potential upside. The game could theoretically take a long time to conclude, potentially yielding no return on investment, making it a poor financial decision."
+    },
+    {
+        "Entrance Fee": 1,
+        "Decision": "Play",
+        "Justification": "The expected payout of the game is infinite, leading to a positive expected value when considering the $1 entrance fee. The potential winnings far outweigh the risk of losing the entrance fee."
+    },
+    {
+        "Entrance Fee": 2,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the potential payout grows exponentially with each tail flip. Even though the probability of winning a large amount decreases with each additional flip, the cumulative expected value far exceeds the entrance fee of $2."
+    },
+    {
+        "Entrance Fee": 4,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite. The potential payoffs increase significantly with each tail flip, and although the probability of achieving high payouts decreases, the possibility of winning large amounts makes playing justifiable despite the entrance fee."
+    },
+    {
+        "Entrance Fee": 8,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the potential payouts grow exponentially with each TAILS before the first HEADS. Since the expected payout greatly exceeds the entrance fee of $8, it is mathematically advantageous to participate in the game."
+    },
+    {
+        "Entrance Fee": 16,
+        "Decision": "Play",
+        "Justification": "The expected value of playing the game is infinite. The potential payoffs, weighted by their probabilities, lead to a sum much greater than 16 dollars, making it a favorable decision to play."
+    },
+    {
+        "Entrance Fee": 32,
+        "Decision": "Pass",
+        "Justification": "The expected value of playing the game is infinite, but the practical implications suggest that the potential payouts diminish relative to the cost of entry. I would rather not risk $32 for a game whose increasing potential payouts do not align with rational decision-making, considering the unlikely higher outcomes."
+    },
+    {
+        "Entrance Fee": 100,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite. The potential rewards increase exponentially with each tail, and although the probability of achieving those higher payouts decreases, the cumulative expected payout significantly outweighs the entrance fee of $100. Therefore, despite the risk, it is rational to play."
+    },
+    {
+        "Entrance Fee": 1000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite due to the payouts being theoretically unbounded as the coin flips continue. However, the probability of achieving very high payouts diminishes rapidly. The low probability of high payouts and the significant upfront cost lead me to believe that it's not a rational bet. I would pass on this game."
+    },
+    {
+        "Entrance Fee": 10000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite; however, the probability of achieving large payouts diminishes rapidly as the number of tails increases. Given the risk of losing $10,000 for the potential of winning a finite amount that can only be achieved through a potentially long sequence of tails, it is not a rational decision to play."
+    },
+    {
+        "Entrance Fee": 100000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game, calculated as the sum of each possible outcome multiplied by its probability, is infinite. However, the practical and financial implications of risking $100,000 for such a game are prohibitive, as the likelihood of a high payout diminishes with each additional tails. The high entrance fee does not justify the potential gains, considering the inherent economic risk and the unlikelihood of obtaining a significant payout."
+    },
+    {
+        "Entrance Fee": 1,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is $2, which exceeds the $1 entrance fee. The potential winnings grow exponentially with each tails before landing heads, making it favorable to play despite the risks associated with the possibility of flipping many tails."
+    },
+    {
+        "Entrance Fee": 2,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the potential payouts grow exponentially with each tails flipped before landing heads, making the likelihood of a significant payout outweigh the $2 entrance fee."
+    },
+    {
+        "Entrance Fee": 4,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... = 1 + 1 + 1 + 1 + ... = infinity. Since the expected winnings are infinitely large, it makes sense to pay the entrance fee of $4 to play the game."
+    },
+    {
+        "Entrance Fee": 8,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as the potential winnings increase exponentially with each additional tail. Even though the chances of getting very high payouts diminish, the theoretical expected payoff far exceeds the entrance fee of 8 dollars, making it a favorable decision to play."
+    },
+    {
+        "Entrance Fee": 16,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but this does not align with rational economic behavior due to the high variance and the possibility of incurring a loss when paying the entrance fee. Given the risk and the cost, it is not a smart financial decision to play."
+    },
+    {
+        "Entrance Fee": 32,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... = 1 + 1 + 1 + 1 + ... = infinity. However, in practice, the low probability of high payoffs does not justify paying 32 dollars when the most likely outcomes are only $2 and $4. The risk is too great compared to the entrance fee."
+    },
+    {
+        "Entrance Fee": 100,
+        "Decision": "Pass",
+        "Justification": "Although the expected value of the game is theoretically infinite, the probability of achieving large payouts decreases exponentially with each flip. Given the substantial entrance fee of $100 compared to the low expected payout based on the probabilities of winning smaller amounts, it is not a financially sound decision to participate."
+    },
+    {
+        "Entrance Fee": 1000,
+        "Decision": "Pass",
+        "Justification": "The St. Petersburg paradox illustrates that the expected value of the game is infinite, but the actual payouts are highly skewed and unlikely to realistically offset the high entrance fee of $1000. Given the low probabilities of winning substantial amounts and the potential to continue flipping indefinitely without any payout, the risk does not justify the cost."
+    },
+    {
+        "Entrance Fee": 10000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the practical outcomes are that the probability of high-value wins diminishes significantly, meaning that paying $10,000 for a game with uncertain and potentially low returns is not a rational investment."
+    },
+    {
+        "Entrance Fee": 100000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the risk of losing the $100,000 entrance fee outweighs the potential payout. The vast majority of outcomes will result in a low win, while the tail distributions lead to extremely rare but high wins. Hence, it is not rational to risk a large amount for a game with such a large variance and potentially low payout."
+    },
+    {
+        "Entrance Fee": 1,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite due to the payout structure. The potential payouts increase dramatically with each additional tails, and even though the probability of hitting a high payout decreases, the total expected value remains significantly higher than the entrance fee of $1."
+    },
+    {
+        "Entrance Fee": 2,
+        "Decision": "Play",
+        "Justification": "The expected payoff from playing the game is infinitely large, as the series converges to an infinite sum of potential winnings. The expected value is calculated as follows: E(X) = 2(1/2) + 4(1/4) + 8(1/8) + 16(1/16) + ... = 2 + 2 + 2 + 2 + ... = \u221e. Even though the cost to play is $2, the expected return outweighs this cost significantly."
+    },
+    {
+        "Entrance Fee": 4,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite, as it considers all possible outcomes weighted by their probabilities. Although the immediate expected payout after analyzing the game's outcomes results in an expected value of $2, the potential for very large winnings (such as $2048 from 11 tails) creates a scenario where the risk of losing $4 is outweighed by the potential rewards, making it reasonable to play."
+    },
+    {
+        "Entrance Fee": 8,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the likelihood of achieving very high payouts decreases significantly with each additional flip. Given the risk of losing the $8 upfront for potentially low returns, it is not a favorable bet."
+    },
+    {
+        "Entrance Fee": 16,
+        "Decision": "Play",
+        "Justification": "The expected value of the game is infinite since the potential winnings grow exponentially with each tail flip. The expected payout can be calculated as follows: (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... = 1 + 1 + 1 + 1 + ... = \u221e. Since the potential payout significantly exceeds the $16 entrance fee, it is rational to play the game."
+    },
+    {
+        "Entrance Fee": 32,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is calculated as follows: E = (1/2)*2 + (1/4)*4 + (1/8)*8 + (1/16)*16 + ... = 1 + 1 + 1 + 1 + ... = \u221e. Although the expected value theoretically suggests a high potential payout, the actual likelihood of reaching higher payoffs diminishes rapidly as the number of flips increases. The entrance fee of $32 is significantly higher than the common outcomes I would likely obtain, making this not a favorable bet."
+    },
+    {
+        "Entrance Fee": 100,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but that does not mean it is rational to pay a substantial amount like $100 to enter. The likelihood of winning a large sum is balanced by the probabilities of only winning small amounts, effectively making it a highly risky bet with potentially significant losses compared to the entrance fee."
+    },
+    {
+        "Entrance Fee": 1000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is theoretically infinite due to the potential for very high payouts, but the actual outcomes have diminishing probabilities, making the chances of winning a significant amount extremely low. The risk of investing $1000 for uncertain returns, especially with p<0.5 for meaningful payouts, outweighs the potential rewards."
+    },
+    {
+        "Entrance Fee": 10000,
+        "Decision": "Pass",
+        "Justification": "The expected value of the game is infinite, but the risk of losing $10,000 to play it is unreasonably high compared to the realistic payouts due to the rapid growth of potential losses. The actual financial risk outweighs the theoretical payoff, leading to the decision to pass."
+    },
+    {
+        "Entrance Fee": 100000,
+        "Decision": "Pass",
+        "Justification": "The expected value of this game is infinite, but the practical implications of infinite potential winnings are not realistic. Despite the theoretical expectation, the probability of winning large amounts diminishes significantly. Given the high entry fee of $100,000, the risk is too great compared to the realistic outcomes one might expect from playing."
+    }
+]
