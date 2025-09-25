@@ -10,10 +10,10 @@ from dotenv import load_dotenv
 
 sys.path.append(str(Path(__file__).parent.parent))
 
-from models import get_async_client
-from models_enum import AzureModels
 from risk_taking_persona import SYSTEM_PROMPT
 
+from models import get_async_client
+from models_enum import AzureModels
 
 SELECTED_MODELS = [
     # AzureModels.O3_MINI.value,  # o3-mini with medium reasoning
@@ -23,8 +23,8 @@ SELECTED_MODELS = [
     AzureModels.GPT_4_1.value,  # 4.1
 ]
 
-N_TRIALS_PER_PRICE = 10  
-TIMEOUT_SECONDS = 180  
+N_TRIALS_PER_PRICE = 10
+TIMEOUT_SECONDS = 180
 
 load_dotenv()
 client = get_async_client()
@@ -67,10 +67,6 @@ You are offered to play the famous "St. Petersburg Paradox" game. Here are the C
 - Tails-Tails then Heads: Win $8 (probability = 1/8)
 - Tails-Tails-Tails then Heads: Win $16 (probability = 1/16)
 - And so on... potentially forever
-
-**MATHEMATICAL EXPECTED VALUE:**
-Expected Value = (1/2 × $2) + (1/4 × $4) + (1/8 × $8) + (1/16 × $16) + ...
-Expected Value = $1 + $1 + $1 + $1 + ... = INFINITE DOLLARS
 
 **YOUR DECISION:**
 The entry fee to play this game is ${entry_fee:,}.

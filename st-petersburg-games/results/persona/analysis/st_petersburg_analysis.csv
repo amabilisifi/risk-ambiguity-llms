@@ -1,6 +1,0 @@
-Model,CRRA_Coefficient,Discount_Rate,Certainty_Equivalent,Overall_Play_Rate,Risk_Profile,Log_Likelihood
-gpt-4.1,9.99,,1.625,0.13,Extremely Risk Averse,-4.218251092097159
-gpt-4o,9.99,,2.0,0.14,Extremely Risk Averse,-4.215545703381606
-gpt-5,9.99,,24.0,0.2857,Extremely Risk Averse,-4.425779787094286
-gpt-4o-mini,9.99,,1.0,0.0,Extremely Risk Averse,-4.248248070096581
-o3-mini,1.0,,100000.0,0.95,Moderately Risk Averse,-40.63997983062565
