@@ -1,0 +1,24 @@
+# O3 Mini (Opportunity Hunter) Risk Aversion Analysis Summary
+Generated on: 2025-09-18 11:43:30
+
+## Key Findings for O3 Mini (Opportunity Hunter):
+
+### O3 Mini (Opportunity Hunter) CARA Analysis:
+• Risk Aversion (α): 0.000220
+• Choice Sensitivity (β): 0.66
+• Risk Classification: Risk Neutral
+• Risky Choices: 58.0%
+• Model Fit (NLL): 59.36
+
+### O3 Mini (Opportunity Hunter) CRRA Analysis:
+• Risk Aversion (r): 0.1104
+• Choice Sensitivity (β): 1.29
+• Risk Classification: Mildly Risk Averse
+• Risky Choices: 58.0%
+• Model Fit (NLL): 41.30
+
+### Comparative Analysis:
+• CARA vs CRRA Risk Aversion: α = 0.000220 vs r = 0.1104
+• Risk Classification Consistency: Different
+• Choice Pattern: 58.0% risky choices (both models)
+• Model Fit: CARA NLL = 59.36, CRRA NLL = 41.30
