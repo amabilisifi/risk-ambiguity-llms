@@ -1,0 +1,16 @@
+# AI Risk Aversion Analysis Summary
+Generated on: 2025-09-09 15:35:20
+
+## Key Findings:
+
+### CARA Risk Aversion Ranking (least to most risk averse):
+1. GPT-5: α = 0.0002 (Risk Neutral) - 59.6% risky choices
+2. GPT-4o-mini: α = 0.0746 (Mildly Risk Averse) - 0.0% risky choices
+3. GPT-4o: α = 0.6485 (Risk Averse) - 3.4% risky choices
+4. GPT-4 Turbo: α = 0.7145 (Risk Averse) - 2.8% risky choices
+
+### CRRA Risk Aversion Ranking (least to most risk averse):
+1. GPT-5: r = 0.1111 (Mildly Risk Averse) - 59.6% risky choices
+2. GPT-4 Turbo: r = 1.5494 (Risk Averse) - 2.8% risky choices
+3. GPT-4o-mini: r = 1.5540 (Risk Averse) - 0.0% risky choices
+4. GPT-4o: r = 1.5620 (Risk Averse) - 3.4% risky choices

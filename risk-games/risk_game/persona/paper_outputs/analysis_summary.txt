@@ -1,0 +1,16 @@
+# AI Risk Aversion Analysis Summary
+Generated on: 2025-09-09 17:42:05
+
+## Key Findings:
+
+### CARA Risk Aversion Ranking (least to most risk averse):
+1. GPT-4o: α = -0.1000 (Risk Seeking) - 100.0% risky choices
+2. GPT-4o-mini: α = -0.1000 (Risk Seeking) - 100.0% risky choices
+3. GPT-4 Turbo: α = -0.1000 (Risk Seeking) - 100.0% risky choices
+4. GPT-5: α = -0.0004 (Risk Neutral) - 80.4% risky choices
+
+### CRRA Risk Aversion Ranking (least to most risk averse):
+1. GPT-4 Turbo: r = -3.0000 (Risk Seeking) - 100.0% risky choices
+2. GPT-4o: r = -3.0000 (Risk Seeking) - 100.0% risky choices
+3. GPT-4o-mini: r = -3.0000 (Risk Seeking) - 100.0% risky choices
+4. GPT-5: r = 1.0000 (Risk Averse) - 80.4% risky choices

@@ -1,0 +1,5 @@
+Model,Risk Aversion (r),Choice Sensitivity (β),Risk Classification,Risky Choices,Log-Likelihood
+GPT-4 Turbo,-3.0000,0.01,Risk Seeking,100.0%,128.59
+GPT-4o,-3.0000,0.01,Risk Seeking,100.0%,128.59
+GPT-4o-mini,-3.0000,0.01,Risk Seeking,100.0%,128.59
+GPT-5,1.0000,0.28,Risk Averse,80.4%,346.20
