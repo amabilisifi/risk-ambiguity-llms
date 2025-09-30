@@ -1,0 +1,51 @@
+RISK-GAME
+  Neutral: 2840 calls (5 models)
+  Persona: 2805 calls (5 models)
+  Total: 5645 calls
+
+AMBIGUITY-GAME
+  Neutral: 3750 calls (5 models)
+  Persona: 3750 calls (5 models)
+  Total: 7500 calls
+
+ST-PETERSBURG-GAME
+  Neutral: 500 calls (5 models)
+  Persona: 470 calls (5 models)
+  Total: 970 calls
+
+ST-PETERSBURG-JUSTIFICATION
+  Neutral: 798 calls (5 models)
+  Total: 798 calls
+
+============================================================
+GRAND TOTAL ALL GAMES: 14913 LLM calls
+============================================================
+
+[24 tools called]
+
+I've successfully created a comprehensive LLM calls report for all the games in your project. The report has been written to `llm_calls_report.txt` in the root directory.
+
+## Summary of Findings:
+
+**RISK-GAME**: 5,645 total calls
+- Neutral: 2,840 calls (5 models)
+- Persona: 2,805 calls (5 models)
+- Based on 162 risk scenarios × 5 trials per scenario per model
+
+**AMBIGUITY-GAME**: 7,500 total calls  
+- Neutral: 3,750 calls (5 models)
+- Persona: 3,750 calls (5 models)
+- Based on 50 red ball survival probabilities × 15 repetitions per probability per model
+
+**ST-PETERSBURG-GAME**: 970 total calls
+- Neutral: 500 calls (5 models) 
+- Persona: 470 calls (5 models)
+- Based on 10 entry prices × 10 trials per price per model
+
+**ST-PETERSBURG-JUSTIFICATION**: 798 total calls
+- Neutral: 798 calls (5 models)
+- Separate justification analysis with ~10 runs per entry fee per model
+
+## GRAND TOTAL: **14,913 LLM calls** across all games and conditions.
+
+The analysis examined the actual game code and JSON result files to accurately count the number of API calls made to the LLM models, distinguishing between main experimental trials and analysis/summary files.
