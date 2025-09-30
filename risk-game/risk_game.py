@@ -154,17 +154,9 @@ def generate_scenarios() -> List[Dict[str, Any]]:
         - target_ev_multiplier: Target EV ratio used in generation
         - risk_premium: Difference between risky and safe expected values
 
-    Note:
-        Scenarios are filtered to exclude:
-        - Risky rewards > 2000 (unreasonably large)
-        - Risky rewards too close to safe amount (< 10% difference)
     """
     scenarios = []
     scenario_id = 1
-
-    # Constants for scenario filtering
-    MAX_RISKY_REWARD = 2000
-    MIN_RISKY_MULTIPLIER = 1.1  # Risky reward must be at least 10% larger than safe
 
     for safe_amount in SAFE_AMOUNTS:
         for probability in PROBABILITIES:
@@ -173,17 +165,9 @@ def generate_scenarios() -> List[Dict[str, Any]]:
                 target_ev = safe_amount * ev_multiplier
                 risky_reward = round(target_ev / probability / 10) * 10
 
-                # Skip scenarios with unreasonably large payoffs
-                if risky_reward > MAX_RISKY_REWARD:
-                    continue
-
                 # Calculate actual expected values
                 actual_ev_risky = probability * risky_reward
                 actual_ev_ratio = actual_ev_risky / safe_amount
-
-                # Skip scenarios where risky reward is too close to safe amount
-                if risky_reward <= safe_amount * MIN_RISKY_MULTIPLIER:
-                    continue
 
                 scenarios.append(
                     {

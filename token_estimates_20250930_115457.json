@@ -1,0 +1,46 @@
+{
+  "experiment_info": {
+    "experiment_type": "token_estimation",
+    "timestamp": "20250930_115457",
+    "description": "Token usage estimation for pricing calculations (using GPT-4o as representative model)",
+    "models_tested": 1,
+    "games_tested": 4,
+    "total_tests": 4,
+    "note": "Only GPT-4o tested. Token usage patterns are generally similar across models."
+  },
+  "token_estimates": [
+    {
+      "game": "risk_game",
+      "model": "gpt-4o",
+      "input_tokens": 117,
+      "output_tokens": 56,
+      "total_tokens": 173,
+      "success": true
+    },
+    {
+      "game": "ambiguity_game",
+      "model": "gpt-4o",
+      "input_tokens": 152,
+      "output_tokens": 41,
+      "total_tokens": 193,
+      "success": true
+    },
+    {
+      "game": "st_petersburg_game",
+      "model": "gpt-4o",
+      "input_tokens": 327,
+      "output_tokens": 10,
+      "total_tokens": 337,
+      "success": true
+    },
+    {
+      "game": "st_petersburg_justification",
+      "model": "gpt-4o",
+      "input_tokens": 143,
+      "output_tokens": 97,
+      "total_tokens": 240,
+      "success": true
+    }
+  ],
+  "pricing_note": "Use these token counts with your Azure OpenAI pricing to estimate total costs. Multiply by your actual model usage."
+}
