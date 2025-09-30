@@ -49,7 +49,7 @@ AMBIGUITY-GAME
 ST-PETERSBURG-GAME
   ================================
   SCENARIO GENERATION:
-  -------------------
+  ------------------- 
   Parameters:
     • ENTRY_PRICES: [1, 2, 4, 8, 16, 32, 100, 1000, 10000, 100000] - 10 different entry fees ($1 to $100,000)
     • Game rules: St. Petersburg Paradox with infinite expected value

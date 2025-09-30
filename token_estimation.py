@@ -322,7 +322,7 @@ async def main():
     logger.info("🚀 Starting Token Estimation for LLM Games")
     logger.info("=" * 60)
 
-    # Define models to test - using only one model for estimation
+    # Define models to test - using GPT-4o as representative model
     models_to_test = [
         AzureModels.GPT_4O.value,  # Using GPT-4o as representative model
     ]
@@ -338,31 +338,85 @@ async def main():
     results = []
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    # Run estimation for each game-model combination
+    # Run estimation for each game - 5 times each to get averages
     for game_name, estimator_func in games:
-        logger.info(f"\\n🎮 Testing {game_name.upper()}")
+        logger.info(
+            f"\\n🎮 Testing {game_name.upper()} - Running 5 trials for averaging"
+        )
 
-        for model_name in models_to_test:
-            logger.info(f"   🤖 Model: {model_name}")
-            result = await estimator_func(model_name)
-            results.append(result)
+        game_results = []
+        for trial in range(1, 6):  # 5 trials per game
+            logger.info(f"   Trial {trial}/5")
 
-            # Small delay to avoid rate limits
-            await asyncio.sleep(1)
+            for model_name in models_to_test:
+                logger.info(f"     🤖 Model: {model_name}")
+                result = await estimator_func(model_name)
+                if result.get("success", False):
+                    game_results.append(result)
+                else:
+                    logger.warning(f"     ❌ Trial {trial} failed for {model_name}")
+
+            # Small delay between trials
+            await asyncio.sleep(2)
+
+        # Calculate averages for this game
+        if game_results:
+            avg_input_tokens = sum(r["input_tokens"] for r in game_results) / len(
+                game_results
+            )
+            avg_output_tokens = sum(r["output_tokens"] for r in game_results) / len(
+                game_results
+            )
+            avg_total_tokens = sum(r["total_tokens"] for r in game_results) / len(
+                game_results
+            )
+
+            # Create averaged result
+            avg_result = {
+                "game": game_name,
+                "model": models_to_test[0],  # GPT-4o
+                "input_tokens": round(avg_input_tokens),
+                "output_tokens": round(avg_output_tokens),
+                "total_tokens": round(avg_total_tokens),
+                "success": True,
+                "trials_run": len(game_results),
+                "note": f"Averaged across {len(game_results)} successful trials",
+            }
+            results.append(avg_result)
+
+            logger.info(f"   📊 Averages for {game_name}:")
+            logger.info(f"     Input tokens: {avg_result['input_tokens']}")
+            logger.info(f"     Output tokens: {avg_result['output_tokens']}")
+            logger.info(f"     Total tokens: {avg_result['total_tokens']}")
+        else:
+            logger.error(f"   ❌ No successful trials for {game_name}")
+            results.append(
+                {
+                    "game": game_name,
+                    "model": models_to_test[0],
+                    "error": "No successful trials",
+                    "success": False,
+                }
+            )
 
     # Create final results structure
+    successful_results = [r for r in results if r.get("success", False)]
     token_estimates = {
         "experiment_info": {
-            "experiment_type": "token_estimation",
+            "experiment_type": "token_estimation_with_averaging",
             "timestamp": timestamp,
-            "description": "Token usage estimation for pricing calculations (using GPT-4o as representative model)",
+            "description": "Token usage estimation with averaging (5 trials per game using GPT-4o as representative model)",
             "models_tested": len(models_to_test),
             "games_tested": len(games),
-            "total_tests": len(models_to_test) * len(games),
-            "note": "Only GPT-4o tested. Token usage patterns are generally similar across models.",
+            "trials_per_game": 5,
+            "total_trials_attempted": len(games) * 5,
+            "successful_trials": len(
+                [r for r in results if r.get("success", False) and "trials_run" in r]
+            ),
+            "note": "GPT-4o tested with 5 trials per game, results averaged. Token patterns similar across models.",
         },
-        "token_estimates": results,
-        "pricing_note": "Use these token counts with your Azure OpenAI pricing to estimate total costs. Multiply by your actual model usage.",
+        "token_estimates": successful_results,
+        "pricing_note": "Use these averaged token counts with your Azure OpenAI pricing. Multiply by actual call counts from llm_calls_report.txt.",
     }
 
     # Save results
@@ -373,51 +427,35 @@ async def main():
     logger.info(f"\\n💾 Token estimates saved to: {output_file}")
 
     # Print summary
-    logger.info("\\n📊 TOKEN ESTIMATION SUMMARY:")
+    logger.info("\\n📊 TOKEN ESTIMATION SUMMARY (Averaged Results):")
     logger.info("-" * 60)
 
-    successful_tests = [r for r in results if r.get("success", False)]
-    failed_tests = [r for r in results if not r.get("success", False)]
+    successful_games = [r for r in results if r.get("success", False)]
+    failed_games = [r for r in results if not r.get("success", False)]
 
-    logger.info(f"✅ Successful tests: {len(successful_tests)}")
-    logger.info(f"❌ Failed tests: {len(failed_tests)}")
+    logger.info(f"✅ Successful games with averages: {len(successful_games)}")
+    logger.info(f"❌ Failed games: {len(failed_games)}")
 
-    if successful_tests:
-        # Group by game and model for summary
-        game_stats = {}
-        model_stats = {}
+    if successful_games:
+        logger.info("\\n📈 Averaged token usage per game (across 5 trials each):")
+        for result in successful_games:
+            game_name = result["game"].replace("_", " ").title()
+            trials = result.get("trials_run", "N/A")
+            logger.info(f"   {game_name}:")
+            logger.info(f"     Input tokens: {result['input_tokens']}")
+            logger.info(f"     Output tokens: {result['output_tokens']}")
+            logger.info(f"     Total tokens: {result['total_tokens']}")
+            logger.info(f"     Based on: {trials} successful trials")
 
-        for result in successful_tests:
-            game = result["game"]
-            model = result["model"]
-            tokens = result["total_tokens"]
+    if failed_games:
+        logger.info("\\n❌ Failed games:")
+        for result in failed_games:
+            logger.info(f"   {result['game']}: {result.get('error', 'Unknown error')}")
 
-            if game not in game_stats:
-                game_stats[game] = {"count": 0, "total_tokens": 0}
-            game_stats[game]["count"] += 1
-            game_stats[game]["total_tokens"] += tokens
-
-            if model not in model_stats:
-                model_stats[model] = {"count": 0, "total_tokens": 0}
-            model_stats[model]["count"] += 1
-            model_stats[model]["total_tokens"] += tokens
-
-        logger.info("\\n📈 Average tokens per game:")
-        for game, stats in game_stats.items():
-            avg_tokens = stats["total_tokens"] / stats["count"]
-            logger.info(f"   {game}: {avg_tokens:.0f} tokens")
-
-        logger.info("\\n🤖 Average tokens per model:")
-        for model, stats in model_stats.items():
-            avg_tokens = stats["total_tokens"] / stats["count"]
-            logger.info(f"   {model}: {avg_tokens:.0f} tokens")
-
-    if failed_tests:
-        logger.info("\\n❌ Failed tests:")
-        for result in failed_tests:
-            logger.info(
-                f"   {result['game']} - {result['model']}: {result.get('error', 'Unknown error')}"
-            )
+    logger.info("\\n💡 Pricing Note:")
+    logger.info(
+        "   Use these averaged token counts × your actual call counts × Azure pricing rates"
+    )
 
     logger.info("\\n🎉 Token estimation completed!")
     logger.info(f"📁 Results saved to: {output_file}")
