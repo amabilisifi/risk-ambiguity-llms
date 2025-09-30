@@ -23,14 +23,77 @@ RISK-GAME
   Calculation: 162 scenarios × 5 trials × 5 models × 2 conditions = 8,100 calls
 
 AMBIGUITY-GAME
-  Calculation: 50 red ball probabilities × 15 repetitions × 5 models × 2 conditions = 7,500 calls
+  ================================
+  SCENARIO GENERATION:
+  -------------------
+  Parameters:
+    • TOTAL_BALLS: 100 - total balls in each urn
+    • MAX_RED: 50 - maximum red balls tested (50% survival chance)
+    • Red ball counts: 1 to 50 (50 different survival probabilities)
+
+  Raw combinations: 50 red ball counts
+  Filtering applied: None (all survival probabilities tested)
+  Final scenarios: 50
+
+  ================================
+  LLM CALL CALCULATIONS:
+  ----------------------
+  Experimental Design:
+    • Repetitions per red ball count: 15 (REPS_EACH)
+    • Models tested: gpt-4.1, gpt-4o, gpt-4o-mini, gpt-5, o3-mini (5 models)
+    • Conditions: neutral + persona (2 conditions)
+    • Total red ball counts: 50
+
+  Calculation: 50 red ball counts × 15 repetitions × 5 models × 2 conditions = 7,500 calls
 
 ST-PETERSBURG-GAME
+  ================================
+  SCENARIO GENERATION:
+  -------------------
+  Parameters:
+    • ENTRY_PRICES: [1, 2, 4, 8, 16, 32, 100, 1000, 10000, 100000] - 10 different entry fees ($1 to $100,000)
+    • Game rules: St. Petersburg Paradox with infinite expected value
+    • Entry prices tested: 10 different price points
+
+  Raw combinations: 10 entry prices
+  Filtering applied: None (all entry prices tested)
+  Final scenarios: 10
+
+  ================================
+  LLM CALL CALCULATIONS:
+  ----------------------
+  Experimental Design:
+    • Trials per entry price: 10 (N_TRIALS_PER_PRICE)
+    • Models tested: o3-mini, gpt-5, gpt-4o-mini, gpt-4o, gpt-4.1 (5 models from SELECTED_MODELS)
+    • Conditions: neutral + persona (2 conditions)
+    • Total entry prices: 10
+
   Calculation: 10 entry prices × 10 trials × 5 models × 2 conditions = 1,000 calls
 
 ST-PETERSBURG-JUSTIFICATION
-  Calculation: 10 entry fees × 10 runs × 4 models = 400 calls
+  ================================
+  SCENARIO GENERATION:
+  -------------------
+  Parameters:
+    • ENTRY_FEES: [1, 2, 4, 8, 16, 32, 100, 1000, 10000, 100000] - 10 different entry fees
+    • Analysis type: Detailed justification analysis for St. Petersburg Paradox decisions
+    • Entry fees tested: 10 different price points
+
+  Raw combinations: 10 entry fees
+  Filtering applied: None (all entry fees tested)
+  Final scenarios: 10
+
+  ================================
+  LLM CALL CALCULATIONS:
+  ----------------------
+  Experimental Design:
+    • Runs per entry fee: 10 (RUNS_PER_MODEL)
+    • Models tested: gpt-4o, gpt-4o-mini, gpt-4.1, gpt-5, o3-mini (5 models from MODELS list)
+    • Conditions: Single condition (neutral only, no persona)
+    • Total entry fees: 10
+
+  Calculation: 10 entry fees × 10 runs × 5 models × 1 condition = 500 calls
 
 ============================================================
-GRAND TOTAL ALL GAMES: 17000 LLM calls
+GRAND TOTAL ALL GAMES: 17100 LLM calls
 ============================================================

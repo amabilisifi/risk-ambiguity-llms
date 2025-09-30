@@ -21,33 +21,40 @@ USER SETUP REQUIRED
 3. Configure file paths in the CONFIGURATION section below.
 """
 
+import csv
+import itertools
+import json
+import logging
+
 # ============= IMPORTS =============
 import os
 import re
-import csv
-import json
-import itertools
-import logging
 from collections import Counter, defaultdict
-from typing import Dict, List, Optional, Any
+from typing import Any, Dict, List, Optional
 
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
 import seaborn as sns
-from tqdm import tqdm
 from openai import AzureOpenAI
+from tqdm import tqdm
 
 # ============= CONFIGURATION =============
 # TODO: Set your local or cloud storage paths here
-INPUT_FILE_PATH = "/content/drive/My Drive/Finance/st_petersburg_results.txt"   # Raw text results
-OUTPUT_CSV_PATH = "/content/drive/My Drive/Finance/st_petersburg_results.csv"   # Structured CSV
-OUTPUT_CLEAN_CSV_PATH = "/content/drive/My Drive/Finance/st_petersburg_results_clean.csv"
+INPUT_FILE_PATH = (
+    "/content/drive/My Drive/Finance/st_petersburg_results.txt"  # Raw text results
+)
+OUTPUT_CSV_PATH = (
+    "/content/drive/My Drive/Finance/st_petersburg_results.csv"  # Structured CSV
+)
+OUTPUT_CLEAN_CSV_PATH = (
+    "/content/drive/My Drive/Finance/st_petersburg_results_clean.csv"
+)
 OUTPUT_HEATMAP_CSV = "/content/drive/My Drive/Finance/heatmap_play_probabilities.csv"
 OUTPUT_COOC_CSV = "/content/drive/My Drive/Finance/keyword_cooccurrence.csv"
 
 # Models and experimental parameters
 ENTRY_FEES: List[int] = [1, 2, 4, 8, 16, 32, 100, 1000, 10000, 100000]
-MODELS: List[str] = ["gpt-4o", "gpt-4o-mini", "gpt-4.1", "gpt-5"]
+MODELS: List[str] = ["gpt-4o", "gpt-4o-mini", "gpt-4.1", "gpt-5", "o3-mini"]
 RUNS_PER_MODEL: int = 10
 
 # Azure OpenAI API settings
@@ -57,14 +64,16 @@ AZURE_OPENAI_VERSION: str = os.getenv("AZURE_OPENAI_API_VERSION", "2024-12-01-pr
 
 # Validate configuration
 if not AZURE_OPENAI_KEY or not AZURE_OPENAI_ENDPOINT:
-    raise ValueError("Missing Azure OpenAI configuration. "
-                     "Set AZURE_OPENAI_API_KEY and AZURE_OPENAI_ENDPOINT as environment variables.")
+    raise ValueError(
+        "Missing Azure OpenAI configuration. "
+        "Set AZURE_OPENAI_API_KEY and AZURE_OPENAI_ENDPOINT as environment variables."
+    )
 
 # Logging configuration
 logging.basicConfig(
     level=logging.INFO,
     format="[%(levelname)s] %(asctime)s - %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S"
+    datefmt="%Y-%m-%d %H:%M:%S",
 )
 logger = logging.getLogger(__name__)
 
@@ -88,6 +97,7 @@ Return JSON only in this format:
 
 # ============= UTILITY FUNCTIONS =============
 
+
 def extract_balanced_json(s: str) -> Optional[str]:
     """Extract the first balanced {...} JSON-like substring from a string."""
     start = s.find("{")
@@ -100,7 +110,7 @@ def extract_balanced_json(s: str) -> Optional[str]:
         elif s[i] == "}":
             depth -= 1
             if depth == 0:
-                return s[start:i + 1]
+                return s[start : i + 1]
     return None
 
 
@@ -109,7 +119,9 @@ def try_load_json(s: str) -> Optional[Dict[str, Any]]:
     try:
         return json.loads(s)
     except json.JSONDecodeError:
-        fixed = s.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
+        fixed = (
+            s.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
+        )
         fixed = re.sub(r",\s*([\}\]])", r"\1", fixed)  # remove trailing commas
         candidate = extract_balanced_json(fixed) or fixed
         try:
@@ -142,26 +154,34 @@ def parse_log_file(filepath: str) -> pd.DataFrame:
             except Exception:
                 decision, justification = "Error", ""
 
-            data.append({
-                "model": model_name,
-                "run": run,
-                "fee": fee,
-                "decision": decision,
-                "justification": justification
-            })
+            data.append(
+                {
+                    "model": model_name,
+                    "run": run,
+                    "fee": fee,
+                    "decision": decision,
+                    "justification": justification,
+                }
+            )
 
     return pd.DataFrame(data)
 
 
 def run_experiments():
     """Run experiments with Azure OpenAI and save outputs."""
-    client = AzureOpenAI(api_version=AZURE_OPENAI_VERSION,
-                         azure_endpoint=AZURE_OPENAI_ENDPOINT,
-                         api_key=AZURE_OPENAI_KEY)
+    client = AzureOpenAI(
+        api_version=AZURE_OPENAI_VERSION,
+        azure_endpoint=AZURE_OPENAI_ENDPOINT,
+        api_key=AZURE_OPENAI_KEY,
+    )
 
-    with open(OUTPUT_CSV_PATH, "w", newline="", encoding="utf-8") as csv_out, \
-         open(INPUT_FILE_PATH, "w", encoding="utf-8") as txt_out:
-        writer = csv.DictWriter(csv_out, fieldnames=["Model", "Run", "Entrance Fee", "Decision", "Justification"])
+    with open(OUTPUT_CSV_PATH, "w", newline="", encoding="utf-8") as csv_out, open(
+        INPUT_FILE_PATH, "w", encoding="utf-8"
+    ) as txt_out:
+        writer = csv.DictWriter(
+            csv_out,
+            fieldnames=["Model", "Run", "Entrance Fee", "Decision", "Justification"],
+        )
         writer.writeheader()
 
         for model in tqdm(MODELS, desc="Models"):
@@ -173,9 +193,12 @@ def run_experiments():
                         response = client.chat.completions.create(
                             model=model,
                             messages=[
-                                {"role": "system", "content": "You are a helpful assistant."},
-                                {"role": "user", "content": prompt}
-                            ]
+                                {
+                                    "role": "system",
+                                    "content": "You are a helpful assistant.",
+                                },
+                                {"role": "user", "content": prompt},
+                            ],
                         )
                         output_text = response.choices[0].message.content.strip()
                         txt_out.write(f"Run {run}, Fee {fee}: {output_text}\n")
@@ -187,17 +210,29 @@ def run_experiments():
                                 "Run": run,
                                 "Entrance Fee": output_json.get("Entrance Fee", fee),
                                 "Decision": output_json.get("Decision", ""),
-                                "Justification": output_json.get("Justification", "")
+                                "Justification": output_json.get("Justification", ""),
                             }
                         except json.JSONDecodeError:
-                            row = {"Model": model, "Run": run, "Entrance Fee": fee,
-                                   "Decision": "PARSE_ERROR", "Justification": output_text}
+                            row = {
+                                "Model": model,
+                                "Run": run,
+                                "Entrance Fee": fee,
+                                "Decision": "PARSE_ERROR",
+                                "Justification": output_text,
+                            }
                         writer.writerow(row)
 
                     except Exception as e:
                         logger.error("Request failed: %s", e)
-                        writer.writerow({"Model": model, "Run": run, "Entrance Fee": fee,
-                                         "Decision": "ERROR", "Justification": str(e)})
+                        writer.writerow(
+                            {
+                                "Model": model,
+                                "Run": run,
+                                "Entrance Fee": fee,
+                                "Decision": "ERROR",
+                                "Justification": str(e),
+                            }
+                        )
 
 
 # ============= MAIN SCRIPT =============

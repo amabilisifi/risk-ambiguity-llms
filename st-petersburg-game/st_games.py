@@ -75,7 +75,7 @@ except ImportError:
 
 # Model selection
 SELECTED_MODELS = [
-    # AzureModels.O3_MINI.value,  # o3-mini with medium reasoning
+    AzureModels.O3_MINI.value,  # o3-mini with medium reasoning
     AzureModels.GPT_5.value,  # gpt-5
     AzureModels.GPT_4O_MINI.value,  # 4o-mini
     AzureModels.GPT_4O.value,  # 4o
